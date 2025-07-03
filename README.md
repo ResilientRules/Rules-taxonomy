@@ -1,3 +1,3 @@
-# Rules-taxonomy
+# Rules taxonomy
 
 Description 
