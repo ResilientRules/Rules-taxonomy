@@ -1,3 +1,3 @@
-#RULES TAXONOMY
+RULES TAXONOMY
 
 Description
