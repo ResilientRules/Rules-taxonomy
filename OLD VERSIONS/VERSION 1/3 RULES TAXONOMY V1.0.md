@@ -4,7 +4,7 @@
 | 1.2    | POS_num      | State whether there is a defined number, no limit, a lower limit, or an upper limit on the number of participants who hold a position |
 | 1.2.1  | POS_num_low  | Defines the lower bound on the number of participants in a position         |
 | 1.2.2  | POS_num_up   | Defines the upper bound on the number of participants in a position         |
-
+xxxxxxxx
 | ID     | Acronym         | Description                                                                                       |
 |--------|-----------------|---------------------------------------------------------------------------------------------------|
 | 2.1    | BOU_eli         | Define the eligibility of individuals to hold the position of member. Specify criteria (e.g., ascribed and acquired attributes) |
