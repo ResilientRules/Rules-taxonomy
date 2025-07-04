@@ -7,20 +7,20 @@
 
 | ID     | Acronym         | Description                                                                                       |
 |--------|-----------------|---------------------------------------------------------------------------------------------------|
-| 2.1    | BOU_eli         | Define the eligibility of individuals to hold the position of member. Specify criteria (e.g., ascribed and acquired attributes) |
-| 2.1.1  | BOU_eli_asc     | Ascribed attributes: attained at birth, inheritance, or aging process (e.g., race, age, gender)   |
-| 2.1.2  | BOU_eli_acq     | *(no description provided)*                                                                       |
-| 2.2    | BOU_ent         | Define the process determining which eligible participants may or must enter positions            |
-| 2.2.1  | BOU_ent_cnt     | Boundary rules: open (full control), invitational (selective invitation), competitive, compulsory  |
-| 2.2.2  | BOU_ent_fee     | Entry rules may assign fees or inducements                                                        |
-| 2.2.3  | BOU_ent_mul     | Rules about multiple positions (e.g., one vs. multiple simultaneous positions)                     |
-| 2.2.4  | BOU_ent_suc     | Succession rules: eligibility to move between positions and criteria                               |
-| 2.3    | BOU_exi         | Define how or when an individual may or must leave a position                                     |
-| 2.3.1  | BOU_exi_pas     | Fixed term rules with no control to retain position after term expiry                             |
-| 2.3.2  | BOU_exi_ela     | Time limit between announcing exit and actual exit                                               |
-| 2.3.3  | BOU_exi_fee     | Fees associated with early exit (e.g., penalties)                                                |
-| 2.3.4  | BOU_exi_mst     | Seniority or other rules restricting exit                                                       |
-| 2.3.5  | BOU_exit_app    | Procedures for appealing involuntary termination                                                |
+| 2.1    | BOU_eli         | Define the eligibility of individuals to hold the position of member. Define who is eligible to enter a position. Specify the criteria to be used (e.g., ascribed and acquired attributes) to determine whether an actor is eligible to fill a particular position. These rules include a set of transformations that partition a defined set of individuals, usually bounded in space and time, into subsets of individuals who are eligible and ineligible to hold the position of member.  |
+| 2.1.1  | BOU_eli_asc     | Ascribed refers to characteristics of an individual attained at birth, by inheritance, or through the aging process. E.g., race, age, gender   |
+| 2.1.2  | BOU_eli_acq     |                                                                        |
+| 2.2    | BOU_ent         | Define the process that determinew which eligible participants may enter (or must enter) positions. Define how the set of eligibles are further partitioned into subsets of position-holders and nonholders            |
+| 2.2.1  | BOU_ent_cnt     | DUDA DEFINICION  |
+| 2.2.2  | BOU_ent_fee     | Entry rules that are open, invitational, or competitive may assign a fee or unducement to any eligible individual who wishes to enter a position. The level or strictness of entry and exit costs is relative to the availability of an attribute or a resource in a community.                                                        |
+| 2.2.3  | BOU_ent_mul     | Rules related to multiple positions. For example, members hold one, and only one, position. Another option is when members may hold several differetn positions simultaneously. This type of rule set covers, but does not partition, the set of participants.                     |
+| 2.2.4  | BOU_ent_suc     | Boundary rules may also define eligibility for entry to positions in terms of rules that define who is eligible to move from one position to another and what criteria must be met, often called succession rules. E.g., move into higher-level positions when vacancies occur                               |
+| 2.3    | BOU_exi         | Define how an individual may leave (or must leave) a position. Define the conditions under which a participant must, must not, or may leave a position. The capability of a participant to leave a position is a fundamental limit on the power that other participants can exert over a participant.                                     |
+| 2.3.1  | BOU_exi_pas     | Rules sometimes set fixed terms of office with stringent rules concerning the eligibility of a past position holder to be eligible to hold the same position again. Under such circumstancers, the person in the position has no control over retaining the position after the fixed term has expired                             |
+| 2.3.2  | BOU_exi_ela     | Particular rules may set a limit on the amount of time that must elapse from announcing a decision to leave and actually leaving                                               |
+| 2.3.3  | BOU_exi_fee     | Particular rules may set a charge associated with leaving a position prior to fulfilling some aspects of a contract (e.g., pay court charges)                                                |
+| 2.3.4  | BOU_exi_mst     | While the holder of a position in most situations may be able to exit voluntarily, others may also have greater or lesser control over whether the person continues in or leaves the position. One particular rule is the socalled seniority rules: e.g., contracts often specify rights to positions according to seniority, which limits the power of a boss to select which employees will be terminated during times of financial restrictions. Under seniority rules, the last person hired into a position is the first to be laid off, regardless of work performance.                                                       |
+| 2.3.5  | BOU_exit_app    | Provide a forum and procedure for a participant who wishes to appeal an involuntary termination                                                |
 
 |Type | ID     | Acronym      | Description                                                                                      |
 |-----|--------|--------------|------------------------------------------------------------------------------------------------|
