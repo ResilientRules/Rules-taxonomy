@@ -27,7 +27,7 @@
 |CHOICE| 3.1    | CHO_agn      | Choice rules affect the total power created  in action situations and the distributio of this power. One particular type of choice rules are agenda conrol rules. Agenda rules limit or expand the authority of participants in particular positions to propose particular actions.|
 | | 3.1.1  | CHO_agn_cls  | A closed agenda control rule limits the number of alternative actions that can be decided uppon.                                         |
 | | 3.1.2  | CHO_agn_opn  | An open agenda control rule allows any feasibile action to be considered.                        |
-| | 3.1.3  | CHO_agn_ger  | A "germaneness rule" restricts alternatives to those that affect the same set of state variables???       |
+| | 3.1.3  | CHO_agn_ger  | A "germaneness rule" restricts alternatives to those that affect the same set of state variables???      DUDA INTERROGANTE |
 
 | ID     | Acronym      | Description                                                                                      |
 |--------|--------------|------------------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@
 |--------|--------------|------------------------------------------------------------------------------------------------|
 | 5.1    | INF_cha      | Specify the set of channels of communication that may or may not exist between postions in a situation. The set of all possible channels connecting all participants in a situation. The connections can be represented a a perfectly connected polygon of whatever dimension equals the number of participans. It there are five participants, there are nine possible connections between these participants. In formation rules partition this set of possible connections into subsets of required (a channel must exist), forbidden (a channel must not exist), and permitted (a channel may exist).|
 | 5.2    | INF_frq      | Regulate the frequency of exchange of information.                                                  |
-| 5.3    | INF_acc      | Regulate the accuracy of information. The accuracy rules affect what type of indicators may or must be used as evidence about the state of the world. Rules establishing audit procedures are intended to enforce the accuracy of financial information available to top management and shareholders of a firm.              |
+| 5.3    | INF_acc      | Regulate the accuracy of information. The accuracy rules affect what type of indicators may or must be used as evidence about the state of the world. Rules establishing audit procedures are intended to enforce the accuracy of financial information available to top management and shareholders of a firm.            DUDA DEF. EN ROJO  |
 | 5.4    | INF_sub      | Limit the topics that can be discussed among participants.     |
 | 5.5    | INF_lan      | Specify the official language for communication.                                                 |
 
