@@ -25,9 +25,9 @@
 | ID     | Acronym      | Description                                                                                      |
 |--------|--------------|------------------------------------------------------------------------------------------------|
 | 3.1    | CHO_agn      | Choice rules affect the total power created  in action situations and the distributio of this power. One particular type of choice rules are agenda conrol rules. Agenda rules limit or expand the authority of participants in particular positions to propose particular actions.|
-| 3.1.1  | CHO_agn_cls  | Closed agenda control rule limits alternative actions                                          |
-| 3.1.2  | CHO_agn_opn  | Open agenda control rule allows any feasible action to be considered                           |
-| 3.1.3  | CHO_agn_ger  | "Germaneness" rule restricts alternatives to those affecting the same state variables          |
+| 3.1.1  | CHO_agn_cls  | A closed agenda control rule limits the number of alternative actions that can be decided uppon                                         |
+| 3.1.2  | CHO_agn_opn  | An open agenda control rule allows any feasibile action to be considered                        |
+| 3.1.3  | CHO_agn_ger  | A "germaneness rule" restricts alternatives to those that affect the same set of state variables???       |
 
 | ID     | Acronym      | Description                                                                                      |
 |--------|--------------|------------------------------------------------------------------------------------------------|
