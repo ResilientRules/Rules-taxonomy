@@ -22,12 +22,12 @@
 | 2.3.4  | BOU_exi_mst     | Seniority or other rules restricting exit                                                       |
 | 2.3.5  | BOU_exit_app    | Procedures for appealing involuntary termination                                                |
 
-| ID     | Acronym      | Description                                                                                      |
-|--------|--------------|------------------------------------------------------------------------------------------------|
-| 3.1    | CHO_agn      | Choice rules affect the total power created  in action situations and the distributio of this power. One particular type of choice rules are agenda conrol rules. Agenda rules limit or expand the authority of participants in particular positions to propose particular actions.|
-| 3.1.1  | CHO_agn_cls  | A closed agenda control rule limits the number of alternative actions that can be decided uppon                                         |
-| 3.1.2  | CHO_agn_opn  | An open agenda control rule allows any feasibile action to be considered                        |
-| 3.1.3  | CHO_agn_ger  | A "germaneness rule" restricts alternatives to those that affect the same set of state variables???       |
+|Type | ID     | Acronym      | Description                                                                                      |
+|-----|--------|--------------|------------------------------------------------------------------------------------------------|
+|CHOICE|| 3.1    | CHO_agn      | Choice rules affect the total power created  in action situations and the distributio of this power. One particular type of choice rules are agenda conrol rules. Agenda rules limit or expand the authority of participants in particular positions to propose particular actions.|
+| || 3.1.1  | CHO_agn_cls  | A closed agenda control rule limits the number of alternative actions that can be decided uppon                                         |
+| || 3.1.2  | CHO_agn_opn  | An open agenda control rule allows any feasibile action to be considered                        |
+| || 3.1.3  | CHO_agn_ger  | A "germaneness rule" restricts alternatives to those that affect the same set of state variables???       |
 
 | ID     | Acronym      | Description                                                                                      |
 |--------|--------------|------------------------------------------------------------------------------------------------|
