@@ -25,36 +25,36 @@
 |Type | ID     | Acronym      | Description                                                                                      |
 |-----|--------|--------------|------------------------------------------------------------------------------------------------|
 |CHOICE| 3.1    | CHO_agn      | Choice rules affect the total power created  in action situations and the distributio of this power. One particular type of choice rules are agenda conrol rules. Agenda rules limit or expand the authority of participants in particular positions to propose particular actions.|
-| | 3.1.1  | CHO_agn_cls  | A closed agenda control rule limits the number of alternative actions that can be decided uppon                                         |
-| | 3.1.2  | CHO_agn_opn  | An open agenda control rule allows any feasibile action to be considered                        |
+| | 3.1.1  | CHO_agn_cls  | A closed agenda control rule limits the number of alternative actions that can be decided uppon.                                         |
+| | 3.1.2  | CHO_agn_opn  | An open agenda control rule allows any feasibile action to be considered.                        |
 | | 3.1.3  | CHO_agn_ger  | A "germaneness rule" restricts alternatives to those that affect the same set of state variables???       |
 
 | ID     | Acronym      | Description                                                                                      |
 |--------|--------------|------------------------------------------------------------------------------------------------|
-| 4.1    | AGG_sym      | Specifies whether participants are treated symmetrically or asymmetrically in decision-making  |
-| 4.2    | AGG_wgh      | Specifies weights assigned to players in nonsymmetric aggregation rules                        |
-| 4.3    | AGG_vot      | Specifies required proportion for authoritative decisions and consequences if not reached     |
-| 4.4    | AGG_lck      | Specifies what happens if no agreement is reached                                             |
+| 4.1    | AGG_sym      | Specify how participants in a situation are treated differently or alike in regard to some decision to be made at some point in a decision process. |
+| 4.2    | AGG_wgh      | Specify the weights given to players in nonsymmetric aggregation rules.|
+| 4.3    | AGG_vot      | Specify what proportion of the total must be in agreement before an authoritative decision can be made and what happens if the niminal agreement is not reached.|
+| 4.4    | AGG_lck      | It states what will happen if a certain proportion of the participants does not agree to a proposed action. Specify what decision will happen if no agreement isreached. Whenever a decision depends on the approval of more than one participant, the possibility of no agreement is always present.|
 
 | ID     | Acronym      | Description                                                                                      |
 |--------|--------------|------------------------------------------------------------------------------------------------|
-| 5.1    | INF_cha      | Specifies communication channels allowed, required, or forbidden among participants            |
-| 5.2    | INF_frq      | Regulates frequency of information exchange                                                   |
-| 5.3    | INF_acc      | Regulates accuracy of information; e.g., audit procedures                                     |
-| 5.4    | INF_sub      | Limits topics allowed for discussion                                                          |
-| 5.5    | INF_lan      | Specifies official language for communication                                                 |
+| 5.1    | INF_cha      | Specify the set of channels of communication that may or may not exist between postions in a situation. The set of all possible channels connecting all participants in a situation. The connections can be represented a a perfectly connected polygon of whatever dimension equals the number of participans. It there are five participants, there are nine possible connections between these participants. In formation rules partition this set of possible connections into subsets of required (a channel must exist), forbidden (a channel must not exist), and permitted (a channel may exist).|
+| 5.2    | INF_frq      | Regulate the frequency of exchange of information.                                                  |
+| 5.3    | INF_acc      | Regulate the accuracy of information. The accuracy rules affect what type of indicators may or must be used as evidence about the state of the world. Rules establishing audit procedures are intended to enforce the accuracy of financial information available to top management and shareholders of a firm.              |
+| 5.4    | INF_sub      | Limit the topics that can be discussed among participants.     |
+| 5.5    | INF_lan      | Specify the official language for communication.                                                 |
 
 | ID     | Acronym               | Description                                                                                      |
 |--------|-----------------------|------------------------------------------------------------------------------------------------|
-| 6.1    | PAY_act               | Directly impacts net costs and benefits of actions                                             |
-| 6.2    | PAY_out               | Directly impacts net costs and benefits of outcomes                                           |
-| 6.3    | PAY_rew               | Assigns external rewards                                                                       |
-| 6.3.1  | PAY_reward_direct     | *(no description provided)*                                                                    |
+| 6.1    | PAY_act               | Directly impact the net costs and benefit of actions.                                             |
+| 6.2    | PAY_out               | Directly impact the net costs and benefit of outcomes.                                          |
+| 6.3    | PAY_rew               | Assign external rewards.                                                                    |
+| 6.3.1  | PAY_reward_direct     |                                                                   |
 | 6.3.2  | PAY_reward_emotional  | Emotional rewards (internal or external)                                                      |
 | 6.4    | PAY_san               | Assigns external sanctions                                                                     |
-| 6.4.1  | PAY_sanction_direct   | *(no description provided)*                                                                    |
+| 6.4.1  | PAY_sanction_direct   |                                                                    |
 | 6.4.2  | PAY_sanction_emotional| Emotional sanctions (internal or external)                                                    |
 
 | ID  | Acronym | Description                                                                                          |
 |-----|---------|----------------------------------------------------------------------------------------------------|
-| 7   | SCO     | Fewer explicit scope rules than choice rules. As outcome regulation grows, more study of scope rules is needed |
+| 7   | SCO     | Comment from Understanding ID: We find many fewer instances of explicit scope rules than choice rules, and thus less need to further divide scope rules into specific types. If outcome regulation continues to epand, and tereby increases the need for policy scholars to study scope rules, more attention will need to be paid to the types of scope rules that exist.|
