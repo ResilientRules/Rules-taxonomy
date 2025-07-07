@@ -4,6 +4,9 @@ Type | ID   | Subtype | Acronym      | Description                              
 |Aggregation||1.0||     |      |                                                             |
 |Aggregation||1.1||   Aggregation Lack  | AGG.lac     | Outlines the process or decision to be taken in the event of a failure to reach an agreement.
 
+| Type        | ID     | Subtype     | Acronym      | Description                                                                 |
+|-------------|--------|-------------|--------------|-----------------------------------------------------------------------------|
+| Hardware    | 001    | Sensor      | TMP          | Temperature sensor used for monitoring environmental conditions.           |
+| Software    | 002    | Application | CRM          | Customer Relationship Management software for sales and support tracking. |
+| Network     | 003    | Protocol    | TCP/IP       | Transmis
 
-| ID     | Acronym      | Description                                                                 |
-|--------|--------------|-----------------------------------------------------------------------------| 
