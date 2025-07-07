@@ -1,12 +1,6 @@
-Type | ID   | Subtype | Acronym      | Description                                                                 |
-|--------||--------||--------|--------------|-----------------------------------------------------------------------------|
-
-|Aggregation||1.0||     |      |                                                             |
-|Aggregation||1.1||   Aggregation Lack  | AGG.lac     | Outlines the process or decision to be taken in the event of a failure to reach an agreement.
-
-| Type        | ID     | Subtype     | Acronym      | Description                                                                 |
-|-------------|--------|-------------|--------------|-----------------------------------------------------------------------------|
-| Hardware    | 001    | Sensor      | TMP          | Temperature sensor used for monitoring environmental conditions.           |
-| Software    | 002    | Application | CRM          | Customer Relationship Management software for sales and support tracking. |
-| Network     | 003    | Protocol    | TCP/IP       | Transmis
-
+| ID     | Acronym      | Description                                                                 |
+|--------|--------------|-----------------------------------------------------------------------------|
+| 1.1    | POS_def      | Define positions                                                            |
+| 1.2    | POS_num      | State whether there is a defined number, no limit, a lower limit, or an upper limit on the number of participants who hold a position |
+| 1.2.1  | POS_num_low  | Defines the lower bound on the number of participants in a position         |
+| 1.2.2  | POS_num_up   | Defines the upper bound on the number of participants in a position         |
