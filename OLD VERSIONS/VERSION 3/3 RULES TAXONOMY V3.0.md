@@ -68,21 +68,68 @@
 | Choice      | 3.6 | Choice Monitoring  |  CHO.mon    | Describes the monitoring processes for compliance with actions and outcomes.|
 | Choice      | 3.7 | Choice Resolution  |  CHO.res    |Defines the action taken and process of conflict resolution. |
 | Information | 4 |         |      |        |
-|  | 4 |         |      |        |
-|  | 4 |         |      |        |
-|  | 4 |         |      |        |
-|  | 4 |         |      |        |
-|  | 4 |         |      |        |
-|  | 4 |         |      |        |
-|  | 4 |         |      |        |
-|  | 4 |         |      |        |
-|  | 4 |         |      |        |
-
-
-
-
-
-| Information | 4 |         |      |        |
+|  | 4.1 |   Information Accuracy      |   INF.acc   |   Regulates the accuracy of information.     |
+|  | 4.2 |     Information Channel  |  INF.cha    |  Defines the methods of communication, including assemblies, meetings, newsletters, online platforms, and signage.      |
+|  | 4.3|   Information	Control      |   INF.con	   |  Defines the information control process      |
+|  | 4.3.1 |   Information	Control	Network      |    INF.con.net  |     Establishes the control of the communication network.   |
+|  | 4.3.2 |    Information	Control	Procedure     |  INF.con.pro    |   Establishes procedures for controlling access to information.     |
+|  | 4.3.3 |     Information	Control	Subject     |  INF.con.sub    |    Establishes control over communication topics.    |
+|  | 4.4|     Information	Format    |   INF.for   |    Establishes the mode (e.g., oral, written, visual) and format (e.g., size, duration) for sharing information.    |
+|  | 4.5 |    Information	Language     |   INF.lan   |   Establishes the official language for communication.     |
+|  | 4.6 |      Information	Network   |   INF.net   |  Establishes the communication network.      |
+|  | 4.7 |     Information	Subject    |   INF.sub   |  Defines or restricts the information (e.g., topics) shared among actors, including meeting announcements.      |
+|  | 4.8 |     Information	Time    |   INF.tim   |      Sets the time and frequency for information exchange.  |
+|  | 4.8.1 |    Information	Time	Frequency     |   INF.tim.fre   |     Sets the frequency for exchanging information.   |
+|  | 4.8.2 |     Information	Time	Timing    |   INF.tim.tim   |     Sets the time for information exchange.   |
 | Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+| Payoff      | 5 |      |      |                  |
+
+
 | Position    | 6 |         |      |              |
 | Scope       | 7 |     |      |     |
