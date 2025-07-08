@@ -45,28 +45,40 @@
 | Choice      | 3.2.3.2 | Choice Allocation Type Material   |   CHO.all.typ.mat   | Specifies the allocation of material and nonmonetary resources.|
 | Choice      | 3.3 | Choice Contribution  |  CHO.con    |Establishes the contribution and input to be made by the actor who hold a position in terms of time, resources, or effort in a given activity. |
 | Choice      | 3.3.1 | Choice Contribution Criteria | CHO.con.cri     |Sets the criteria to define the type and amount of contributions. |
-| Choice      | 3.3.2 | Choice    |      | |
-| Choice      | 3.3.3 | Choice    |      | |
-| Choice      | 3.3.3.1 | Choice    |      | |
-| Choice      | 3.3.3.2 | Choice    |      | |
-| Choice      | 3.3.3.3 | Choice    |      | |
-| Choice      | 3.4 | Choice    |      | |
-| Choice      | 3.5 | Choice    |      | |
-| Choice      | 3.5.1. | Choice    |      | |
-| Choice      | 3.5.2 | Choice    |      | |
-| Choice      | 3.5.2.1 | Choice    |      | |
-| Choice      | 3.5.2.2 | Choice    |      | |
-| Choice      | 3.5.2.3 | Choice    |      | |
-| Choice      | 3.5.2.4 | Choice    |      | |
-| Choice      | 3.5.2.5 | Choice    |      | |
-| Choice      | 3.5.3 | Choice    |      | |
-| Choice      | 3.5.4 | Choice    |      | |
-| Choice      | 3.5.4.1 | Choice    |      | |
-| Choice      | 3.5.4.2 | Choice    |      | |
-| Choice      | 3.5.4.3 | Choice    |      | |
-| Choice      | 3.5.5 | Choice    |      | |
-| Choice      | 3.6 | Choice    |      | |
-| Choice      | 3.7 | Choice    |      | |
+| Choice      | 3.3.2 | Choice Contribution Procedure |  CHO.con.pro    | Establishes the contribution method (e.g., frequency).|
+| Choice      | 3.3.3 | Choice Contribution Type   |  CHO.con.typ    |Specifies the type of contribution to be made by actors. |
+| Choice      | 3.3.3.1 | Choice Contribution Type Action  |   CHO.con.typ.act   |Assigns the time or effort contribution actors are required to make. |
+| Choice      | 3.3.3.2 | Choice Contribution Type Economic  |  CHO.con.typ.eco    | Assigns the financial contribution actors are required to make.|
+| Choice      | 3.3.3.3 | Choice Contribution Type Material |  CHO.con.typ.mat    |Assigns the material and nonmonetary contributions actors are required to make. |
+| Choice      | 3.4 | Choice  Infrastructure  |  CHO.inf    |Establishes the type, quality and quantity of natural and physical infrastructure (such as materials, private or public infrastructure, tools, and technology) that are required, permitted and prohibited. |
+| Choice      | 3.5 | Choice Meeting    | CHO.mee     | Describes all aspects related to meetings, gatherings, assemblies, and events.|
+| Choice      | 3.5.1. | Choice Meeting Location  |  CHO.mee.loc    | Sets the location or venue for meetings.|
+| Choice      | 3.5.2 | Choice Meeting Participation    |  CHO.mee.par    |Establishes the required participation in meetings. |
+| Choice      | 3.5.2.1 | Choice Meeting Participation Actor   |  CHO.mee.par.act    | Defines who attends or participates in the meetings, including the mandatory attendance of specific actors.|
+| Choice      | 3.5.2.2 | Choice Meeting Participation Attendance |   CHO.mee.par.att   | Describes the mandatory attendance at meetings, including the number of absences allowed to actors and the action to be taken by them in case of absence.|
+| Choice      | 3.5.2.3 | Choice Meeting Participation Behavior   |   CHO.mee.par.beh   |Defines the behaviors that may or must be adopted during meetings. |
+| Choice      | 3.5.2.4 | Choice Meeting Participation Number   |   CHO.mee.par.num   |Determines the required number of participants or quorum for meetings. |
+| Choice      | 3.5.2.5 | Choice Meeting Participation Procedure |    CHO.mee.par.pro  |Describes the procedure for participating in a meeting. |
+| Choice      | 3.5.3 | Choice Meeting Subject  |    CHO.mee.sub  | Outlines the topics to be discussed during meetings.|
+| Choice      | 3.5.4 | Choice Meeting Time  | CHO.mee.tim     |Sets the time, frequency and duration for meetings. |
+| Choice      | 3.5.4.1 | Choice Meeting Time Duration | CHO.mee.tim.dur     |Sets the duration for meetings. |
+| Choice      | 3.5.4.2 | Choice Meeting Time Frequency  |  CHO.mee.tim.fre   | Sets the frequency for holding meetings.|
+| Choice      | 3.5.4.3 | Choice Meeting Time Timing   | CHO.mee.tim.tim     |Sets the time for meetings. |
+| Choice      | 3.5.5 | Choice Meeting Type   |   CHO.mee.typ   | Establishes the type of meeting (e.g., general assembly, ordinary assembly).|
+| Choice      | 3.6 | Choice Monitoring  |  CHO.mon    | Describes the monitoring processes for compliance with actions and outcomes.|
+| Choice      | 3.7 | Choice Resolution  |  CHO.res    |Defines the action taken and process of conflict resolution. |
+| Information | 4 |         |      |        |
+|  | 4 |         |      |        |
+|  | 4 |         |      |        |
+|  | 4 |         |      |        |
+|  | 4 |         |      |        |
+|  | 4 |         |      |        |
+|  | 4 |         |      |        |
+|  | 4 |         |      |        |
+|  | 4 |         |      |        |
+|  | 4 |         |      |        |
+
+
 
 
 
