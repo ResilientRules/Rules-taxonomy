@@ -2,7 +2,7 @@
 |-------------|------|-------------|---------|-----------------------------------------------------------------------------|
 | Aggregation |  1|     |      |   |
 | Aggregation |  1.1|  Aggregation Lack        | AGG.lac     | Outlines the process or decision to be taken in the event of a failure to reach an agreement  |
-| Aggregation |  |     |      |   |
+| Aggregation | 1.2 |  Aggregation Node   | AGG.nod     | Defines the presence of a decision node and specifies the positions involved in it |
 | Aggregation |  |     |      |   |
 | Aggregation |  |     |      |   |
 
