@@ -35,9 +35,41 @@
 | Boundary    | 2.3.4 |   Boundary Exit Fee     |   BOU.exi.fee   |   Assigns an exit fee to a position.     |
 | Boundary    | 2.3.5 |   Boundary Exit Procedure     |  BOU.exi.pro    | Outlines the procedures or steps for actors to leave or be dismissed from a position.       |
 | Boundary    | 2.3.6 |  Boundary Exit Time      |    BOU.exi.tim  |   Sets the permanence time in a position.     |
-
-
 | Choice      | 3 |     |      | |
+| Choice      | 3.1 |  Choice Actions   |  CHO.act    | Specifies what an actor occupying a position must, must not, or may do at a particular point in a decision process.|
+| Choice      | 3.2 | Choice Allocation  |    CHO.all  |Describes the forms and models of resource sharing and distribution allocation. |
+| Choice      | 3.2.1 | Choice Allocation Criteria   |  CHO.all.cri    |Determines the criteria for allocating resources (e.g. to whom, amount to be allocated). |
+| Choice      | 3.2.2 | Choice Allocation Procedure  |   CHO.all.pro   | Establishes the allocation procedure (e.g. how, when).|
+| Choice      | 3.2.3 | Choice Allocation Type |  CHO.all.typ    | Specifies the type of resource to be allocated.|
+| Choice      | 3.2.3.1 | Choice Allocation Type Economic | CHO.all.typ.eco     |Specifies the allocation of financial resources. |
+| Choice      | 3.2.3.2 | Choice Allocation Type Material   |   CHO.all.typ.mat   | Specifies the allocation of material and nonmonetary resources.|
+| Choice      | 3.3 | Choice Contribution  |  CHO.con    |Establishes the contribution and input to be made by the actor who hold a position in terms of time, resources, or effort in a given activity. |
+| Choice      | 3.3.1 | Choice Contribution Criteria | CHO.con.cri     |Sets the criteria to define the type and amount of contributions. |
+| Choice      | 3.3.2 | Choice    |      | |
+| Choice      | 3.3.3 | Choice    |      | |
+| Choice      | 3.3.3.1 | Choice    |      | |
+| Choice      | 3.3.3.2 | Choice    |      | |
+| Choice      | 3.3.3.3 | Choice    |      | |
+| Choice      | 3.4 | Choice    |      | |
+| Choice      | 3.5 | Choice    |      | |
+| Choice      | 3.5.1. | Choice    |      | |
+| Choice      | 3.5.2 | Choice    |      | |
+| Choice      | 3.5.2.1 | Choice    |      | |
+| Choice      | 3.5.2.2 | Choice    |      | |
+| Choice      | 3.5.2.3 | Choice    |      | |
+| Choice      | 3.5.2.4 | Choice    |      | |
+| Choice      | 3.5.2.5 | Choice    |      | |
+| Choice      | 3.5.3 | Choice    |      | |
+| Choice      | 3.5.4 | Choice    |      | |
+| Choice      | 3.5.4.1 | Choice    |      | |
+| Choice      | 3.5.4.2 | Choice    |      | |
+| Choice      | 3.5.4.3 | Choice    |      | |
+| Choice      | 3.5.5 | Choice    |      | |
+| Choice      | 3.6 | Choice    |      | |
+| Choice      | 3.7 | Choice    |      | |
+
+
+
 | Information | 4 |         |      |        |
 | Payoff      | 5 |      |      |                  |
 | Position    | 6 |         |      |              |
