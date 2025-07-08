@@ -52,7 +52,7 @@
 | Choice      | 3.3.3.3 | Choice Contribution Type Material |  CHO.con.typ.mat    |Assigns the material and nonmonetary contributions actors are required to make. |
 | Choice      | 3.4 | Choice  Infrastructure  |  CHO.inf    |Establishes the type, quality and quantity of natural and physical infrastructure (such as materials, private or public infrastructure, tools, and technology) that are required, permitted and prohibited. |
 | Choice      | 3.5 | Choice Meeting    | CHO.mee     | Describes all aspects related to meetings, gatherings, assemblies, and events.|
-| Choice      | 3.5.1. | Choice Meeting Location  |  CHO.mee.loc    | Sets the location or venue for meetings.|
+| Choice      | 3.5.1 | Choice Meeting Location  |  CHO.mee.loc    | Sets the location or venue for meetings.|
 | Choice      | 3.5.2 | Choice Meeting Participation    |  CHO.mee.par    |Establishes the required participation in meetings. |
 | Choice      | 3.5.2.1 | Choice Meeting Participation Actor   |  CHO.mee.par.act    | Defines who attends or participates in the meetings, including the mandatory attendance of specific actors.|
 | Choice      | 3.5.2.2 | Choice Meeting Participation Attendance |   CHO.mee.par.att   | Describes the mandatory attendance at meetings, including the number of absences allowed to actors and the action to be taken by them in case of absence.|
