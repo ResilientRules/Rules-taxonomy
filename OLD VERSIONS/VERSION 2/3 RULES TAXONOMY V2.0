@@ -1,8 +1,5 @@
-| Type        | ID   | Subtype     | Acronym | Definition                                                                 |
-|-------------|------|-------------|---------|-----------------------------------------------------------------------------|
-| AGGREGATION |  1.0 |     |      |   |
-| Aggregation |  1.1|  Aggregation Lack        | AGG_lck     | It states what will happen if a certain proportion of the participants does not agree to a proposed action. Specify what decision will happen if no agreement isreached. Whenever a decision depends on the approval of more than one participant, the possibility of no agreement is always present.  |
-| Aggregation | 1.2 |  Symmetry (symmetric, nonsymmetric)   | AGG_sym     | Specify how participants in a situation are treated differently or alike in regard to some decision to be made at some point in a decision process. |
-| Aggregation | 1.3 |  Aggregation Vote  |  AGG_vot    |  Specify what proportion of the total must be in agreement before an authoritative decision can be made and what happens if the niminal agreement is not reached. |
-| Aggregation | 1.4 |  Aggregation Weight | AGG_wgh     | Specify the weights given to players in nonsymmetric aggregation rules.  |
-| BOUNDARY    | 2.0 |        |      |        |
+| Type        | ID   | Subtype   | Acronym      | Definition                                                                                                 |
+|-------------|------|-----------|--------------|-------------------------------------------------------------------------------------------------------------|
+| Aggregation | 1.0  |           |              |                                                                                                             |
+| Aggregation | 1.1  | Condition | AGG_me_cont  | Describes any special conditions to be met in the decision-making processes (e.g., the presence of international observers). |
+| Aggregation | 1.2  | Decision  |              | *(No acronym or definition provided)*                                                                      |
