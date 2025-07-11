@@ -1,4 +1,4 @@
-| Type        | ID   | Subtype     | Acronym | Description                                                                 |
+| Type        | ID   | Subtype     | Acronym | Definition                                                                 |
 |-------------|------|-------------|---------|-----------------------------------------------------------------------------|
 | Aggregation |  1.|     |      |   |
 | Aggregation |  1.1|  Aggregation Lack        | AGG.lac     | Outlines the process or decision to be taken in the event of a failure to reach an agreement.  |
