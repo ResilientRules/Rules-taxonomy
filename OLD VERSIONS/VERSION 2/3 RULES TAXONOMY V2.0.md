@@ -46,16 +46,16 @@
 | Choice      | 3.6        | Choice Monitoring          | CHO_mon             | Describes the activities involved in monitoring compliance. |
 | Choice      | 3.7        | Choice Planning            | CHO_pla             | Describes planning, roadmap and new plans. |
 | INFORMATION | 4.0        |                     |                     |            |
-| Information | 4.1        | Accuracy            | INF_acc             | Regulates the accuracy of information |
-| Information | 4.2        | Channel             | INF_cha             | Describes how information is given/received (e.g., written/oral; formal or informal channels). |
-| Information | 4.3        | Context             | INF_con             | Describes the way in which the communication takes place. |
-| Information | 4.4        | Format              | INF_for             | Determines the size, duration, location, etc. of the information |
-| Information | 4.5        | Language            | INF_lan             | Establishes the official language for communication. |
-| Information | 4.6        | Network             | INF_net             | Describes the network of communication (who communicates with whom). |
-| Information | 4.7        | Subject             | INF_sub             | Limits the topics that can/must/cannot/must not be discussed among participants |
-| Information | 4.8        | Time                | INF_tim             | Establishes the time conditions of a decision. |
-| Information | 4.8.1      | Frequency           | INF_time_fre        | Describe the frequency of exchange of information. |
-| Information | 4.8.2      | Occurrence          | INF_time_occ        | Describe when occurs information. |
+| Information | 4.1        | Information Accuracy            | INF_acc             | Regulates the accuracy of information |
+| Information | 4.2        | Information Channel             | INF_cha             | Describes how information is given/received (e.g., written/oral; formal or informal channels). |
+| Information | 4.3        | Information Context             | INF_con             | Describes the way in which the communication takes place. |
+| Information | 4.4        | Information Format              | INF_for             | Determines the size, duration, location, etc. of the information |
+| Information | 4.5        | Information Language            | INF_lan             | Establishes the official language for communication. |
+| Information | 4.6        | Information Network             | INF_net             | Describes the network of communication (who communicates with whom). |
+| Information | 4.7        | Information Subject             | INF_sub             | Limits the topics that can/must/cannot/must not be discussed among participants |
+| Information | 4.8        | Information Time                | INF_tim             | Establishes the time conditions of a decision. |
+| Information | 4.8.1      | Information Time Frequency           | INF_time_fre        | Describe the frequency of exchange of information. |
+| Information | 4.8.2      | Information Time Occurrence          | INF_time_occ        | Describe when occurs information. |
 | PAYOFF      | 5.0        |                     |                     |            |
 | Payoff      | 5.1        | Action              | PAY_act             | Establishes the directly impact the net costs and benefit of actions. |
 | Payoff      | 5.1.1      | Consequence         | PAY_act_con         | Describes the rewards, sanctions and warnings of an action. |
