@@ -1,4 +1,4 @@
-| Type        | ID   | Subtype     | Acronym | Description                                                                 |
+| Type        | ID   | Subtype     | Acronym | Definition                                                                 |
 |-------------|------|-------------|---------|-----------------------------------------------------------------------------|
 | AGGREGATION |  1.0 |     |      |   |
 | Aggregation |  1.1|  Aggregation Lack        | AGG_lck     | It states what will happen if a certain proportion of the participants does not agree to a proposed action. Specify what decision will happen if no agreement isreached. Whenever a decision depends on the approval of more than one participant, the possibility of no agreement is always present.  |
