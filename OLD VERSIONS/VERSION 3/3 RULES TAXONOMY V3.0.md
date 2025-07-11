@@ -1,6 +1,6 @@
 | Type        | ID   | Subtype     | Acronym | Definition                                                                 |
 |-------------|------|-------------|---------|-----------------------------------------------------------------------------|
-| Aggregation |  1.0|     |      |   |
+| AGGREGATION |  1.0|     |      |   |
 | Aggregation |  1.1|  Aggregation Lack        | AGG.lac     | Outlines the process or decision to be taken in the event of a failure to reach an agreement.  |
 | Aggregation | 1.2 |  Aggregation Node   | AGG.nod     | Defines the presence of a decision node and specifies the positions involved in it. |
 | Aggregation | 1.3 |  Aggregation Power-sharing  |  AGG.pow    |  Establishes the distribution of power and the treatment of participants, taking into account both symmetry and asymmetry in decision-making. |
@@ -9,7 +9,7 @@
 | Aggregation |  1.4.1|  Aggregation Procedure Agreement  | AGG.pro.agr     | Describes the process of reaching agreement before a decision can be made (e.g., proportion of the total, majority, consensus, binding opinions).|
 | Aggregation | 1.4.2 |  Aggregation Procedure Condition  | AGG.pro.con     | Defines the presence of a decision node and specifies the positions involved in it. |
 | Aggregation | 1.4.3 |  Aggregation Procedure Form   |  AGG.pro.for    |  Establishes the distribution of power and the treatment of participants, taking into account both symmetry and asymmetry in decision-making. |
-| Boundary    | 2.0 |        |      |        |
+| BOUNDARY    | 2.0 |        |      |        |
 | Boundary    | 2.1 | Boundary Eligibility       | BOU.eli     |  Defines the eligibility criteria to enter a position.      |
 | Boundary    | 2.1.1 |    Boundary Eligibility Credential |  BOU.eli.cre    |  Specifies the documentary evidence necessary to validate that actors possess the required attributes for a given position.      |
 | Boundary    | 2.1.2 |    Boundary Eligibility Membership/residency   | BOU.eli.mem     | Specifies the criteria for entering a position based on the requirement to reside or be registered in a specific place or organization.       |
@@ -35,7 +35,7 @@
 | Boundary    | 2.3.4 |   Boundary Exit Fee     |   BOU.exi.fee   |   Assigns an exit fee to a position.     |
 | Boundary    | 2.3.5 |   Boundary Exit Procedure     |  BOU.exi.pro    | Outlines the procedures or steps for actors to leave or be dismissed from a position.       |
 | Boundary    | 2.3.6 |  Boundary Exit Time      |    BOU.exi.tim  |   Sets the permanence time in a position.     |
-| Choice      | 3.0 |     |      | |
+| CHOICE      | 3.0 |     |      | |
 | Choice      | 3.1 |  Choice Actions   |  CHO.act    | Specifies what an actor occupying a position must, must not, or may do at a particular point in a decision process.|
 | Choice      | 3.2 | Choice Allocation  |    CHO.all  |Describes the forms and models of resource sharing and distribution allocation. |
 | Choice      | 3.2.1 | Choice Allocation Criteria   |  CHO.all.cri    |Determines the criteria for allocating resources (e.g. to whom, amount to be allocated). |
@@ -67,7 +67,7 @@
 | Choice      | 3.5.5 | Choice Meeting Type   |   CHO.mee.typ   | Establishes the type of meeting (e.g., general assembly, ordinary assembly).|
 | Choice      | 3.6 | Choice Monitoring  |  CHO.mon    | Describes the monitoring processes for compliance with actions and outcomes.|
 | Choice      | 3.7 | Choice Resolution  |  CHO.res    |Defines the action taken and process of conflict resolution. |
-| Information | 4.0 |         |      |        |
+| INFORMATION | 4.0 |         |      |        |
 | Information | 4.1 |   Information Accuracy      |   INF.acc   |   Regulates the accuracy of information.     |
 | Information | 4.2 |     Information Channel  |  INF.cha    |  Defines the methods of communication, including assemblies, meetings, newsletters, online platforms, and signage.      |
 | Information | 4.3|   Information	Control      |   INF.con	   |  Defines the information control process      |
@@ -81,7 +81,7 @@
 | Information | 4.8 |     Information	Time    |   INF.tim   |      Sets the time and frequency for information exchange.  |
 | Information | 4.8.1 |    Information	Time	Frequency     |   INF.tim.fre   |     Sets the frequency for exchanging information.   |
 | Information | 4.8.2 |     Information	Time	Timing    |   INF.tim.tim   |     Sets the time for information exchange.   |
-| Payoff      | 5.0 |      |      |                  |
+| PAYOFF      | 5.0 |      |      |                  |
 | Payoff      | 5.1 |   Payoff	Action   |  PAY.act    |   Assigns rewards or sanctions for actors based on specific actions that have been taken.               |
 | Payoff      | 5.1.1 |   Payoff	Action	Reward   |   PAY.act.rew   |      Assigns rewards for actors based on specific actions.            |
 | Payoff      | 5.1.1.1 |  Payoff	Action	Reward	Criteria    |   PAY.act.rew.cri   |     Sets the criteria for determining the type and amount of rewards for actors based on specific actions.             |
@@ -142,13 +142,13 @@
 | Payoff      | 5.2.2.3.7 |   Payoff	Outcome	Sanction	Type	Positional   |PAY.out.san.typ.pos      |  Assigns positional sanctions for actors based on specific outcomes.                |
 | Payoff      | 5.2.2.3.8 |   Payoff	Outcome	Sanction	Type	Spiritual   | PAY.out.san.typ.spi     | Specifies divine sanctions for actors based on specific outcomes.                 |
 | Payoff      | 5.2.2.4 |   Payoff	Outcome	Sanction	Warning   | PAY.out.san.war     |  Set warnings for actors based on particular outcomes prior to sanctions.                |
-| Position    | 6.0 |         |      |              |
+| POSITION    | 6.0 |         |      |              |
 | Position    | 6.1 |     Position	Definition    |    POS.def  |      Creates, defines, and otherwise eliminates positions and entities in an action situation.        |
 | Position    | 6.2 |     Position	Function    |  POS.fun    |      Defines the functions, rights, and obligations associated with each position or entity.        |
 | Position    | 6.3 |     Position	Number    |  POS.num    |     States the number of actors who hold a position.         |
 | Position    | 6.3.1 |   Position	Number	Lower bound      |  POS.num.low   |   States the lower bound on the number of actors to hold a position.           |
 | Position    | 6.3.2 |   Position	Number	Upper bound      | POS.num.upp     |  States the upper bound on the number of actors to hold a position.            |
-| Scope       | 7. |     |      |     |
+| SCOPE       | 7.0 |     |      |     |
 | Scope       | 7.1 | Scope	Definition    |  SCO.def    | Specifies definitions and descriptions of activities, infrastructure, resources, and symbols (e.g., visual identity).    |
 | Scope       | 7.2 |  Scope	Domain  |   SCO.dom   |  Defines the spatial, temporal, and legal scope or domain, as well as the resources and activities on those resources, to which the rules apply.   |
 | Scope       | 7.2.1 |  Scope	Domain	Activity   |  SCO.dom.act    | Defines the activities over which the rules apply    |
