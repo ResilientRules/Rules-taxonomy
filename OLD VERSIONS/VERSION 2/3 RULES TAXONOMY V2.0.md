@@ -79,12 +79,12 @@
 | Payoff      | 5.2.1.5    | Physical            | PAY_out_con_phy     | Defines physical rewards, sanctions and warnings. |
 | Payoff      | 5.2.1.6    | Positional          | PAY_out_con_pos     | Defines positional (working positions) rewards, sanctions and warnings. |
 | POSITION    | 6.0        |                     |                     |            |
-| Position    | 6.1        | Definition          | POS_def             | Define positions. |
-| Position    | 6.2        | Function            | POS_fun             | Define functions of each position. |
-| Position    | 6.3        | Number              | POS_num             | Number of actors who hold a position. |
-| Position    | 6.3.1      | Lower bound         | POS_num_low         | Determines the lower bound on the number of actors to hold a position. |
-| Position    | 6.3.2      | Upper bound         | POS_num_upp         | Determines the upper bound on the number of actors to hold a position. |
+| Position    | 6.1        | Position Definition          | POS_def             | Define positions. |
+| Position    | 6.2        | Position Function            | POS_fun             | Define functions of each position. |
+| Position    | 6.3        | Position Number              | POS_num             | Number of actors who hold a position. |
+| Position    | 6.3.1      | Position Number Lower bound         | POS_num_low         | Determines the lower bound on the number of actors to hold a position. |
+| Position    | 6.3.2      | Position Number Upper bound         | POS_num_upp         | Determines the upper bound on the number of actors to hold a position. |
 | SCOPE       | 7.0        |                     |                     |            |
-| Scope       | 7.1        | Domain              | SCO_dom             | Specifies the geographic scope (or domain), species, or resources over which the rules apply. |
-| Scope       | 7.2        | Goal                | SCO_goa             | Establishes a goal regarding to a state variable (e.g., maximum, minimum, or optimum number of animals, extracted water, cultivated area, etc.). |
-| Scope       | 7.3        | Mechanisms          | SCO_mec             | Provides mechanisms for actors to use to meet the goal (but does not defines what exactly which mechanism actors must use). |
+| Scope       | 7.1        | Scope Domain              | SCO_dom             | Specifies the geographic scope (or domain), species, or resources over which the rules apply. |
+| Scope       | 7.2        | Scope Goal                | SCO_goa             | Establishes a goal regarding to a state variable (e.g., maximum, minimum, or optimum number of animals, extracted water, cultivated area, etc.). |
+| Scope       | 7.3        | Scope Mechanisms          | SCO_mec             | Provides mechanisms for actors to use to meet the goal (but does not defines what exactly which mechanism actors must use). |
