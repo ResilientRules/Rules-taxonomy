@@ -11,25 +11,24 @@
 | Aggregation | 1.5.1    | Aggregation Power-sharing Symmetry            | AGG_pow_sym    | Describe how participants in a situation are treated differently or alike (power symmetry/asymmetry in decision-making). |
 | Aggregation | 1.5.2    | Aggregation Power-sharing Weight              | AGG_pow_wgh    | Describe the weights given to players in non-symmetric aggregation rules. |
 | BOUNDARY    | 2.0      |                     |                |            |
-| Boundary    | 2.1      | Eligibility         | BOU_eli        | Describes who is eligible to enter a position. |
-| Boundary    | 2.1.1    | Acquired            | BOU_eli_acq    | Describes the acquired attributes to enter a position. |
-| Boundary    | 2.1.2    | Ascribed            | BOU_eli_asc    | Describes the ascribed attributes to enter a position. |
-| Boundary    | 2.2      | Entry               | BOU_ent        | Describes how to control the entry of actors into positions. |
-| Boundary    | 2.2.1    | Control             | BOU_ent_cnt    | Describe the process (e.g., full control, open, invitational, competition, compulsory) that determine which eligible participants may/must enter positions. |
-| Boundary    | 2.2.2    | Fee                 | BOU_ent_fee    | Assign an entry fee to a position. |
+| Boundary    | 2.1      | Boundary Eligibility         | BOU_eli        | Describes who is eligible to enter a position. |
+| Boundary    | 2.1.1    | Boundary Eligibility Acquired            | BOU_eli_acq    | Describes the acquired attributes to enter a position. |
+| Boundary    | 2.1.2    | Boundary Eligibility Ascribed            | BOU_eli_asc    | Describes the ascribed attributes to enter a position. |
+| Boundary    | 2.2      | Boundary Entry               | BOU_ent        | Describes how to control the entry of actors into positions. |
+| Boundary    | 2.2.1    | Boundary EntryControl             | BOU_ent_cnt    | Describe the process (e.g., full control, open, invitational, competition, compulsory) that determine which eligible participants may/must enter positions. |
+| Boundary    | 2.2.2    | Boundary Entry Fee                 | BOU_ent_fee    | Assign an entry fee to a position. |
 | Boundary    | 2.2.2.1  | BOU_ent_fee_exempted| BOU_ent_fee_exe| Establishes exemptions from paying an entry fee for a position. |
-| Boundary    | 2.2.3    | Procedure           | BOU_ent_pro    | Describes the entry procedure Procedures or steps that the actor who is eligible to enter a position must perform to enter the position. |
-| Boundary    | 2.2.4    | Behavior            | BOU_ent_beh    | Defines desired or required behaviors of participants to enter a position. |
-| Boundary    | 2.2.5    | Multiple            | BOU_ent_mul    | Defines the circumstances under which a participant may/must hold multiple positions. |
-| Boundary    | 2.2.6    | Succession          | BOU_ent_suc    | Describes the rules for the succession of positions. |
-| Boundary    | 2.3      | Exit                | BOU_exi        | Describes how an individual may/must leave a position. |
-| Boundary    | 2.3.1    | Appeal              | BOU_exit_app   | Defines the conditions and procedure to appeal an involuntary termination of a position. |
-| Boundary    | 2.3.2    | Elapse              | BOU_exi_ela    | Defines the amount of time that must elapse from announcing a decision to leave and actually leaving a certain position. |
-| Boundary    | 2.3.3      | Fee                 | BOU_exi_fee         | Assign an exit fee to a position. |
-| Boundary    | 2.3.3.1    | Exempted            | BOU_ent_fee_exempted| Establishes exemptions from paying an exit fee for a position |
-| Boundary    | 2.3.4      | Must                | BOU_exi_mst         | Rules that establish an order or hierarchy for deciding who leaves a position (e.g., seniority rights). |
+| Boundary    | 2.2.3    | Boundary Procedure           | BOU_ent_pro    | Procedures or steps that the actor who is eligible to enter a position must perform to enter the position. |
+| Boundary    | 2.3      | Boundary Exit                | BOU_exi        | Describes how an individual may/must leave a position. |
+| Boundary    | 2.3.1    | Boundary Exit Appeal              | BOU_exit_app   | Defines the conditions and procedure to appeal an involuntary termination of a position. |
+| Boundary    | 2.3.2    | Boundary Exit Elapse              | BOU_exi_ela    | Defines the amount of time that must elapse from announcing a decision to leave and actually leaving a certain position. |
+| Boundary    | 2.3.3      | Boundary Exit Fee                 | BOU_exi_fee         | Assign an exit fee to a position. |
+| Boundary    | 2.3.4      | Boundary Must                | BOU_exi_mst         | Rules that establish an order or hierarchy for deciding who leaves a position (e.g., seniority rights). |
 | Boundary    | 2.3.5      | Past                | BOU_exi_pas         | Rules governing the eligibility of a person who has previously held a position to be eligible to hold the same position again. |
 | Boundary    | 2.3.6      | Procedure           | BOU_exi_pro         | Procedures or steps that the actor who holds a position must perform to leave the position. |
+| Boundary    | 2.2.4    | Boundary Behavior            | BOU_ent_beh    | Defines desired or required behaviors of participants to enter a position. |
+| Boundary    | 2.2.5    | Boundary Multiple            | BOU_ent_mul    | Defines the circumstances under which a participant may/must hold multiple positions. |
+| Boundary    | 2.2.6    | Boundary Succession          | BOU_ent_suc    | Describes the rules for the succession of positions. |
 | Boundary    | 2.3.7      | Time                | BOU_exi_tim         | Establishes the maximum permanence time of a participant in a position. |
 | CHOICE      | 3.0        |                     |                     |            |
 | Choice      | 3.1        | Actions             | CHO_act             | Specifies what an actor occupying a position must, must not, or may do at a particular point in a decision process. |
