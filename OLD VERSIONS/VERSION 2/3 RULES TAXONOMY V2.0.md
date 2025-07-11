@@ -1,15 +1,15 @@
 | Type        | ID       | Subtype             | Acronym        | Definition |
 |-------------|----------|---------------------|----------------|------------|
 | AGGREGATION | 1.0      |                     |                |            |
-| Aggregation | 1.1      | Aggregation Condition           | AGG_me_cont    | Describes any special conditions to be met in the decision-making processes (e.g., the presence of international observers). |
-| Aggregation | 1.2      | Aggregation Decision            | AGG_dec        | Describe the type of decision and what form it takes |
-| Aggregation | 1.3      | Aggregation Lack                | AGG_lac        | Describes the decision that will be taken if no agreement is reached |
-| Aggregation | 1.4      | Aggregation Method              | AGG_met        | Defines the typology of methods and ways of decision making. |
-| Aggregation | 1.4.1    | Aggregation Method Form                | AGG_met_for    | Defines the type of method. |
-| Aggregation | 1.4.2    | Aggregation Method Number              | AGG_met_num    | Describes the proportion of the total that must be in agreement before an authorised decision can be taken. |
-| Aggregation | 1.5      | Aggregation Power-sharing       | AGG_pow        | Describes how power is shared. |
-| Aggregation | 1.5.1    | Aggregation Power-sharing Symmetry            | AGG_pow_sym    | Describe how participants in a situation are treated differently or alike (power symmetry/asymmetry in decision-making). |
-| Aggregation | 1.5.2    | Aggregation Power-sharing Weight              | AGG_pow_wgh    | Describe the weights given to players in non-symmetric aggregation rules. |
+| Aggregation | 1.1      | Aggregation Decision            | AGG_dec        | Describe the type of decision and what form it takes |
+| Aggregation | 1.2      | Aggregation Lack                | AGG_lac        | Describes the decision that will be taken if no agreement is reached |
+| Aggregation | 1.3      | Aggregation Method              | AGG_met        | Defines the typology of methods and ways of decision making. |
+| Aggregation | 1.3.1      | Aggregation Condition           | AGG_met_cont    | Describes any special conditions to be met in the decision-making processes (e.g., the presence of international observers). |
+| Aggregation | 1.3.2   | Aggregation Method Form                | AGG_met_for    | Defines the type of method. |
+| Aggregation | 1.3.3    | Aggregation Method Number              | AGG_met_num    | Describes the proportion of the total that must be in agreement before an authorised decision can be taken. |
+| Aggregation | 1.4      | Aggregation Power-sharing       | AGG_pow        | Describes how power is shared. |
+| Aggregation | 1.4.1    | Aggregation Power-sharing Symmetry            | AGG_pow_sym    | Describe how participants in a situation are treated differently or alike (power symmetry/asymmetry in decision-making). |
+| Aggregation | 1.4.2    | Aggregation Power-sharing Weight              | AGG_pow_wgh    | Describe the weights given to players in non-symmetric aggregation rules. |
 | BOUNDARY    | 2.0      |                     |                |            |
 | Boundary    | 2.1      | Boundary Eligibility         | BOU_eli        | Describes who is eligible to enter a position. |
 | Boundary    | 2.1.1    | Boundary Eligibility Acquired            | BOU_eli_acq    | Describes the acquired attributes to enter a position. |
