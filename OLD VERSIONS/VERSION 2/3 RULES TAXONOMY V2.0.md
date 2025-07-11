@@ -29,7 +29,6 @@
 | Boundary    | 2.3.4      | Boundary Exit Must                | BOU_exi_mst         | Rules that establish an order or hierarchy for deciding who leaves a position (e.g., seniority rights). |
 | Boundary    | 2.3.5      | Boundary Exit Past                | BOU_exi_pas         | Rules governing the eligibility of a person who has previously held a position to be eligible to hold the same position again. |
 | Boundary    | 2.3.6      | Boundary Exit Procedure           | BOU_exi_pro         | Procedures or steps that the actor who holds a position must perform to leave the position. |
-
 | Boundary    | 2.3.7      | Boundary Exit Time                | BOU_exi_tim         | Establishes the maximum permanence time of a participant in a position. |
 | CHOICE      | 3.0        |                     |                     |            |
 | Choice      | 3.1        | Actions             | CHO_act             | Specifies what an actor occupying a position must, must not, or may do at a particular point in a decision process. |
