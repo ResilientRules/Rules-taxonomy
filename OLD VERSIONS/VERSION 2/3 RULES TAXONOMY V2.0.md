@@ -4,7 +4,7 @@
 | Aggregation | 1.1      | Aggregation Decision            | AGG_dec        | Describe the type of decision and what form it takes |
 | Aggregation | 1.2      | Aggregation Lack                | AGG_lac        | Describes the decision that will be taken if no agreement is reached |
 | Aggregation | 1.3      | Aggregation Method              | AGG_met        | Defines the typology of methods and ways of decision making. |
-| Aggregation | 1.3.1      | Aggregation Condition           | AGG_met_cont    | Describes any special conditions to be met in the decision-making processes (e.g., the presence of international observers). |
+| Aggregation | 1.3.1      | Aggregation Method Condition           | AGG_met_cont    | Describes any special conditions to be met in the decision-making processes (e.g., the presence of international observers). |
 | Aggregation | 1.3.2   | Aggregation Method Form                | AGG_met_for    | Defines the type of method. |
 | Aggregation | 1.3.3    | Aggregation Method Number              | AGG_met_num    | Describes the proportion of the total that must be in agreement before an authorised decision can be taken. |
 | Aggregation | 1.4      | Aggregation Power-sharing       | AGG_pow        | Describes how power is shared. |
