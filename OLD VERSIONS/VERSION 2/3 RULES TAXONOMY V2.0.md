@@ -31,20 +31,20 @@
 | Boundary    | 2.3.6      | Boundary Exit Procedure           | BOU_exi_pro         | Procedures or steps that the actor who holds a position must perform to leave the position. |
 | Boundary    | 2.3.7      | Boundary Exit Time                | BOU_exi_tim         | Establishes the maximum permanence time of a participant in a position. |
 | CHOICE      | 3.0        |                     |                     |            |
-| Choice      | 3.1        | Actions             | CHO_act             | Specifies what an actor occupying a position must, must not, or may do at a particular point in a decision process. |
-| Choice      | 3.2        | Allocation          | CHO_all             | Describes the forms and models of resource and space management in terms of sharing and distribution allocation. |
-| Choice      | 3.3        | Contribution        | CHO_con             | Establishes the contribution and input to be made by the actor who hold a position in terms of time, money, resources or effort in a given activity. |
-| Choice      | 3.4        | Infrastructure      | CHO_inf             | Describes the materials, resources, tools, technology that are allowed and prohibited. |
-| Choice      | 3.5        | Meeting             | CHO_mee             | Describes and defines everything that is related to meetings, gatherings, assemblies and events. |
-| Choice      | 3.5.1      | Location            | CHO_mee_loc         | Defines the location/place of meetings. |
-| Choice      | 3.5.2      | Participation       | CHO_mee_par         | Describes participation in meetings. |
-| Choice      | 3.5.2.1    | Attendance          | CHO_mee_par_att     | Describes the mandatory nature of attendance at meetings or assemblies, the number of absences allowed, or the actions to be taken in the event of an absence. |
-| Choice      | 3.5.2.2    | Number              | CHO_mee_par_num     | Describe number of participants needed. |
-| Choice      | 3.5.3      | Time                | CHO_mee_tim         | Defines the time and duration of the meetings. |
-| Choice      | 3.5.3.1    | Frequency           | CHO_mee_tim_fre     | Define frequency of meetings. |
-| Choice      | 3.5.3.2    | Timing              | CHO_mee_tim_tim     | Define when meetings occur. |
-| Choice      | 3.6        | Monitoring          | CHO_mon             | Describes the activities involved in monitoring compliance. |
-| Choice      | 3.7        | Planning            | CHO_pla             | Describes planning, roadmap and new plans. |
+| Choice      | 3.1        | Choice Actions             | CHO_act             | Specifies what an actor occupying a position must, must not, or may do at a particular point in a decision process. |
+| Choice      | 3.2        | Choice Allocation          | CHO_all             | Describes the forms and models of resource and space management in terms of sharing and distribution allocation. |
+| Choice      | 3.3        | Choice Contribution        | CHO_con             | Establishes the contribution and input to be made by the actor who hold a position in terms of time, money, resources or effort in a given activity. |
+| Choice      | 3.4        | Choice Infrastructure      | CHO_inf             | Describes the materials, resources, tools, technology that are allowed and prohibited. |
+| Choice      | 3.5        | Choice Meeting             | CHO_mee             | Describes and defines everything that is related to meetings, gatherings, assemblies and events. |
+| Choice      | 3.5.1      | Choice Location            | CHO_mee_loc         | Defines the location/place of meetings. |
+| Choice      | 3.5.2      | Choice Participation       | CHO_mee_par         | Describes participation in meetings. |
+| Choice      | 3.5.2.1    | Choice Participation Attendance          | CHO_mee_par_att     | Describes the mandatory nature of attendance at meetings or assemblies, the number of absences allowed, or the actions to be taken in the event of an absence. |
+| Choice      | 3.5.2.2    | Choice Participation Number              | CHO_mee_par_num     | Describe number of participants needed. |
+| Choice      | 3.5.3      | Choice Time                | CHO_mee_tim         | Defines the time and duration of the meetings. |
+| Choice      | 3.5.3.1    | Choice Time Frequency           | CHO_mee_tim_fre     | Define frequency of meetings. |
+| Choice      | 3.5.3.2    | Choice Time Timing              | CHO_mee_tim_tim     | Define when meetings occur. |
+| Choice      | 3.6        | Choice Monitoring          | CHO_mon             | Describes the activities involved in monitoring compliance. |
+| Choice      | 3.7        | Choice Planning            | CHO_pla             | Describes planning, roadmap and new plans. |
 | INFORMATION | 4.0        |                     |                     |            |
 | Information | 4.1        | Accuracy            | INF_acc             | Regulates the accuracy of information |
 | Information | 4.2        | Channel             | INF_cha             | Describes how information is given/received (e.g., written/oral; formal or informal channels). |
