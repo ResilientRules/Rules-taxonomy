@@ -58,26 +58,27 @@
 | Information | 4.8.2      | Information Time Occurrence          | INF_time_occ        | Describe when occurs information. |
 | PAYOFF      | 5.0        |                     |                     |            |
 | Payoff      | 5.1        | Action              | PAY_act             | Establishes the directly impact the net costs and benefit of actions. |
-| Payoff      | 5.1.1      | Consequence         | PAY_act_con         | Describes the rewards, sanctions and warnings of an action. |
-| Payoff      | 5.1.1.1    | Activity            | PAY_act_con_act     | Defines rewards, sanctions and warnings in relation to activities |
-| Payoff      | 5.1.1.2    | Administrative      | PAY_act_con_adm     | Defines legal rewards, sanctions and warnings. |
-| Payoff      | 5.1.1.3    | Economic            | PAY_act_con_eco     | Defines economic rewards, sanctions and warnings |
-| Payoff      | 5.1.1.4    | Emotional           | PAY_act_con_emo     | Defines emotional rewards, sanctions and warnings. |
-| Payoff      | 5.1.1.4.1  | External            | PAY_act_con_emo_ext | Defines external emotion rewards, sanctions and warnings. |
-| Payoff      | 5.1.1.4.2  | Internal            | PAY_act_con_emo_int | Defines internal emotion rewards, sanctions and warnings. |
-| Payoff      | 5.1.1.5    | Material            | PAY_act_con_mat     | Defines material rewards, sanctions and warnings. |
-| Payoff      | 5.1.1.6    | Physical            | PAY_act_con_phy     | Defines physical rewards, sanctions and warnings. |
-| Payoff      | 5.1.1.7    | Positional          | PAY_act_con_pos     | Defines positional (working positions) rewards, sanctions and warnings. |
-| Payoff      | 5.2        | Outcome             | PAY_out             | Establishes the directly impact the net costs and benefit of outcomes. |
-| Payoff      | 5.2.1      | Consequence         | PAY_out_con         | Defines the rewards, sanctions and warnings of an outcome. |
-| Payoff      | 5.2.1.1    | Activity            | PAY_out_con_act     | Defines rewards, sanctions and warnings in relation to activities |
-| Payoff      | 5.2.1.2    | Administrative      | PAY_out_con_adm     | Defines legal rewards, sanctions and warnings |
-| Payoff      | 5.2.1.3    | Economic            | PAY_out_con_economic| Defines economic rewards, sanctions and warnings. |
-| Payoff      | 5.2.1.4    | Emotional           | PAY_out_con_emo     | Defines emotional rewards, sanctions and warnings. |
-| Payoff      | 5.2.1.4.1  | External            | PAY_out_con_emo_ext | Defines external emotion rewards, sanctions and warnings |
-| Payoff      | 5.2.1.4.2  | Internal            | PAY_out_con_emo_int | Defines internal emotion rewards, sanctions and warnings. |
-| Payoff      | 5.2.1.5    | Physical            | PAY_out_con_phy     | Defines physical rewards, sanctions and warnings. |
-| Payoff      | 5.2.1.6    | Positional          | PAY_out_con_pos     | Defines positional (working positions) rewards, sanctions and warnings. |
+| Payoff      | 5.1.1      | Action Consequence         | PAY_act_con         | Describes the rewards, sanctions and warnings of an action. |
+| Payoff      | 5.1.1.1    | Action Consequence Activity            | PAY_act_con_act     | Defines rewards, sanctions and warnings in relation to activities |
+| Payoff      | 5.1.1.2    | Action Consequence Administrative      | PAY_act_con_adm     | Defines legal rewards, sanctions and warnings. |
+| Payoff      | 5.1.1.3    | Action Consequence Economic            | PAY_act_con_eco     | Defines economic rewards, sanctions and warnings |
+| Payoff      | 5.1.1.4    | Action Consequence Emotional           | PAY_act_con_emo     | Defines emotional rewards, sanctions and warnings. |
+| Payoff      | 5.1.1.4.1  | Action Consequence Emotional External            | PAY_act_con_emo_ext | Defines external emotion rewards, sanctions and warnings. |
+| Payoff      | 5.1.1.4.2  | Action Consequence Emotional Internal            | PAY_act_con_emo_int | Defines internal emotion rewards, sanctions and warnings. |
+| Payoff      | 5.1.1.5    | Action Consequence Material            | PAY_act_con_mat     | Defines material rewards, sanctions and warnings. |
+| Payoff      | 5.1.1.6    | Action Consequence Physical            | PAY_act_con_phy     | Defines physical rewards, sanctions and warnings. |
+| Payoff      | 5.1.1.7    | Action Consequence Positional          | PAY_act_con_pos     | Defines positional (working positions) rewards, sanctions and warnings. |
+| Payoff      | 5.2        | Action Outcome             | PAY_out             | Establishes the directly impact the net costs and benefit of outcomes. |
+| Payoff      | 5.2.1      | Action Outcome Consequence         | PAY_out_con         | Defines the rewards, sanctions and warnings of an outcome. |
+| Payoff      | 5.2.1.1    | Action Outcome Consequence Activity            | PAY_out_con_act     | Defines rewards, sanctions and warnings in relation to activities |
+| Payoff      | 5.2.1.2    | Action Outcome Consequence Administrative      | PAY_out_con_adm     | Defines legal rewards, sanctions and warnings |
+| Payoff      | 5.2.1.3    | Action Outcome Consequence Economic            | PAY_out_con_economic| Defines economic rewards, sanctions and warnings. |
+| Payoff      | 5.2.1.4    | Action Outcome Consequence Emotional           | PAY_out_con_emo     | Defines emotional rewards, sanctions and warnings. |
+| Payoff      | 5.2.1.4.1  | Action Outcome Consequence Emotional External            | PAY_out_con_emo_ext | Defines external emotion rewards, sanctions and warnings |
+| Payoff      | 5.2.1.4.2  | Action Outcome Consequence Emotional Internal            | PAY_out_con_emo_int | Defines internal emotion rewards, sanctions and warnings. |
+| Payoff      | 5.2.1.5    | Action Outcome Consequence Material            | PAY_out_con_material     | Describes material rewards, sanctions and warnings. |
+| Payoff      | 5.2.1.6    | Action Outcome Consequence Physical            | PAY_out_con_phy     | Defines physical rewards, sanctions and warnings. |
+| Payoff      | 5.2.1.7    | Action Outcome Consequence Positional          | PAY_out_con_pos     | Defines positional (working positions) rewards, sanctions and warnings. |
 | POSITION    | 6.0        |                     |                     |            |
 | Position    | 6.1        | Position Definition          | POS_def             | Define positions. |
 | Position    | 6.2        | Position Function            | POS_fun             | Define functions of each position. |
