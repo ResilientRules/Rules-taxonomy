@@ -70,3 +70,35 @@
 | INFORMATION  |  4.2.2|  Information Network Subject   |  INF.net.sub   | Defines or restricts the flow of information (e.g., topics) shared among positions, including meeting announcements.  |
 | INFORMATION  |  4.2.2.1|  Information Network Subject Accuracy   |   INF.net.sub.acc   | Regulates the accuracy of information. |
 | PAYOFF  |  5.0|     |    |  |
+| PAYOFF  |  5.1|  Payoff Cause   | PAY.cau   | Defines which actions or outcomes are subject to consequences. |
+| PAYOFF  |  5.1.1|  Payoff Cause Action   | PAY.cau.act   | Assigns consequences to specific actions. |
+| PAYOFF  |  5.1.2|  Payoff Cause Outcome   |  PAY.cau.out  | Assigns consequences to specific outcomes. |
+| PAYOFF  |  5.2|  Payoff Consequence    | PAY.con   | Assigns rewards, sanctions or warnings to specific actions or outcomes. |
+| PAYOFF  |  5.2.1|   Payoff Consequence Reward   | PAY.con.rew   | Assigns rewards to specific actions or outcomes. |
+| PAYOFF  |  5.2.2|   Payoff Consequence Sanction   |  PAY.con.san  | Assigns sanctions to specific actions or outcomes. |
+| PAYOFF  |  5.2.3|  Payoff Consequence Warning   | PAY.con.war   |  Set warnings to specific actions or outcomes prior to sanctions.|
+| PAYOFF  |  5.3|   Payoff Criteria  | PAY. cri   | Sets the criteria for determining the nature, magnitude, and mode of consequences. |
+| PAYOFF  |  5.4|   Payoff Type  |  PAY.typ  | Sets the type of consequence. |
+| PAYOFF  |  5.4.1|  Payoff Type Action    | PAY.typ.act   | Assigns consequences by permitting or prohibiting specific activities. |
+| PAYOFF  |  5.4.2|  Payoff Type Economic   |  PAY.typ.eco  | Assigns financial consequences. |
+| PAYOFF  |  5.4.3|   Payoff Type Emotional   | PAY.typ.emo   | Describes emotional consequences. |
+| PAYOFF  |  5.4.3.1|  Payoff Type Emotional External   |  PAY.typ.emo.ext  | Describes external emotional consequences. |
+| PAYOFF  |  5.4.3.2|  Payoff Type Emotional Internal   |   PAY.typ.emo.int | Describes internal emotional consequences. |
+| PAYOFF  |  5.4.4|   Payoff Type Legal  | PAY.typ.leg   | Assigns legal consequences. |
+| PAYOFF  |  5.4.5|   Payoff Type Material  |   PAY.typ.mat | Assigns tangible, non-economic consequences. |
+| PAYOFF  |  5.4.6|  Payoff Type Physical   |  PAY.typ.phy  | Assigns physical and/or sensorial (e.g., hugs, applause, or booing) consequences. |
+| PAYOFF  |  5.4.7|  Payoff Type Positional  | PAY.typ.pos   |Assigns positional consequences.  |
+| PAYOFF  |  5.4.8|  5.4.8.Spiritual   |  PAY.typ.spi  | Specifies divine consequences. |
+| POSITION  |  6.0|     |    |  |
+| POSITION  |  6.1| Position     |    |  |
+| POSITION  |  6.0|     |    |  |
+| POSITION  |  6.1| Position     |    |  |
+| POSITION  |  6.1| Position     |    |  |
+| POSITION  |  6.0|     |    |  |
+| POSITION  |  6.1| Position     |    |  |
+| POSITION  |  6.1| Position     |    |  |
+| POSITION  |  6.0|     |    |  |
+| POSITION  |  6.1| Position     |    |  |
+| POSITION  |  6.1| Position     |    |  |
+| POSITION  |  6.0|     |    |  |
+| POSITION  |  6.1| Position     |    |  |
