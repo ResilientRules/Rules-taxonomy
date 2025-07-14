@@ -96,10 +96,14 @@
 | POSITION  |  6.3.1| Position  Number Lower bound    |  POS.num.low  | States the lower bound on the number of actors to hold a position. |
 | POSITION  |  6.3.2|   Position  Number  | POS.num.upp   | States the upper bound on the number of actors to hold a position. |
 |  SCOPE |  7.0|      |    |  |
-|  SCOPE |  7.0|      |    |  |
-|  SCOPE |  7.0|      |    |  |
-|  SCOPE |  7.0|      |    |  |
-|  SCOPE |  7.0|      |    |  |
-|  SCOPE |  7.0|      |    |  |
-|  SCOPE |  7.0|      |    |  |
-|  SCOPE |  7.0|      |    |  |
+|  SCOPE |  7.1|  Scope Definition    | SCO.def   |Specifies the definitions, designations, and descriptions of activities, infrastructure, resources, and symbols.  |
+|  SCOPE |  7.2|  Scope Domain  |  SCO.dom  | Sets the spatial, temporal, and legal domain, as well as the resources and activities to which the rules apply. |
+|  SCOPE |  7.2.1|    Scope Domain Activity   |SCO.dom.act    |Defines the activities over which the rules apply.  |
+|  SCOPE |  7.2.2|  Scope Domain Legal    |   SCO.dom.leg | Specifies the legal framework (e.g. national laws, regulations of natural protected areas, international treaties) and describes changes within that framework in which the rules are established. |
+|  SCOPE |  7.2.3|    Scope Domain Resource   |  SCO.dom.res  |Specifies the resource to which the rules apply and describes its characteristics. |
+|  SCOPE |  7.2.4|  Scope Domain Social    |   SCO.dom.soc | Specifies the socio-cultural dimension (e.g., cultural, historical) over which the rules apply. |
+|  SCOPE |  7.2.5|   Scope Domain Spatial   | SCO.dom.spa   | Specifies the spatial extent to which the rules apply and describes its characteristics. |
+|  SCOPE |  7.2.6|  Scope Domain Temporal    |  SCO.dom.tem  | Specifies the temporal scope over which the rules apply. |
+|  SCOPE |  7.3|  Scope Goal    | SCO.goa   | Defines the goals of the rules. |
+|  SCOPE |  7.3.1|   Scope Goal Action   |  SCO.goa.act  | Specifies the goals in terms of actions. |
+|  SCOPE |  7.3.2| Scope Goal Outcome     | SCO.goa.out   | Specifies the goals in terms of outcomes. |
