@@ -57,10 +57,16 @@
 | CHOICE  |  3.5.2.1|  Choice Meeting Participation Attendance   |  CHO.mee.par.att    | Specifies the action to be taken in case of actors’ absence, the number of absences allowed to actors, or lack of quorum. |
 | CHOICE  |  3.5.2.2|  Choice Meeting Participation Behaviour   |  CHO.mee.par.beh    | Defines the actions and behaviors that are required, permitted, or prohibited during meetings, including guidelines regarding the voluntary or involuntary abandonment of meetings. |
 | CHOICE  |  3.6| Choice Monitoring     | CHO.mon     |  Describes the monitoring processes for compliance with actions and outcomes.|
-| CHOICE  |  3.0|     |      |  |
-| CHOICE  |  3.0|     |      |  |
-| CHOICE  |  3.0|     |      |  |
-| CHOICE  |  3.0|     |      |  |
-| CHOICE  |  3.0|     |      |  |
-| CHOICE  |  3.0|     |      |  |
-| CHOICE  |  3.0|     |      |  |
+| INFORMATION  |  4.0|     |      |  |
+| INFORMATION  |  4.1| Information Domain    | INF.dom     |  |
+| INFORMATION  |  4.1.1|  Information Domain Channel   |  INF.dom.cha    | Defines the methods of communication, including assemblies, meetings, newsletters, online platforms, and signage. |
+| INFORMATION  |  4.1.2|  Information Domain Format   | INF.dom.for     | Establishes the mode (e.g., oral, written, visual) and format (e.g., size, duration) for sharing information. |
+| INFORMATION  |  4.1.2.1|  Information Domain Format Language   |   INF.dom.for.lan   |Establishes the official language for communication.  |
+| INFORMATION  |  4.1.3|  Information Domain Time   | INF.dom.tim     | Sets the time and frequency for information exchange.  |
+| INFORMATION  |  4.1.3.1|   Information Domain Time Frequency  |   INF.dom.tim.fre   |Sets the frequency for exchanging information.  |
+| INFORMATION  |  4.1.3.2|  Information Domain Time Timing   |  INF.dom.tim.tim    | Sets the time for information exchange. |
+| INFORMATION  |  4.2| Information Network    |    INF.net  |Establishes the communication network.  |
+| INFORMATION  |  4.2.1| Information Network Node    |   INF.net.nod   |Defines the positions involved in communication and specifies who can access information.  |
+| INFORMATION  |  4.2.2|  Information Network Subject   |  INF.net.sub   | Defines or restricts the flow of information (e.g., topics) shared among positions, including meeting announcements.  |
+| INFORMATION  |  4.2.2.1|  Information Network Subject Accuracy   |   INF.net.sub.acc   | Regulates the accuracy of information. |
+| PAYOFF  |  5.0|     |    |  |
