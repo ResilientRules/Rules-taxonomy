@@ -88,17 +88,18 @@
 | PAYOFF  |  5.4.5|   Payoff Type Material  |   PAY.typ.mat | Assigns tangible, non-economic consequences. |
 | PAYOFF  |  5.4.6|  Payoff Type Physical   |  PAY.typ.phy  | Assigns physical and/or sensorial (e.g., hugs, applause, or booing) consequences. |
 | PAYOFF  |  5.4.7|  Payoff Type Positional  | PAY.typ.pos   |Assigns positional consequences.  |
-| PAYOFF  |  5.4.8|  5.4.8.Spiritual   |  PAY.typ.spi  | Specifies divine consequences. |
+| PAYOFF  |  5.4.8|  Payoff Type Spiritual   |  PAY.typ.spi  | Specifies divine consequences. |
 | POSITION  |  6.0|     |    |  |
-| POSITION  |  6.1| Position     |    |  |
-| POSITION  |  6.0|     |    |  |
-| POSITION  |  6.1| Position     |    |  |
-| POSITION  |  6.1| Position     |    |  |
-| POSITION  |  6.0|     |    |  |
-| POSITION  |  6.1| Position     |    |  |
-| POSITION  |  6.1| Position     |    |  |
-| POSITION  |  6.0|     |    |  |
-| POSITION  |  6.1| Position     |    |  |
-| POSITION  |  6.1| Position     |    |  |
-| POSITION  |  6.0|     |    |  |
-| POSITION  |  6.1| Position     |    |  |
+| POSITION  |  6.1| Position  Definition   | POS.def   | Creates, defines, and otherwise eliminates positions and entities in an action situation.   |
+| POSITION  |  6.2|  Position Function   | POS.fun   |Defines the functions, rights, responsibilities, duties and obligations associated with each position or entity.  |
+| POSITION  |  6.3| Position Number  | POS.num   | States the number of actors who hold a position. |
+| POSITION  |  6.3.1| Position  Number Lower bound    |  POS.num.low  | States the lower bound on the number of actors to hold a position. |
+| POSITION  |  6.3.2|   Position  Number  | POS.num.upp   | States the upper bound on the number of actors to hold a position. |
+|  SCOPE |  7.0|      |    |  |
+|  SCOPE |  7.0|      |    |  |
+|  SCOPE |  7.0|      |    |  |
+|  SCOPE |  7.0|      |    |  |
+|  SCOPE |  7.0|      |    |  |
+|  SCOPE |  7.0|      |    |  |
+|  SCOPE |  7.0|      |    |  |
+|  SCOPE |  7.0|      |    |  |
