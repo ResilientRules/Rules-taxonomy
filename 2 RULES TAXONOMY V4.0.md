@@ -41,7 +41,22 @@
 | CHOICE  |  3.3|   Choice Contribution  |   CHO.con   |Establishes the contribution and input to be made by the actor who hold a position in terms of time, resources, or effort in a given activity.  |
 | CHOICE  |  3.3.1|  Choice Contribution Criteria   | CHO.con.cri     | Sets the criteria for contributions (type and amount, frequency). |
 | CHOICE  |  3.3.2|  Choice Contribution Type   | CHO.con.typ     |Specifies the types of contributions to be made by actors.  |
-| CHOICE  |  3.0|     |      |  |
+| CHOICE  |  3.3.2.1|  Choice Contribution Type Action   | CHO.con.typ.act     | Defines the time and effort required for contributions. |
+| CHOICE  |  3.3.2.2|  Choice Contribution Type Economic   |   CHO.con.typ.eco   |  Defines financial contributions.|
+| CHOICE  |  3.3.2.3|  Choice Contribution Type Material   |  CHO.con.typ.mat   | Defines material contributions. |
+| CHOICE  |  3.4|  Choice Infrastructure    | CHO.inf     | Establishes the type, quality, and quantity of natural and physical infrastructure (such as materials, private or public infrastructure, tools, and technology) that are required, permitted and prohibited.  |
+| CHOICE  |  3.5|  Choice Meeting   |   CHO.mee   | Describes all aspects related to meetings, gatherings, assemblies, events, courts, etc. |
+| CHOICE  |  3.5.1|  Choice Meeting Domain   |   CHO.mee.dom   | Defines the characteristics of meetings within a domain. |
+| CHOICE  |  3.5.1.1|  Choice Meeting Domain Location   |  CHO.mee.dom.loc    | Sets the location or venue for meetings. |
+| CHOICE  |  3.5.1.2|  Choice Meeting Domain Time   |  CHO.mee.dom.tim    | Sets the time, frequency and duration for meetings. |
+| CHOICE  |  3.5.1.2.1|  Choice Meeting Domain Time Duration   |    CHO.mee.dom.tim.dur  | Sets the duration for meetings.  |
+| CHOICE  |  3.5.1.2.2|  Choice Meeting Domain Time Frequency   |  CHO.mee.dom.tim.fre     | Sets the frequency for holding meetings.|
+| CHOICE  |  3.5.1.2.3|  Choice Meeting Domain Time Timing |  CHO.mee.dom.tim.tim    | Sets the time for meetings.  |
+| CHOICE  |  3.5.1.3|  Choice Meeting Domain Type   |   CHO.mee.dom.typ   | Establishes the type of meeting (e.g., ordinary assembly. |
+| CHOICE  |  3.5.2| Choice Meeting Participation    |   CHO.mee.par   | Defines who attends, chairs, or participates in meetings. |
+| CHOICE  |  3.5.2.1|  Choice Meeting Participation Attendance   |  CHO.mee.par.att    | Specifies the action to be taken in case of actors’ absence, the number of absences allowed to actors, or lack of quorum. |
+| CHOICE  |  3.5.2.2|  Choice Meeting Participation Behaviour   |  CHO.mee.par.beh    | Defines the actions and behaviors that are required, permitted, or prohibited during meetings, including guidelines regarding the voluntary or involuntary abandonment of meetings. |
+| CHOICE  |  3.6| Choice Monitoring     | CHO.mon     |  Describes the monitoring processes for compliance with actions and outcomes.|
 | CHOICE  |  3.0|     |      |  |
 | CHOICE  |  3.0|     |      |  |
 | CHOICE  |  3.0|     |      |  |
