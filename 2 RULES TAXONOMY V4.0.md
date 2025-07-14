@@ -9,7 +9,19 @@
 | AGGREGATION |  1.4.1|  Aggregation Procedure Agreement   |   AGG.pro.agr   | Describes the process of reaching agreement before a decision can be made (e.g., proportion of the total, majority, consensus, binding opinions) |
 | AGGREGATION |  1.4.1.1|   Aggregation Procedure Agreement Lack  | AGG.pro.agr.lac     | Outlines the process or decision to be taken in the event of a failure to reach an agreement.  |
 | AGGREGATION |  1.4.2|    Aggregation Procedure Condition   |   AGG.pro.con   | Specifies the conditions that must be met during decision-making processes, such as the presence of observers and quorum requirements.   |
-| AGGREGATION |  1.4.3|     |      Aggregation Procedure Form | Describes how decisions are conveyed (e.g., through secret vote, show of hands, voice vote, non-delegable, unipersonal).   |
-| AGGREGATION |  1.0|     |      |   |
-| AGGREGATION |  1.0|     |      |   |
-| AGGREGATION |  1.0|     |      |   |
+| AGGREGATION |  1.4.3|  Aggregation Procedure Form   |  AGG.pro.for     | Describes how decisions are conveyed (e.g., through secret vote, show of hands, voice vote, non-delegable, unipersonal).   |
+| Boundary  |  2.0|     |      |   |
+| Boundary  |  2.0|     |      |   |
+| Boundary  |  2.0|     |      |   |
+| Boundary  |  2.0|     |      |   |
+| Boundary  |  2.0|     |      |   |
+| Boundary  |  2.0|     |      |   |
+| Boundary  |  2.0|     |      |   |
+| Boundary  |  2.0|     |      |   |
+| Boundary  |  2.0|     |      |   |
+| Boundary  |  2.0|     |      |   |
+| Boundary  |  2.0|     |      |   |
+| Boundary  |  2.0|     |      |   |
+| Boundary  |  2.0|     |      |   |
+| Boundary  |  2.0|     |      |   |
+| Boundary  |  2.0|     |      |   |
