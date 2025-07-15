@@ -17,5 +17,5 @@ The file * *2 RULES TAXONOMY V4.0.md* * presents Version 4 of the taxonomy, incl
 
 The * *OLD VERSIONS* * folder also includes a description of the changes made from Version 3 to Version 4 of the taxonomy.
 
-![istockphoto-2167378847-612x612](https://github.com/user-attachments/assets/7e0da666-d169-4bc0-9f45-8458b0e48868)
+![istockphoto-2167378847-612x612](https://github.com/user-attachments/assets/7e0da666-d169-4bc0-9f45-8458b0e48868| width=100)
 
