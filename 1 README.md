@@ -1,6 +1,6 @@
 The **Rules Taxonomy** provides a detailed classification of the seven types of rules proposed by Ostrom and Crawford (2005), breaking them down into specific subtypes.
 
-![istockphoto-2167378847-612x612](https://github.com/user-attachments/assets/a726b9ef-3e10-445c-bf4c-324b44cec870)
+![istockphoto-2167378847-612x612](https://github.com/user-attachments/assets/2b0ae2b2-b470-48a7-a63a-8d074ee7fbc5)
 
 The taxonomy was developed in four stages:
 1. **Version 1:** Based on the original definitions of rule types.
