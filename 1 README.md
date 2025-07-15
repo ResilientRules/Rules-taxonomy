@@ -1,8 +1,7 @@
 The **Rules Taxonomy** provides a detailed classification of the seven types of rules proposed by Ostrom and Crawford (2005), breaking them down into specific subtypes.
 
-<img src="C:/Users/usuario/OneDrive - unizar.es/Escritorio/istockphoto-2167378847-612x612.jpg" alt="Rules Taxonomy V4" width="300" height="200">
+<img src="C:/Users/usuario/OneDrive - unizar.es/Escritorio/istockphoto-2167378847-612x612.jpg" alt="Rules Taxonomy V4" width="100" height="100">
 
-![istockphoto-2167378847-612x612](https://github.com/user-attachments/assets/7e0da666-d169-4bc0-9f45-8458b0e48868)
 
 The taxonomy was developed in four stages:
 
@@ -17,3 +16,6 @@ The taxonomy was developed in four stages:
 The file * *2 RULES TAXONOMY V4.0.md* * presents Version 4 of the taxonomy, including the name, acronymn, hierarchy, and description  of each subtype. The folder * *OLD VERSIONS* * contains the same information for previous versions. 
 
 The * *OLD VERSIONS* * folder also includes a description of the changes made from Version 3 to Version 4 of the taxonomy.
+
+![istockphoto-2167378847-612x612](https://github.com/user-attachments/assets/7e0da666-d169-4bc0-9f45-8458b0e48868)
+
