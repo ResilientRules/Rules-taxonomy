@@ -12,5 +12,6 @@ The taxonomy was developed in four stages:
 
 The file * *2 RULES TAXONOMY V4.0.md* * presents Version 4 of the taxonomy, including the name, acronymn, hierarchy, and description  of each subtype. The folder * *OLD VERSIONS* * contains the same information for previous versions. 
 
-The * *OLD VERSIONS* * folder also includes a description of the changes made from Version 3 to Version 4 of the taxonomy. 
+The * *OLD VERSIONS* * folder also includes a description of the changes made from Version 3 to Version 4 of the taxonomy.
+
 ![istockphoto-2167378847-612x612](https://github.com/user-attachments/assets/7e0da666-d169-4bc0-9f45-8458b0e48868)
