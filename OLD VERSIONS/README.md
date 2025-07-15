@@ -1,4 +1,4 @@
-Previous versions of the **Rules Taxonomy** prior to [Version 4]([https://pages.github.com/](https://github.com/ResilientRules/Rules-taxonomy/blob/main/2%20RULES%20TAXONOMY%20V4.0.md)) are included here:
+Previous versions of the **Rules Taxonomy** prior to [Version 4](https://github.com/ResilientRules/Rules-taxonomy/blob/main/2%20RULES%20TAXONOMY%20V4.0.md) are included here:
 
 1. **Version 1:** Based on the original definitions of rule types.
 
