@@ -1,4 +1,4 @@
-| Type        | ID   | Subtype     | Acronym | Definition                                                                 |
+| Type        | Order   | Subtype     | Acronym | Definition                                                                 |
 |-------------|------|-------------|---------|-----------------------------------------------------------------------------|
 | AGGREGATION |  1.0|     |      |   |
 |  |  1.1|   Conflict        | AGG.con     | Defines the processes to be followed in cases of decision appeals or conflict resolution.  |
