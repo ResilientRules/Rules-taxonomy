@@ -34,76 +34,76 @@
 | CHOICE  |  3.0|     |      |  |
 |   |  3.1| Actions    | CHO.act    |  |
 |   |  3.2|   Allocation    |   CHO.all   |  |
-|   |  3.2.1|   Allocation Criteria   |  CHO.all.cri    |  |
-|   |  3.2.2|   Allocation Type   |   CHO.all.typ   | |
-|   |  3.2.2.1|   Allocation Type Economic    |  CHO.all.typ.eco    | |
-|   |  3.2.2.2|   Allocation Type Material   |  CHO.all.typ.mat   | |
+|   |  3.2.1|    Criteria   |  CHO.all.cri    |  |
+|   |  3.2.2|    Type   |   CHO.all.typ   | |
+|   |  3.2.2.1|    Economic    |  CHO.all.typ.eco    | |
+|   |  3.2.2.2|    Material   |  CHO.all.typ.mat   | |
 |   |  3.3|    Contribution  |   CHO.con   | |
-|   |  3.3.1|   Contribution Criteria   | CHO.con.cri     |  |
-|   |  3.3.2|   Contribution Type   | CHO.con.typ     | |
-|   |  3.3.2.1|   Contribution Type Action   | CHO.con.typ.act     |  |
-|   |  3.3.2.2|   Contribution Type Economic   |   CHO.con.typ.eco   |  |
-|   |  3.3.2.3|   Contribution Type Material   |  CHO.con.typ.mat   | |
+|   |  3.3.1|    Criteria   | CHO.con.cri     |  |
+|   |  3.3.2|    Type   | CHO.con.typ     | |
+|   |  3.3.2.1|    Action   | CHO.con.typ.act     |  |
+|   |  3.3.2.2|   Economic   |   CHO.con.typ.eco   |  |
+|   |  3.3.2.3|   Material   |  CHO.con.typ.mat   | |
 |   |  3.4|   Infrastructure    | CHO.inf     |  |
 |   |  3.5|   Meeting   |   CHO.mee   | |
-|   |  3.5.1|   Meeting Domain   |   CHO.mee.dom   |  |
-|   |  3.5.1.1|   Meeting Domain Location   |  CHO.mee.dom.loc    | |
-|   |  3.5.1.2|   Meeting Domain Time   |  CHO.mee.dom.tim    | |
-|   |  3.5.1.2.1|   Meeting Domain Time Duration   |    CHO.mee.dom.tim.dur  |   |
-|   |  3.5.1.2.2|   Meeting Domain Time Frequency   |  CHO.mee.dom.tim.fre     | |
-|   |  3.5.1.2.3|   Meeting Domain Time Timing |  CHO.mee.dom.tim.tim    | |
-|   |  3.5.1.3|   Meeting Domain Type   |   CHO.mee.dom.typ   |  |
-|   |  3.5.2|  Meeting Participation    |   CHO.mee.par   | |
-|   |  3.5.2.1|   Meeting Participation Attendance   |  CHO.mee.par.att    | |
-|   |  3.5.2.2|   Meeting Participation Behaviour   |  CHO.mee.par.beh    | |
+|   |  3.5.1|    Domain   |   CHO.mee.dom   |  |
+|   |  3.5.1.1|   Location   |  CHO.mee.dom.loc    | |
+|   |  3.5.1.2|    Time   |  CHO.mee.dom.tim    | |
+|   |  3.5.1.2.1|   Duration   |    CHO.mee.dom.tim.dur  |   |
+|   |  3.5.1.2.2|   Frequency   |  CHO.mee.dom.tim.fre     | |
+|   |  3.5.1.2.3|    Timing |  CHO.mee.dom.tim.tim    | |
+|   |  3.5.1.3|    Type   |   CHO.mee.dom.typ   |  |
+|   |  3.5.2|   Participation    |   CHO.mee.par   | |
+|   |  3.5.2.1|    Attendance   |  CHO.mee.par.att    | |
+|   |  3.5.2.2|   Behaviour   |  CHO.mee.par.beh    | |
 |   |  3.6|  Monitoring     | CHO.mon     |  |
 | INFORMATION  |  4.0|     |      |  |
 |   |  4.1|  Domain    | INF.dom     |  |
-|   |  4.1.1|   Domain Channel   |  INF.dom.cha    | |
-|   |  4.1.2|   Domain Format   | INF.dom.for     | |
-|   |  4.1.2.1|   Domain Format Language   |   INF.dom.for.lan   |  |
-|   |  4.1.3|   Domain Time   | INF.dom.tim     |  |
-|   |  4.1.3.1|    Domain Time Frequency  |   INF.dom.tim.fre   | |
-|   |  4.1.3.2|   Domain Time Timing   |  INF.dom.tim.tim    |  |
+|   |  4.1.1|    Channel   |  INF.dom.cha    | |
+|   |  4.1.2|    Format   | INF.dom.for     | |
+|   |  4.1.2.1|    Language   |   INF.dom.for.lan   |  |
+|   |  4.1.3|    Time   | INF.dom.tim     |  |
+|   |  4.1.3.1|    Frequency  |   INF.dom.tim.fre   | |
+|   |  4.1.3.2|    Timing   |  INF.dom.tim.tim    |  |
 |   |  4.2|  Network    |    INF.net  | |
-|   |  4.2.1|  Network Node    |   INF.net.nod   | |
-|   |  4.2.2|   Network Subject   |  INF.net.sub   |  |
-|   |  4.2.2.1|   Network Subject Accuracy   |   INF.net.sub.acc   |  |
+|   |  4.2.1|   Node    |   INF.net.nod   | |
+|   |  4.2.2|    Subject   |  INF.net.sub   |  |
+|   |  4.2.2.1|  Accuracy   |   INF.net.sub.acc   |  |
 | PAYOFF  |  5.0|     |    |  |
 |   |  5.1|   Cause   | PAY.cau   | |
-|   |  5.1.1|   Cause Action   | PAY.cau.act   |  |
-|   |  5.1.2|   Cause Outcome   |  PAY.cau.out  |  |
+|   |  5.1.1|    Action   | PAY.cau.act   |  |
+|   |  5.1.2|    Outcome   |  PAY.cau.out  |  |
 |   |  5.2|   Consequence    | PAY.con   | |
-|   |  5.2.1|    Consequence Reward   | PAY.con.rew   | |
-|   |  5.2.2|    Consequence Sanction   |  PAY.con.san  | |
-|   |  5.2.3|   Consequence Warning   | PAY.con.war   |  |
+|   |  5.2.1|     Reward   | PAY.con.rew   | |
+|   |  5.2.2|     Sanction   |  PAY.con.san  | |
+|   |  5.2.3|    Warning   | PAY.con.war   |  |
 |   |  5.3|    Criteria  | PAY. cri   |  |
 |   |  5.4|    Type  |  PAY.typ  |  |
-|   |  5.4.1|   Type Action    | PAY.typ.act   |  |
-|   |  5.4.2|   Type Economic   |  PAY.typ.eco  | |
-|   |  5.4.3|    Type Emotional   | PAY.typ.emo   | |
-|   |  5.4.3.1|   Type Emotional External   |  PAY.typ.emo.ext  |  |
-|   |  5.4.3.2|   Type Emotional Internal   |   PAY.typ.emo.int |  |
-|   |  5.4.4|    Type Legal  | PAY.typ.leg   |  |
-|   |  5.4.5|    Type Material  |   PAY.typ.mat |  |
-|   |  5.4.6|   Type Physical   |  PAY.typ.phy  |  |
-|   |  5.4.7|   Type Positional  | PAY.typ.pos   | |
-|   |  5.4.8|   Type Spiritual   |  PAY.typ.spi  | |
+|   |  5.4.1|    Action    | PAY.typ.act   |  |
+|   |  5.4.2|    Economic   |  PAY.typ.eco  | |
+|   |  5.4.3|     Emotional   | PAY.typ.emo   | |
+|   |  5.4.3.1|   External   |  PAY.typ.emo.ext  |  |
+|   |  5.4.3.2|   Internal   |   PAY.typ.emo.int |  |
+|   |  5.4.4|     Legal  | PAY.typ.leg   |  |
+|   |  5.4.5|     Material  |   PAY.typ.mat |  |
+|   |  5.4.6|    Physical   |  PAY.typ.phy  |  |
+|   |  5.4.7|    Positional  | PAY.typ.pos   | |
+|   |  5.4.8|    Spiritual   |  PAY.typ.spi  | |
 | POSITION  |  6.0|     |    |  |
 |   |  6.1|   Definition   | POS.def   |   |
 |   |  6.2|   Function   | POS.fun   | |
 |   |  6.3|  Number  | POS.num   |  |
-|   |  6.3.1|   Number Lower bound    |  POS.num.low  |  |
-|   |  6.3.2|     Number  | POS.num.upp   | |
+|   |  6.3.1|    Lower bound    |  POS.num.low  |  |
+|   |  6.3.2|     Upper bound  | POS.num.upp   | |
 |  SCOPE |  7.0|      |    |  |
 |   |  7.1|   Definition    | SCO.def   | |
 |   |  7.2|   Domain  |  SCO.dom  |  |
-|   |  7.2.1|     Domain Activity   |SCO.dom.act    | |
-|   |  7.2.2|   Domain Legal    |   SCO.dom.leg |  |
-|   |  7.2.3|     Domain Resource   |  SCO.dom.res  | |
-|   |  7.2.4|   Domain Social    |   SCO.dom.soc |  |
-|   |  7.2.5|    Domain Spatial   | SCO.dom.spa   |  |
-|   |  7.2.6|   Domain Temporal    |  SCO.dom.tem  | |
+|   |  7.2.1|      Activity   |SCO.dom.act    | |
+|   |  7.2.2|    Legal    |   SCO.dom.leg |  |
+|   |  7.2.3|      Resource   |  SCO.dom.res  | |
+|   |  7.2.4|    Social    |   SCO.dom.soc |  |
+|   |  7.2.5|     Spatial   | SCO.dom.spa   |  |
+|   |  7.2.6|    Temporal    |  SCO.dom.tem  | |
 |   |  7.3|   Goal    | SCO.goa   |  |
-|   |  7.3.1|    Goal Action   |  SCO.goa.act  |  |
-|   |  7.3.2|  Goal Outcome     | SCO.goa.out   | |
+|   |  7.3.1|     Action   |  SCO.goa.act  |  |
+|   |  7.3.2|   Outcome     | SCO.goa.out   | |
