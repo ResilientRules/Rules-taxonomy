@@ -4,4 +4,4 @@ This taxonomy provides a detailed classification of the seven types of rules pro
 
 Funded by the European Research Council (ERC, RESILIENT RULES, 101044225). More information [Resilient Rules](https://resilientrules.com) 
 
-*Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council Executive Agency. Neither the European Union nor the granting authority can be held responsible for them.*<img width="421" height="298" alt="LOGO_ERC-FLAG_FP" src="https://github.com/user-attachments/assets/01e827d9-479c-458e-8922-e7fbf496d943" />
+*Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council Executive Agency. Neither the European Union nor the granting authority can be held responsible for them.* <img width="1329" height="569" alt="logo" src="https://github.com/user-attachments/assets/776ef44e-819f-45fe-9a44-8563a27d3480" />
