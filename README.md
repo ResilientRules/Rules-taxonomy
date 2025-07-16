@@ -2,7 +2,8 @@
 
 This taxonomy provides a detailed classification of the seven types of rules proposed by Ostrom and Crawford (2005), breaking them down into specific subtypes.
 
-Funded by the European Research Council (ERC, RESILIENT RULES, 101044225) 
+Funded by the European Research Council (ERC, RESILIENT RULES, 101044225). More information (https://resilientrules.com) 
 
-_ _Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council Executive Agency. Neither the European Union nor the granting authority can be held responsible for them._ _
+*Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council Executive Agency. Neither the European Union nor the granting authority can be held responsible for them.*
 
+<img width="421" height="298" alt="LOGO_ERC-FLAG_FP" src="https://github.com/user-attachments/assets/919718d0-bd00-4f87-90e5-2cce0accc9de" />
