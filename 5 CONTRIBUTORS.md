@@ -1,4 +1,4 @@
-## Contributors to Version 4 of the Rules taxonomy (by alphabetical order)
+### Contributors to Version 4 of the Rules taxonomy (by alphabetical order)
 - Estévez Moreno, Laura X
 - García Díaz, Carlota
 - Lacosta García, F Javier
