@@ -4,7 +4,7 @@
 |  |  1.1|   Lack        | AGG.lac     | Outlines the process or decision to be taken in the event of a failure to reach an agreement.  |
 |  | 1.2 |   Node   | AGG.nod     | Defines the presence of a decision node and specifies the positions involved in it. |
 |  | 1.3 |   Power-sharing  |  AGG.pow    |  Establishes the distribution of power and the treatment of participants, taking into account both symmetry and asymmetry in decision-making. |
-|  | 1.3.1 |   Power-sharing Weight | AGG.pow.wei     | Establishes the weighting assigned to actors in non-symmetric aggregation rules.  |
+|  | 1.3.1 |   Weight | AGG.pow.wei     | Establishes the weighting assigned to actors in non-symmetric aggregation rules.  |
 |  |  1.4 |   Procedure | AGG.pro     | Defines the decision-making procedure.  |
 |  |  1.4.1|   Agreement  | AGG.pro.agr     | Describes the process of reaching agreement before a decision can be made (e.g., proportion of the total, majority, consensus, binding opinions).|
 |  | 1.4.2 |  Condition  | AGG.pro.con     | Defines the presence of a decision node and specifies the positions involved in it. |
