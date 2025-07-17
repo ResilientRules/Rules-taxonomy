@@ -8,4 +8,4 @@ Previous versions of the **Rules Taxonomy** prior to [Version 4](https://github.
 
 Each folder contains a table listing the name, acronym, hierarchy, and description of each subtype for the corresponding version, as well as the researchers who contributed to its development.
 
-The file * *V3 to V4* * lists the changes made from Version 3 to Version 4 of the taxonomy.
+The file *V3 to V4* lists the changes made from Version 3 to Version 4 of the taxonomy.
