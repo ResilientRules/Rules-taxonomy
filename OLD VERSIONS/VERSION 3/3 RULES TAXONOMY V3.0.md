@@ -158,7 +158,7 @@
 |        | 7.2.3.2 |  Characteristics   |  SCO.dom.res.cha    | Specifies the characteristics or condition of the resources to which the rules apply.    |
 |        | 7.2.4 |  Social   |   SCO.dom.soc   |  Specifies the social dimension (cultural, historical, ...) over which the rules apply.   |
 |        | 7.2.5 |  Spatial   |   SCO.dom.spa   |  Specifies the spatial scope or domain over which the rules apply.   |
-|        | 7.2.5.1 |  S	Activity   |  SCO.dom.spa.act    |  Specifies the activities subject to regulation in a particular spatial scope or domain.  |
+|        | 7.2.5.1 |  Activity   |  SCO.dom.spa.act    |  Specifies the activities subject to regulation in a particular spatial scope or domain.  |
 |        | 7.2.5.2 |  	Characteristics   |   SCO.dom.spa.cha   |   Specifies the characteristics of the spatial scope or domain over which the rules apply.  |
 |        | 7.2.6 |  	Temporal   |   SCO.dom.tem   |   Defines the activities that can be developed within a particular time period or domain (e.g., fishing seasons).  |
 |        | 7.3 |  	Goal   |  SCO.goa    |  Defines the goals of the rules.   |
