@@ -120,34 +120,34 @@
 |  Payoff    | 5.1.2.4.      |    Warning        |   PAY.act.san.war          | 5.2.3.        |  Warning; Action          | PAY.con.war; PAY.cau.act            |    Hierarchy modified    |
 |  Payoff    | 5.2.      |   Outcome         |  PAY.out           |  5.1.2.       | Outcome           |  PAY.cau.out           |    Hierarchy modified    |
 |  Payoff    |  5.2.1.     |   Reward         |    PAY.out.rew         |         |  Reward; Outcome          | PAY.con.rew; PAY.cau.out            |     Hierarchy modified   |
-|  Payoff    |  5.2.1.1.     |            |             |         |            |             |        |
-|  Payoff    | 5.2.1.2.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.1.3.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.1.3.1.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.1.3.2.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.1.3.3.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.1.3.3.1.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.1.3.3.2.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.1.3.4.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.1.3.5.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.1.3.6.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.1.3.7.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.1.3.8.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.2.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.2.1.    |            |             |         |            |             |        |
-|  Payoff    | 5.2.2.2.      |            |             |         |            |             |        |
-|  Payoff    |  5.2.2.3.     |            |             |         |            |             |        |
-|  Payoff    | 5.2.2.3.1.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.2.3.2.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.2.3.3.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.2.3.3.1.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.2.3.3.2.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.2.3.4.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.2.3.5.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.2.3.6.      |            |             |         |            |             |        |
-|  Payoff    | 5.2.2.3.7.      |            |             |         |            |             |        |
-|  Payoff    |  5.2.2.3.8.     |            |             |         |            |             |        |
-|  Payoff    | 5.2.2.4.      |            |             |         |            |             |        |
+|  Payoff    |  5.2.1.1.     |    Criteria        |  PAY.out.rew.cri           |         |  Criteria; Outcome; Reward         |   PAY.cri; PAY.cau.out; PAY.con.rew          |  Hierarchy modified       |
+|  Payoff    | 5.2.1.2.      |     Form       |   PAY.out.rew.for         |         |  Criteria; Outcome; Reward          | PAY.cri; PAY.cau.out; PAY.con.rew            | Merged with another subtype        |
+|  Payoff    | 5.2.1.3.      |     Type       |  PAY.out.rew.typ           |         | Type; Outcome; Reward           |  PAY.typ; PAY.cau.out; PAY.con.rew           | Hierarchy modified         |
+|  Payoff    | 5.2.1.3.1.      |  Action          |  PAY.out.rew.typ.act           |         |   Action; Outcome; Reward           | PAY.typ.act; PAY.cau.out; PAY.con.rew            |  Hierarchy modified       |
+|  Payoff    | 5.2.1.3.2.      |   Economic         |    PAY.out.rew.typ.eco           |       | Economic; Outcome; Reward             |  PAY.typ.eco; PAY.cau.out; PAY.con.rew           |    Hierarchy modified    |
+|  Payoff    | 5.2.1.3.3.      |   Emotional         |   PAY.out.rew.typ.emo          |         |  Emotional; Outcome; Reward              |    PAY.typ.emo; PAY.cau.out; PAY.con.rew         |   Hierarchy modified       |
+|  Payoff    | 5.2.1.3.3.1.      |    External        |  PAY.out.rew.typ.emo.ext           |         |  External; Outcome; Reward         |  PAY.typ.emo.ext; PAY.cau.out; PAY.con.rew           | Hierarchy modified        |
+|  Payoff    | 5.2.1.3.3.2.      |   Internal       |   PAY.out.rew.typ.emo.int          |         | Internal; Outcome; Reward           | PAY.typ.emo.int; PAY.cau.out; PAY.con.rew            | Hierarchy modified        |
+|  Payoff    | 5.2.1.3.4.      |   Legal         |  PAY.out.rew.typ.leg           |         |   Legal; Outcome; Reward          |   PAY.typ.leg; PAY.cau.out; PAY.con.rew          |  Hierarchy modified       |
+|  Payoff    | 5.2.1.3.5.      |   Material         |   PAY.out.rew.typ.mat          |         |     Material; Outcome; Reward       |  PAY.typ.mat; PAY.cau.out; PAY.con.rew           |   Hierarchy modified      |
+|  Payoff    | 5.2.1.3.6.      |   Physical         |   PAY.out.rew.typ.phy          |         |  Physical; Outcome; Reward           |  PAY.typ.phy; PAY.cau.out; PAY.con.rew           |  Hierarchy modified       |
+|  Payoff    | 5.2.1.3.7.      |  Positional          |  PAY.out.rew.typ.pos           |         | Positional; Outcome; Reward              |    PAY.typ.pos; PAY.cau.out; PAY.con.rew         | Hierarchy modified        |
+|  Payoff    | 5.2.1.3.8.      |  Spiritual          |    PAY.out.rew.typ.spi         |         |  Spiritual; Outcome; Reward           |   PAY.typ.spi; PAY.cau.out; PAY.con.rew          |   Hierarchy modified      |
+|  Payoff    | 5.2.2.      |    Sanction        |    PAY.out.san         |         |    Sanction; Outcome        |  PAY.con.san; PAY.cau.out           |    Hierarchy modified      |
+|  Payoff    | 5.2.2.1.    |    Criteria        |   PAY.out.san.cri          |       |   Criteria; Outcome; Sanction          |  PAY.cri; PAY.cau.out; PAY.con.san           |     Hierarchy modified     |
+|  Payoff    | 5.2.2.2.      |  Form          | PAY.out.san.for            |         |Criteria; Outcome; Sanction            |     PAY.cri; PAY.cau.out; PAY.con.san        |  Merged with another subtype     |
+|  Payoff    |  5.2.2.3.     |  Type          |  PAY.out.san.typ           |         |  Type; Outcome; Sanction            |    PAY.typ; PAY.cau.out; PAY.con.san         |     Hierarchy modified     |
+|  Payoff    | 5.2.2.3.1.      |   Action         |    PAY.out.san.typ.act         |         | Action; Outcome; Sanction           |   PAY.typ.act; PAY.cau.out; PAY.con.san          |    Hierarchy modified      |
+|  Payoff    | 5.2.2.3.2.      |     Economic       | PAY.out.san.typ.eco            |         |   Economic; Outcome; Sanction           |   PAY.typ.eco; PAY.cau.out; PAY.con.san          |    Hierarchy modified      |
+|  Payoff    | 5.2.2.3.3.      |    Emotional        |  PAY.out.san.typ.emo           |         |  Emotional; Outcome; Sanction         |  PAY.typ.emo; PAY.cau.out; PAY.con.san           |     Hierarchy modified     |
+|  Payoff    | 5.2.2.3.3.1.      |   External         |   PAY.out.san.typ.emo.ext     |         |  External; Outcome; Sanction          |  PAY.typ.emo.ext; PAY.cau.out; PAY.con.san           |    Hierarchy modified      |
+|  Payoff    | 5.2.2.3.3.2.      |   Internal         |   PAY.out.san.typ.emo.int   |         |     Internal; Outcome; Sanction          |  PAY.typ.emo.int; PAY.cau.out; PAY.con.san           |    Hierarchy modified      |
+|  Payoff    | 5.2.2.3.4.      |  Legal          |    PAY.out.san.typ.leg         |         | Legal; Outcome; Sanction        |  PAY.typ.leg; PAY.cau.out; PAY.con.san           |     Hierarchy modified     |
+|  Payoff    | 5.2.2.3.5.      |  Material          |  PAY.out.san.typ.mat           |         |  Material; Outcome; Sanction             | PAY.typ.mat; PAY.cau.out; PAY.con.san            |     Hierarchy modified     |
+|  Payoff    | 5.2.2.3.6.      |  Physical          |    PAY.out.san.typ.phy         |         |    Physical; Outcome; Sanction        | PAY.typ.phy; PAY.cau.out; PAY.con.san            |     Hierarchy modified     |
+|  Payoff    | 5.2.2.3.7.      |    Positional        | PAY.out.san.typ.pos            |         |   Positional; Outcome; Sanction           |  PAY.typ.pos; PAY.cau.out; PAY.con.san           |     Hierarchy modified     |
+|  Payoff    |  5.2.2.3.8.     |  Spiritual          |  PAY.out.san.typ.spi           |         |  Spiritual; Outcome; Sanction           | PAY.typ.spi; PAY.cau.out; PAY.con.san            |     Hierarchy modified     |
+|  Payoff    | 5.2.2.4.      |  Warning          |    PAY.out.san.war         |         |Warning; Outcome          | PAY.con.war; PAY.cau.out            |      Hierarchy modified    |
 |  Position    |     6.  |    Position        |     POS.        |     6.    |    Position        |    POS.         |   Definition modified      |
 |  Position   |  6.1.     |   Definition         |POS.def             | 6.1.        |   Definition         |     POS.def        |   No changes     |
 |  Position   | 6.2.      |    Function        |    POS.fun         |        6.2.   |    Function        |     POS.fun        |     No changes   |
