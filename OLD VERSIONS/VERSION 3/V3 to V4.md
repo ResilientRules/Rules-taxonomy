@@ -10,7 +10,7 @@
 |  Aggregation    |     1.4.1.     |    Agreement        |   AGG.pro.agr          |         1.4.1. |  Agreement          |     AGG.pro.agr        |     No changes   |
 |  Aggregation    |   1.4.2.       |   Condition         |      AGG.pro.con       |    1.4.2.       |    Condition        |     AGG.pro.con        |   No changes     |
 |  Aggregation    |    1.4.3.      |    Form        |   AGG.pro.for          |    1.4.3.       | Form           |      AGG.pro.for       |   Definition modified     |
-|  Boundary    |     2.     |    Boundary       |      BOU.        |     2.     |    Boundary     |       BOU.          |        |
+|  Boundary    |     2.     |    Boundary       |      BOU.        |     2.     |    Boundary     |       BOU.          |    No changes       |
 |  Boundary    |   2.1.       |    Eligibility         |      BOU.eli       |     2.1.     |    Eligibility        |     BOU.eli        |   No changes     |
 |  Boundary    |     2.1.1.     |      Credential      |     BOU.eli.cre        |           |     Eligibility      |    BOU.eli          |   Removed     |
 |  Boundary    |   2.1.2.       |    Membership         |       BOU.eli.mem      |      2.1.1.    |    Membership        | BOU.eli.mem            |  No changes      |
