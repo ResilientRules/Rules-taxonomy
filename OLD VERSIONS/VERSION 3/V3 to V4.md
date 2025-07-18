@@ -49,14 +49,36 @@
 |  Choice    |  3.3.2.        |    Procedure        |   CHO.con.pro          |    3.3.1.       |  Criteria          |   CHO.con.cri          | Merged with another subtype       |
 |  Choice    |  3.3.3.        |     Type       |    CHO.con.typ         |   3.3.2.       |    Type        |   CHO.con.typ          |   No changes     |
 |  Choice    |   3.3.3.1.       |   Action         |    CHO.con.typ.act         |    3.3.2.1.      |    Action        |     CHO.con.typ.act        |   No changes      |
-|  Choice    |          |            |             |          |            |             |  No changes       |
-|  Choice    |          |            |             |          |            |             |    No changes     |
-|  Choice    |          |            |             |          |            |             |    No changes     |
-|  Choice    |          |            |             |          |            |             |    Definition modified    |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-
-
+|  Choice    | 3.3.3.2.         |    Economic        |  CHO.con.typ.eco           |  3.3.2.2.        | Economic           | CHO.con.typ.eco            |  No changes       |
+|  Choice    |  3.3.3.3.        |    Material        |    CHO.con.typ.mat         |   3.3.2.3       |  Material          |  CHO.con.typ.mat           |    No changes     |
+|  Choice    |    3.4.      |   Infrastructure         |   CHO.inf          |  3.4.        |  Infrastructure          |   CHO.inf          |    No changes     |
+|  Choice    |    3.5.      |   Meeting         |    CHO.mee         |   3.5.       |  Meeting          |  CHO.mee           |    Definition modified    |
+|  Choice    |          |            |             |   3.5.1.       | Domain           |    CHO.mee.dom         | Created       |
+|  Choice    |   3.5.1.       |      Location      |  CHO.mee.loc           |   3.5.1.1       |Location            |  CHO.mee.dom.loc           | Hierarchy modified        |
+|  Choice    |   3.5.2.      | Participation           |   CHO.mee.par          |    3.5.2.      |   Participation         |  CHO.mee.par           |  Definition modified       |
+|  Choice    |    3.5.2.1.      |   Actor         |   CHO.mee.par.act          |    3.5.2.       |  Participation          |  CHO.mee.par           |  Merged with another subtype       |
+|  Choice    |   3.5.2.2.       |    Attendance        |  CHO.mee.par.att           |     3.5.2.1.     |   Attendance         |      CHO.mee.par.att      |Definition modified         |
+|  Choice    |    3.5.2.3.      |   Behaviour         | CHO.mee.par.beh            |   3.5.2.2.       |   Behaviour         |   CHO.mee.par.beh          |  Definition modified       |
+|  Choice    |  3.5.2.4.        |    Number        |  CHO.mee.par.num           |  3.5.2.1.        |  Attendance          |  CHO.mee.par.att           | Merged with another subtype       |
+|  Choice    |  3.5.2.5.        |   Procedure         |   CHO.mee.par.pro          |   3.5.2.         |   Participation         |   CHO.mee.par          |   Merged with another subtype     |
+|  Choice    |   3.5.3.       |    Subject        |   CHO.mee.sub         |          |            |   INF.net.sub          |   Moved to a different type     |
+|  Choice    |  3.5.4.        |     Time       |    CHO.mee.tim         |   3.5.1.2.       |   Time         |    CHO.mee.dom.tim         |  Hierarchy modified       |
+|  Choice    |  3.5.4.1.        |  Duration          |  CHO.mee.tim.dur           |3.5.1.2.1.          |  Duration          | CHO.mee.dom.tim.dur            | Hierarchy modified        |
+|  Choice    |   3.5.4.2.       |  Frequency          |   CHO.mee.tim.fre          |   3.5.1.2.2.       |  Frequency          |  CHO.mee.dom.tim.fre           |  Hierarchy modified      |
+|  Choice    |   3.5.4.3.       |   Timing         |  CHO.mee.tim.tim           | 3.5.1.2.3         |   Timing         |  CHO.mee.tim.tim           |  Hierarchy modified       |
+|  Choice    |   3.5.5.       |   Type         |  CHO.mee.typ           |    3.5.1.3.      |   Type         |   CHO.mee.dom.typ          |   Hierarchy modified      |
+|  Choice    |   3.6.       |  Monitoring          |      CHO.mon       |     3.6.     |  Monitoring          |    CHO.mon         |  No changes        |
+|  Choice    |    3.7.     |     Resolution       |    CHO.res         |    1.1.       |    Conflict        |    AGG.con         | Moved to a different type        |
+|  Information    |   4.       |   Information         |  INF.           |     4.     |  Information          |     INF.        |        |
+|  Information    |         |            |             |          |            |             |        |
+|  Information    |          |            |             |          |            |             |        |
+|  Information    |         |            |             |          |            |             |        |
+|  Information    |         |            |             |          |            |             |        |
+|  Information    |          |            |             |          |            |             |        |
+|  Information    |         |            |             |          |            |             |        |
+|  Information    |         |            |             |          |            |             |        |
+|  Information    |          |            |             |          |            |             |        |
+|  Information    |         |            |             |          |            |             |        |
+|  Information    |         |            |             |          |            |             |        |
+|  Information    |          |            |             |          |            |             |        |
+|  Information    |         |            |             |          |            |             |        |
