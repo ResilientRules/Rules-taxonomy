@@ -36,7 +36,7 @@
 |  Boundary    |   2.3.4.       |   Fee         |    BOU.exi.fee         |     2.3.2.2.     |  Fee          |   BOU.exi.pro.fee          |   Hierarchy modified     |
 |  Boundary    |    2.3.5.      |   Procedure         |    BOU.exi.pro         |  2.3.2.        | Procedure           |    BOU.exi.pro         |   No changes      |
 |  Boundary    |  2.3.6.        | Time           |  BOU.exi.tim           |    2.3.3.      |     Time       |    BOU.exi.tim         |  No changes      |
-|  Choice    |  3.        |       Choice    |     CHO.        |     3.   |    Choice        |     CHO.        |        |
+|  Choice    |  3.        |       Choice    |     CHO.        |     3.   |    Choice        |     CHO.        |  No changes         |
 |  Choice    |   3.1.       |     Actions       |     CHO.act        |         3.1. |     Actions       | CHO.act            |   No changes     |
 |  Choice    |   3.2.       |   Allocation         |   CHO.all          |  3.2.        |      Allocation      |  CHO.all                |  No changes      |
 |  Choice    |    3.2.1.      |   Criteria         |   CHO.all.cri          |    3.2.1.      |   Criteria         |   CHO.all.cri          | Definition modified      |
