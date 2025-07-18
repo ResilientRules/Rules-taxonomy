@@ -119,19 +119,55 @@
 |  Payoff    |   5.1.2.3.8.    |   Spiritual         |  PAY.act.san.typ.spi            |        |  Spiritual; Action; Sanction           |    PAY.typ.spi; PAY.cau.act; PAY.con.san         |    Hierarchy modified    |
 |  Payoff    | 5.1.2.4.      |    Warning        |   PAY.act.san.war          | 5.2.3.        |  Warning; Action          | PAY.con.war; PAY.cau.act            |    Hierarchy modified    |
 |  Payoff    | 5.2.      |   Outcome         |  PAY.out           |  5.1.2.       | Outcome           |  PAY.cau.out           |    Hierarchy modified    |
-|  Payoff    |  5.2.1.     |            |             |         |            |             |     Hierarchy modified   |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |  5.2.1.     |   Reward         |    PAY.out.rew         |         |  Reward; Outcome          | PAY.con.rew; PAY.cau.out            |     Hierarchy modified   |
+|  Payoff    |  5.2.1.1.     |            |             |         |            |             |        |
+|  Payoff    | 5.2.1.2.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.1.3.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.1.3.1.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.1.3.2.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.1.3.3.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.1.3.3.1.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.1.3.3.2.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.1.3.4.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.1.3.5.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.1.3.6.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.1.3.7.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.1.3.8.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.2.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.2.1.    |            |             |         |            |             |        |
+|  Payoff    | 5.2.2.2.      |            |             |         |            |             |        |
+|  Payoff    |  5.2.2.3.     |            |             |         |            |             |        |
+|  Payoff    | 5.2.2.3.1.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.2.3.2.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.2.3.3.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.2.3.3.1.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.2.3.3.2.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.2.3.4.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.2.3.5.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.2.3.6.      |            |             |         |            |             |        |
+|  Payoff    | 5.2.2.3.7.      |            |             |         |            |             |        |
+|  Payoff    |  5.2.2.3.8.     |            |             |         |            |             |        |
+|  Payoff    | 5.2.2.4.      |            |             |         |            |             |        |
+|  Position    |     6.  |    Position        |     POS.        |     6.    |    Position        |    POS.         |        |
+|  Position   |  6.1.     |            |             |         |            |             |   Definition modified      |
+|  Position   | 6.2.      |            |             |         |            |             |     No changes   |
+|  Position   |  6.3.     |            |             |         |            |             |    No changes    |
+|  Position   |  6.3.1.     |            |             |         |            |             |   No changes     |
+|  Position   |   6.3.2.              |            |             |         |            |             |   No changes     |
+|  Scope   |      7. |        Scope    |    SCO.         |  7.       |    Scope        |   SCO.          |       |
+|  Scope   |   7.1.    |            |             |         |            |             |        |
+|  Scope   |       |            |             |         |            |             |        |
+|  Scope   |       |            |             |         |            |             |        |
+|  Scope   |       |            |             |         |            |             |        |
+|  Scope   |       |            |             |         |            |             |        |
+|  Scope   |       |            |             |         |            |             |        |
+|  Scope   |       |            |             |         |            |             |        |
+|  Scope   |       |            |             |         |            |             |        |
+|  Scope   |       |            |             |         |            |             |        |
+|  Scope   |       |            |             |         |            |             |        |
+|  Scope   |       |            |             |         |            |             |        |
+|  Scope   |       |            |             |         |            |             |        |
+|  Scope   |       |            |             |         |            |             |        |
+|  Scope   |       |            |             |         |            |             |        |
+|  Scope   |       |            |             |         |            |             |        |
+|  Scope   |       |            |             |         |            |             |        |
