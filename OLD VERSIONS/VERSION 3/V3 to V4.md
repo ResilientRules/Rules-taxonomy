@@ -32,9 +32,31 @@
 |  Boundary    |  2.3.1.        |     Appeal       |   BOU.exi.app          |    1.1.      |   Conflict      |     AGG.con           | Moved to a different type        |
 |  Boundary    |  2.3.2.        |    Control        |    BOU.exi.con         |   2.3.1.       |   Control         |   BOU.exi.con          |  Definition modified      |
 |  Boundary    |  2.3.2.1.        |    Order        |   BOU.exi.con.ord          |   2.3.1.        |      Control      |   BOU.exi.con          |  Merged with another subtype      |
-|  Boundary    |          |            |             |          |            |             |        |
-|  Boundary    |          |            |             |          |            |             |        |
-|  Boundary    |          |            |             |          |            |             |        |
-|  Boundary    |          |            |             |          |            |             |        |
-|  Boundary    |          |            |             |          |            |             |        |
-|  Boundary    |          |            |             |          |            |             |        |
+|  Boundary    |  2.3.3.        |    Elapse        |    BOU.exi.ela         |   2.3.2.1.       |   Elapse         |     BOU.exi.pro.ela        |  Hierarchy modified      |
+|  Boundary    |   2.3.4.       |   Fee         |    BOU.exi.fee         |     2.3.2.2.     |  Fee          |   BOU.exi.pro.fee          |   Hierarchy modified     |
+|  Boundary    |    2.3.5.      |   Procedure         |    BOU.exi.pro         |  2.3.2.        | Procedure           |    BOU.exi.pro         |   No changes      |
+|  Boundary    |  2.3.6.        | Time           |  BOU.exi.tim           |    2.3.3.      |     Time       |    BOU.exi.tim         |  No changes      |
+|  Choice    |  3.        |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |          |            |             |          |            |             |        |
+
+
