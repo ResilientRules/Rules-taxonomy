@@ -107,6 +107,25 @@
 |  Payoff    |  5.1.2.1.     |  Criteria          |     PAY.act.san.cri        |         |  Criteria; Action; Sanction         |   PAY.cri; PAY.cau.act; PAY.con.san          |  Hierarchy modified       |
 |  Payoff    | 5.1.2.2.      |  Form          |    PAY.act.san.for         |         |    Criteria; Action; Sanction          |    PAY.cri; PAY.cau.act; PAY.con.san         | Merged with another subtype        |
 |  Payoff    | 5.1.2.3.      | Type            |    PAY.act.san.typ         |         |  Type          |    PAY.typ; PAY.cau.act; PAY.con.san         |  Hierarchy modified       |
+|  Payoff    |  5.1.2.3.1.     |  Action          |     PAY.act.san.typ.act        |         |    Action; Action; Sanction       |   PAY.typ.act; PAY.cau.act; PAY.con.san          |   Hierarchy modified       |
+|  Payoff    | 5.1.2.3.2.      |   Economic         |   PAY.act.san.typ.eco          |         | Economic; Action; Sanction            |  PAY.typ.eco; PAY.cau.act; PAY.con.san           | Hierarchy modified           |
+|  Payoff    | 5.1.2.3.3.      | Emotional           | PAY.act.san.typ.emo            |         | Emotional; Action; Sanction           |      PAY.typ.emo; PAY.cau.act; PAY.con.san       | Hierarchy modified        |
+|  Payoff    | 5.1.2.3.3.1.      |  External          |   PAY.act.san.typ.emo.ext          |         |  External; Action; Sanction        |PAY.typ.emo.ext; PAY.cau.act; PAY.con.san   |  Hierarchy modified      |
+|  Payoff    |5.1.2.3.3.2.       |  Internal         |   PAY.act.san.typ.emo.int          |         |Internal; Action; Sanction             |  PAY.typ.emo.int; PAY.cau.act; PAY.con.san        |  Hierarchy modified        |
+|  Payoff    |  5.1.2.3.4.     |    Legal        |    PAY.act.san.typ.leg         |         |     Legal; Action; Sanction     |    PAY.typ.leg; PAY.cau.act; PAY.con.san         |  Hierarchy modified      |
+|  Payoff    | 5.1.2.3.5.      |    Material        |     PAY.act.san.typ.mat        |         |      Material; Action; Sanction      | PAY.typ.mat; PAY.cau.act; PAY.con.san            |   Hierarchy modified     |
+|  Payoff    | 5.1.2.3.6.      |    Physical        |  PAY.act.san.typ.phy           |         |    Physical; Action; Sanction         |   PAY.typ.phy; PAY.cau.act; PAY.con.san          |  Hierarchy modified      |
+|  Payoff    |  5.1.2.3.7.     |    Positional        |    PAY.act.san.typ.pos         |         |  Positional; Action; Sanction            | PAY.typ.pos; PAY.cau.act; PAY.con.san            |   Hierarchy modified     |
+|  Payoff    |   5.1.2.3.8.    |   Spiritual         |  PAY.act.san.typ.spi            |        |  Spiritual; Action; Sanction           |    PAY.typ.spi; PAY.cau.act; PAY.con.san         |    Hierarchy modified    |
+|  Payoff    | 5.1.2.4.      |    Warning        |   PAY.act.san.war          | 5.2.3.        |  Warning; Action          | PAY.con.war; PAY.cau.act            |    Hierarchy modified    |
+|  Payoff    | 5.2.      |   Outcome         |  PAY.out           |  5.1.2.       | Outcome           |  PAY.cau.out           |    Hierarchy modified    |
+|  Payoff    |  5.2.1.     |            |             |         |            |             |     Hierarchy modified   |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
 |  Payoff    |       |            |             |         |            |             |        |
 |  Payoff    |       |            |             |         |            |             |        |
 |  Payoff    |       |            |             |         |            |             |        |
