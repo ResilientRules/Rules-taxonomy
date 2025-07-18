@@ -61,7 +61,7 @@
 |  Choice    |    3.5.2.3.      |   Behaviour         | CHO.mee.par.beh            |   3.5.2.2.       |   Behaviour         |   CHO.mee.par.beh          |  Definition modified       |
 |  Choice    |  3.5.2.4.        |    Number        |  CHO.mee.par.num           |  3.5.2.1.        |  Attendance          |  CHO.mee.par.att           | Merged with another subtype       |
 |  Choice    |  3.5.2.5.        |   Procedure         |   CHO.mee.par.pro          |   3.5.2.         |   Participation         |   CHO.mee.par          |   Merged with another subtype     |
-|  Choice    |   3.5.3.       |    Subject        |   CHO.mee.sub         |          |            |   INF.net.sub          |   Moved to a different type     |
+|  Choice    |   3.5.3.       |    Subject        |   CHO.mee.sub         |  4.2.1.         |   Subject         |   INF.net.sub          |   Moved to a different type     |
 |  Choice    |  3.5.4.        |     Time       |    CHO.mee.tim         |   3.5.1.2.       |   Time         |    CHO.mee.dom.tim         |  Hierarchy modified       |
 |  Choice    |  3.5.4.1.        |  Duration          |  CHO.mee.tim.dur           |3.5.1.2.1.          |  Duration          | CHO.mee.dom.tim.dur            | Hierarchy modified        |
 |  Choice    |   3.5.4.2.       |  Frequency          |   CHO.mee.tim.fre          |   3.5.1.2.2.       |  Frequency          |  CHO.mee.dom.tim.fre           |  Hierarchy modified      |
@@ -81,25 +81,25 @@
 |  Information    |  4.5.       |   Language         |  INF.lan           |    4.1.2.1.      |   Language         |  INF.dom.for.lan           | Hierarchy modified       |
 |  Information    |    4.6.     |    Network        |  INF.net           |  4.2.        |  Network          |  INF.net           |   No changes     |
 |  Information    |         |            |             |     4.2.2.     |      Node      | INF.net.nod            |  Created      |
-|  Information    |    4.7.      |   Subject         |  INF.sub           |  4.2.1        | Subject           |   INF.net.sub          |  Hierarchy modified      |
+|  Information    |    4.7.      |   Subject         |  INF.sub           |  4.2.1.        | Subject           |   INF.net.sub          |  Hierarchy modified      |
 |  Information    |    4.8.     |    Time        | INF.tim            | 4.1.3.         |    Time        |    INF.dom.tim         |    Hierarchy modified     |
-|  Information    |    4.8.1.     |    Frequency        |     INF.tim.fre        |     4.1.3.1     |  Frequency          |  INF.dom.tim.fre           |    Hierarchy modified      |
-|  Information    |   4.8.2.      |    Timing        |   INF.tim.tim          |   4.1.3.2       |  Timing          |        INF.dom.tim.tim     |   Hierarchy modified       |
+|  Information    |    4.8.1.     |    Frequency        |     INF.tim.fre        |     4.1.3.1.     |  Frequency          |  INF.dom.tim.fre           |    Hierarchy modified      |
+|  Information    |   4.8.2.      |    Timing        |   INF.tim.tim          |   4.1.3.2.       |  Timing          |        INF.dom.tim.tim     |   Hierarchy modified       |
 |  Payoff    |    5.     |      Payoff      |  PAY.           |   5.       |      Payoff      |      PAY.       |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |     5.1.    |    Cause        |  PAY.cau           |  Created      |
+|  Payoff    |  5.1.     |   Action         |    PAY.act        |    5.1.1.     |  Action          | PAY.cau.act            |   Hierarchy modified       |
+|  Payoff    |       |            |             |  5.2.       |  Consequence          |     PAY.con        | Created       |
+|  Payoff    |  5.1.1.     |    Reward        |     PAY.act.rew        |  5.2.1.       |   Reward; Action        |    PAY.con.rew; PAY.cau.act          |    Hierarchy modified      |
+|  Payoff    |  5.1.1.1.     |   Criteria         |    PAY.act.rew.cri         |   5.3.      |   Criteria; Action; Reward         |   PAY.cri; PAY.cau.act; PAY.con.rew          |    Hierarchy modified        |
+|  Payoff    |  5.1.1.2.     |  Form          |  PAY.act.rew.for           |         |   Criteria; Action; Reward          |     PAY.cri; PAY.cau.act; PAY.con.rew        | Merged with another subtype        |
+|  Payoff    |  5.1.1.3.     |    Reward        |  PAY.act.rew.typ           |     5.4.    |   Type; Action; Reward          |   PAY.typ; PAY.cau.act; PAY.con.rew          | Hierarchy modified       |
+|  Payoff    |   5.1.1.3.1.    |  Action          |  PAY.act.rew.typ.act           |  5.4.1       |  Action; Action; Reward          | PAY.typ.act; PAY.cau.act; PAY.con.rew            |Hierarchy modified        |
+|  Payoff    |  5.1.1.3.2.     |  Economic          |   PAY.act.rew.typ.eco          |5.4.2.         | Economic; Action; Reward          |  PAY.typ.eco; PAY.cau.act; PAY.con.rew           |    Hierarchy modified     |
+|  Payoff    |  5.1.1.3.3.     |  Emotional          |  PAY.act.rew.typ.emo           |5.4.3.         | Emotional; Action; Reward            |  PAY.typ.emo; PAY.cau.act; PAY.con.rew           |   Hierarchy modified       |
+|  Payoff    | 5.1.1.3.3.1.      |  External          |   PAY.act.rew.typ.emo.ext          |  5.4.3.1.       |  External; Action; Reward           |    PAY.typ.emo.ext; PAY.cau.act; PAY.con.rew         | Hierarchy modified          |
+|  Payoff    | 5.1.1.3.3.2.      |   Internal         | PAY.act.rew.typ.emo.int           |    5.4.3.2.     |  Internal; Action; Reward           |  PAY.typ.emo.int; PAY.cau.act; PAY.con.rew           |  Hierarchy modified      |
+|  Payoff    |   5.1.1.3.4.    |    Legal        |  PAY.act.rew.typ.leg           |  5.4.4.       | Legal; Action; Reward      |     PAY.typ.leg; PAY.cau.act; PAY.con.rew        | Hierarchy modified       |
+|  Payoff    | 5.1.1.3.5.      |            |             |         |            |             |        |
 |  Payoff    |       |            |             |         |            |             |        |
 |  Payoff    |       |            |             |         |            |             |        |
 |  Payoff    |       |            |             |         |            |             |        |
