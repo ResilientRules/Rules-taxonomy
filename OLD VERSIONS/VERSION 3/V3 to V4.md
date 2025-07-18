@@ -99,14 +99,14 @@
 |  Payoff    | 5.1.1.3.3.1.      |  External          |   PAY.act.rew.typ.emo.ext          |  5.4.3.1.       |  External; Action; Reward           |    PAY.typ.emo.ext; PAY.cau.act; PAY.con.rew         | Hierarchy modified          |
 |  Payoff    | 5.1.1.3.3.2.      |   Internal         | PAY.act.rew.typ.emo.int           |    5.4.3.2.     |  Internal; Action; Reward           |  PAY.typ.emo.int; PAY.cau.act; PAY.con.rew           |  Hierarchy modified      |
 |  Payoff    |   5.1.1.3.4.    |    Legal        |  PAY.act.rew.typ.leg           |  5.4.4.       | Legal; Action; Reward      |     PAY.typ.leg; PAY.cau.act; PAY.con.rew        | Hierarchy modified       |
-|  Payoff    | 5.1.1.3.5.      |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
-|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    | 5.1.1.3.5.      |    Material        |     PAY.act.rew.typ.mat        |  5.4.5.       | Material;  Action; Reward            |   PAY.typ.mat; PAY.cau.act; PAY.con.rew          | Hierarchy modified       |
+|  Payoff    |  5.1.1.3.6.     |   Physical         |   PAY.act.rew.typ.phy          |  5.4.6.       |  Physical; Action; Reward           |   PAY.typ.phy; PAY.cau.act; PAY.con.rew          | Hierarchy modified       |
+|  Payoff    | 5.1.1.3.7.      |   Positional        |  PAY.act.rew.typ.pos           |   5.4.7.      |    Positional; Action; Reward         |     PAY.typ.pos; PAY.cau.act; PAY.con.rew        | Hierarchy modified        |
+|  Payoff    | 5.1.1.3.8.      |  Spiritual          |  PAY.act.rew.typ.spi           |  5.4.8.       | Spiritual; Action; Reward          |      PAY.typ.spi; PAY.cau.act; PAY.con.rew       |  Hierarchy modified          |
+|  Payoff    |  5.1.2.     |   Sanction         |  PAY.act.san          |    5.2.2.     | Sanction; Action           |   PAY.con.san; PAY.cau.act          |   Hierarchy modified      |
+|  Payoff    |  5.1.2.1.     |  Criteria          |     PAY.act.san.cri        |         |  Criteria; Action; Sanction         |   PAY.cri; PAY.cau.act; PAY.con.san          |  Hierarchy modified       |
+|  Payoff    | 5.1.2.2.      |  Form          |    PAY.act.san.for         |         |    Criteria; Action; Sanction          |    PAY.cri; PAY.cau.act; PAY.con.san         | Merged with another subtype        |
+|  Payoff    | 5.1.2.3.      | Type            |    PAY.act.san.typ         |         |  Type          |    PAY.typ; PAY.cau.act; PAY.con.san         |  Hierarchy modified       |
 |  Payoff    |       |            |             |         |            |             |        |
 |  Payoff    |       |            |             |         |            |             |        |
 |  Payoff    |       |            |             |         |            |             |        |
