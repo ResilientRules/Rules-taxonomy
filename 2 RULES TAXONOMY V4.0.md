@@ -1,6 +1,6 @@
 | Type        | Order   | Subtype     | Acronym | Definition                                                                 |
 |-------------|------|-------------|---------|-----------------------------------------------------------------------------|
-| AGGREGATION |  1.0|     |      |   |
+| AGGREGATION |  1.0|     |      | Determine whether a decision by a single participant or of multiple participants is required needed prior to an action at a node in a decision process. Aggregation rules specify who participates in the decision, how much weight each participant has relative to others, and the formula used to sum each participant’s contribution to the final decision regarding the action or outcome.  |
 |  |  1.1|   Conflict        | AGG.con     | Defines the processes to be followed in cases of decision appeals or conflict resolution.  |
 |  |  1.2|    Node  |   AGG.nod   | Defines the presence of a decision node and specifies the positions involved in it.   |
 |  |  1.3|   Power-sharing    |  AGG.pow    | Establishes the distribution of power and the treatment of actors, taking into account both symmetry and asymmetry in decision-making.  |
@@ -10,7 +10,7 @@
 |  |  1.4.1.1|    Lack  | AGG.pro.agr.lac     | Outlines the process or decision to be taken in the event of a failure to reach an agreement.  |
 |  |  1.4.2|     Condition   |   AGG.pro.con   | Specifies the conditions that must be met during decision-making processes, such as the presence of observers and quorum requirements.   |
 |  |  1.4.3|   Form   |  AGG.pro.for     | Describes how decisions are conveyed (e.g., through secret vote, show of hands, voice vote, non-delegable, unipersonal).   |
-| BOUNDARY  |  2.0|     |      |   |
+| BOUNDARY  |  2.0|     |      | Defines who is eligible and outlines the process for assignment to and withdrawal from a position.  |
 |   |  2.1|  Eligibility  |  BOU.eli    | Specifies eligibility criteria for entering and exiting a position.  |
 |   |  2.1.1| Membership  | BOU.eli.mem     |  Specifies the criteria to enter a position based on the requirement to reside or be registered in a specific place or organization. |
 |   |  2.1.2| Personal  |   BOU.eli.per   | Specifies the personal attributes to enter a position.  |
@@ -31,7 +31,7 @@
 |   |  2.3.2.1|  Elapse   |  BOU.exi.pro.ela    | Specifies the time frame that must pass between announcing the decision to leave a certain position and actually leaving it.   |
 |   |  2.3.2.2|  Fee   |   BOU.exi.pro.fee   | Assigns an exit fee to a position. |
 |   |  2.3.3|  Time   |   BOU.exi.tim   |Sets the permanence time in a position.  |
-| CHOICE  |  3.0|     |      |  |
+| CHOICE  |  3.0|     |      | Define the actions that actors in specific positions are obligated, allowed, or forbidden  to take at particular stages of a decision-making process. Choice rules specify permissible and restricted actions and infrastructures, requirements for resource contributions and allocations, procedures for monitoring, and the organization and conduct of meetings. |
 |   |  3.1| Actions    | CHO.act    | Specifies what specific positions are required, permitted, or prohibited to do. |
 |   |  3.2|   Allocation    |   CHO.all   |Describes the forms and models of resource sharing and distribution allocation.  |
 |   |  3.2.1|    Criteria   |  CHO.all.cri    | Sets the criteria for allocating resources (e.g. to whom, amount to be allocated, how, when). |
@@ -57,7 +57,7 @@
 |   |  3.5.2.1|   Attendance   |  CHO.mee.par.att    | Specifies the action to be taken in case of actors’ absence, the number of absences allowed to actors, or lack of quorum. |
 |   |  3.5.2.2|    Behaviour   |  CHO.mee.par.beh    | Defines the actions and behaviors that are required, permitted, or prohibited during meetings, including guidelines regarding the voluntary or involuntary abandonment of meetings. |
 |   |  3.6|  Monitoring     | CHO.mon     |  Describes the monitoring processes for compliance with actions and outcomes.|
-| INFORMATION  |  4.0|     |      |  |
+| INFORMATION  |  4.0|     |      | Govern the flow and use of information, determining what information is available, how it is accessed and shared, and how it is used to inform decision-making. |
 |   |  4.1|  Domain    | INF.dom     |  |
 |   |  4.1.1|    Channel   |  INF.dom.cha    | Defines the methods of communication, including assemblies, meetings, newsletters, online platforms, and signage. |
 |   |  4.1.2|    Format   | INF.dom.for     | Establishes the mode (e.g., oral, written, visual) and format (e.g., size, duration) for sharing information. |
@@ -69,7 +69,7 @@
 |   |  4.2.1|   Node    |   INF.net.nod   |Defines the positions involved in communication and specifies who can access information.  |
 |   |  4.2.2|    Subject   |  INF.net.sub   | Defines or restricts the flow of information (e.g., topics) shared among positions, including meeting announcements.  |
 |   |  4.2.2.1|   Accuracy   |   INF.net.sub.acc   | Regulates the accuracy of information. |
-| PAYOFF  |  5.0|     |    |  |
+| PAYOFF  |  5.0|     |    | Assigns rewards or sanctions to specific actions or outcomes. |
 |   |  5.1|   Cause   | PAY.cau   | Defines which actions or outcomes are subject to consequences. |
 |   |  5.1.1|    Action   | PAY.cau.act   | Assigns consequences to specific actions. |
 |   |  5.1.2|    Outcome   |  PAY.cau.out  | Assigns consequences to specific outcomes. |
@@ -89,13 +89,13 @@
 |   |  5.4.6|    Physical   |  PAY.typ.phy  | Assigns physical and/or sensorial (e.g., hugs, applause, or booing) consequences. |
 |   |  5.4.7|    Positional  | PAY.typ.pos   |Assigns positional consequences.  |
 |   |  5.4.8|    Spiritual   |  PAY.typ.spi  | Specifies divine consequences. |
-| POSITION  |  6.0|     |    |  |
+| POSITION  |  6.0|     |    |Defines positions and entities with specific authority and roles, and specifies the allowable number of participants per position or entity.   |
 |   |  6.1|   Definition   | POS.def   | Creates, defines, and otherwise eliminates positions and entities in an action situation.   |
 |   |  6.2|   Function   | POS.fun   |Defines the functions, rights, responsibilities, duties and obligations associated with each position or entity.  |
 |   |  6.3|  Number  | POS.num   | States the number of actors who hold a position. |
 |   |  6.3.1|    Lower bound    |  POS.num.low  | States the lower bound on the number of actors to hold a position. |
 |   |  6.3.2|     Upper bound  | POS.num.upp   | States the upper bound on the number of actors to hold a position. |
-|  SCOPE |  7.0|      |    |  |
+|  SCOPE |  7.0|      |    | Defines the boundaries and goals of the system and specifies the domain over which the rules apply. |
 |   |  7.1|   Definition    | SCO.def   |Specifies the definitions, designations, and descriptions of activities, infrastructure, resources, and symbols.  |
 |   |  7.2|   Domain  |  SCO.dom  | Sets the spatial, temporal, and legal domain, as well as the resources and activities to which the rules apply. |
 |   |  7.2.1|      Activity   |SCO.dom.act    |Defines the activities over which the rules apply.  |
