@@ -36,23 +36,23 @@
 |  Boundary    |   2.3.4.       |   Fee         |    BOU.exi.fee         |     2.3.2.2.     |  Fee          |   BOU.exi.pro.fee          |   Hierarchy modified     |
 |  Boundary    |    2.3.5.      |   Procedure         |    BOU.exi.pro         |  2.3.2.        | Procedure           |    BOU.exi.pro         |   No changes      |
 |  Boundary    |  2.3.6.        | Time           |  BOU.exi.tim           |    2.3.3.      |     Time       |    BOU.exi.tim         |  No changes      |
-|  Choice    |  3.        |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
-|  Choice    |          |            |             |          |            |             |        |
+|  Choice    |  3.        |       Choice    |     CHO.        |     3.   |    Choice        |     CHO.        |        |
+|  Choice    |   3.1.       |     Actions       |     CHO.act        |         3.1. |     Actions       | CHO.act            |   No changes     |
+|  Choice    |   3.2.       |   Allocation         |   CHO.all          |  3.2.        |      Allocation      |  CHO.all                |  No changes      |
+|  Choice    |    3.2.1.      |   Criteria         |   CHO.all.cri          |    3.2.1.      |   Criteria         |   CHO.all.cri          | Definition modified      |
+|  Choice    |    3.2.2.      |    Procedure        |  CHO.all.pro           |   3.2.1.        |  Criteria          |   CHO.all.cri          |   Merged with another subtype     |
+|  Choice    |    3.2.3.      |    Type        |   CHO.all.typ          |   3.2.2.       |    Type        |     CHO.all.typ           |   No changes     |
+|  Choice    |  3.2.3.1.        |    Economic        |   CHO.all.typ.eco          |   3.2.2.1.       |   Economic         |  CHO.all.typ.eco           |  No changes      |
+|  Choice    |  3.2.3.2.        |    Material        |  CHO.all.typ.mat           | 3.2.2.2.         |  Material          |   CHO.all.typ.mat          |   No changes     |
+|  Choice    |  3.3.        |  Contribution          |    CHO.con         |       3.3.   |     Contribution       |   CHO.con          |    No changes    |
+|  Choice    |  3.3.1.        |   Criteria         |      CHO.con.cri       | 3.3.1.         | Criteria           |    CHO.con.cri          | Definition modified        |
+|  Choice    |  3.3.2.        |    Procedure        |   CHO.con.pro          |    3.3.1.       |  Criteria          |   CHO.con.cri          | Merged with another subtype       |
+|  Choice    |  3.3.3.        |     Type       |    CHO.con.typ         |   3.3.2.       |    Type        |   CHO.con.typ          |   No changes     |
+|  Choice    |   3.3.3.1.       |   Action         |    CHO.con.typ.act         |    3.3.2.1.      |    Action        |     CHO.con.typ.act        |   No changes      |
+|  Choice    |          |            |             |          |            |             |  No changes       |
+|  Choice    |          |            |             |          |            |             |    No changes     |
+|  Choice    |          |            |             |          |            |             |    No changes     |
+|  Choice    |          |            |             |          |            |             |    Definition modified    |
 |  Choice    |          |            |             |          |            |             |        |
 |  Choice    |          |            |             |          |            |             |        |
 |  Choice    |          |            |             |          |            |             |        |
