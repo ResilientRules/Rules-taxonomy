@@ -19,8 +19,19 @@
 |  Boundary    |   2.1.3.2.       |   Ascribed          |     BOU.eli.per.asc        |    2.1.2.2.      |     Ascribed        |      BOU.eli.per.asc       |   No changes      |
 |  Boundary    |    2.1.4.      |  Resource           |     BOU.eli.res        |   2.1.3.       |      Resource      |   BOU.eli.res          |   Definition modified     |
 |  Boundary    |   2.2.       |   Entry         |      BOU.ent       |   2.2.       |  Entry          |    BOU.ent         |    No changes     |
-|  Boundary    |          |            |             |          |            |             |        |
-|  Boundary    |          |            |             |          |            |             |        |
+|  Boundary    |   2.2.1.       |    Appeal        |      BOU.ent.app        |   1.1.       |     Conflict       |     AGG.con       |  Moved to a different type      |
+|  Boundary    |      2.2.2.    |   Control         |    BOU.ent.con        |      2.2.1.    |    Control        |      BOU.ent.con       |   Definition modified      |
+|  Boundary    |    2.2.2.1.      |   Order         |      BOU.ent.con.ord       |    2.2.1.       |      Control      |    BOU.ent.con         | Merged with another subtype       |
+|  Boundary    |    2.2.3.     |   Elapse         |   BOU.ent.ela          |   2.2.4.1.       |   Elapse       |   BOU.ent.pro.ela          |  Hierarchy modified      |
+|  Boundary    |   2.2.4.       |   Fee         |       BOU.ent.fee      | 2.2.4.2.         |   Fee         |  BOU.ent.pro.fee           |  Hierarchy modified       |
+|  Boundary    |   2.2.5.       |  Multiple          |   BOU.ent.mul          |   2.2.2.       |    Multiple        |     BOU.ent.mul        |  Definition modified       |
+|  Boundary    |    2.2.6.      |   Past         |     BOU.ent.pas        |     2.2.3.     |    Past        |    BOU.ent.pas          |   No changes       |
+|  Boundary    |    2.2.7.      |  Procedure          |    BOU.ent.pro        |      2.2.4.    |    Procedure        |    BOU.ent.pro         |   No changes     |
+|  Boundary    |   2.2.8.       |  Succession         |     BOU.ent.suc        | 2.2.5.         |   Succession         |   BOU.ent.suc          | No changes        |
+|  Boundary    |  2.3.        |    Exit       |   BOU.exi          |   2.3.       |    Exit        |  BOU.exi           |  No changes      |
+|  Boundary    |  2.3.1.        |     Appeal       |   BOU.exi.app          |    1.1.      |   Conflict      |     AGG.con           | Moved to a different type        |
+|  Boundary    |  2.3.2.        |    Control        |    BOU.exi.con         |   2.3.1.       |   Control         |   BOU.exi.con          |  Definition modified      |
+|  Boundary    |  2.3.2.1.        |    Order        |   BOU.exi.con.ord          |   2.3.1.        |      Control      |   BOU.exi.con          |  Merged with another subtype      |
 |  Boundary    |          |            |             |          |            |             |        |
 |  Boundary    |          |            |             |          |            |             |        |
 |  Boundary    |          |            |             |          |            |             |        |
