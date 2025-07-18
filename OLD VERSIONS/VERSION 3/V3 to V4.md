@@ -152,22 +152,22 @@
 |  Position   |  6.1.     |   Definition         |POS.def             | 6.1.        |   Definition         |     POS.def        |   No changes     |
 |  Position   | 6.2.      |    Function        |    POS.fun         |        6.2.   |    Function        |     POS.fun        |     No changes   |
 |  Position   |  6.3.     |   Number         |     POS.num        |  6.3.       | Number           |   POS.num            |    No changes    |
-|  Position   |  6.3.1.     |   Lower bound         |   POS.num.low          |  6.3.1.       |  Lower bound            |     POS.num.low          |   No changes     |
-|  Position   |   6.3.2.   |    Upper bound    |    POS.num.upp        |      6.3.2.                 |       Upper bound           | POS.num.upp            |   No changes     |
+|  Position   |  6.3.1.   |   Lower bound         |   POS.num.low          |  6.3.1.       |  Lower bound            |     POS.num.low          |   No changes     |
+|  Position   |  6.3.2.  |  Upper bound    |    POS.num.upp        |      6.3.2.                 |       Upper bound           | POS.num.upp            |   No changes     |
 |  Scope   |      7. |        Scope    |    SCO.         |  7.       |    Scope        |   SCO.          | No changes      |
-|  Scope   |   7.1.    |            |             |         |            |             |        |
-|  Scope   |       |            |             |         |            |             |        |
-|  Scope   |       |            |             |         |            |             |        |
-|  Scope   |       |            |             |         |            |             |        |
-|  Scope   |       |            |             |         |            |             |        |
-|  Scope   |       |            |             |         |            |             |        |
-|  Scope   |       |            |             |         |            |             |        |
-|  Scope   |       |            |             |         |            |             |        |
-|  Scope   |       |            |             |         |            |             |        |
-|  Scope   |       |            |             |         |            |             |        |
-|  Scope   |       |            |             |         |            |             |        |
-|  Scope   |       |            |             |         |            |             |        |
-|  Scope   |       |            |             |         |            |             |        |
-|  Scope   |       |            |             |         |            |             |        |
-|  Scope   |       |            |             |         |            |             |        |
-|  Scope   |       |            |             |         |            |             |        |
+|  Scope   |   7.1.    |     Definition       |    SCO.def         | 7.1.        |   Definition         |    SCO.def         |  No changes        |
+|  Scope   |   7.2.    |     Domain       |    SCO.dom         |   7.2.      |  Domain          |    SCO.dom         | No changes        |
+|  Scope   |  7.2.1.     |   Action         |   SCO.dom.act          |  7.2.1.       |   Action         |      SCO.dom.act       |  No changes      |
+|  Scope   |  7.2.2.     |    Legal        |     SCO.dom.leg        |  7.2.2.       |   Legal         |    SCO.dom.leg         |    No changes      |
+|  Scope   |   7.2.3.    |    Resource        |     SCO.dom.res        |    7.2.3.     |   Resource         |     SCO.dom.res        |   Definition modified       |
+|  Scope   | 7.2.3.1.      |    Activity        |   SCO.dom.res.act          |    7.2.3.       |     Resource       |   SCO.dom.res          |  Merged with another subtype      |
+|  Scope   | 7.2.3.2.      | Characteristics           |    SCO.dom.res.cha         |   7.2.3.        |       Resource     |  SCO.dom.res            |   Merged with another subtype       |
+|  Scope   | 7.2.4.      |   Social         |       SCO.dom.soc      |  7.2.4.       |   Social         |    SCO.dom.soc         |  No changes        |
+|  Scope   | 7.2.5.     |   Spatial         |    SCO.dom.spa         |  7.2.5.       |    Spatial        |     SCO.dom.spa        |  Definition modified        |
+|  Scope   |  7.2.5.1.     |     Activity       |   SCO.dom.spa.act          |    7.2.5.       |    Spatial        |   SCO.dom.spa          |   Merged with another subtype      |
+|  Scope   | 7.2.5.2.      |     Characteristics       |    SCO.dom.spa.cha         |   7.2.5.        |    Spatial        |    SCO.dom.spa         |   Merged with another subtype      |
+|  Scope   |  7.2.6.     |   Temporal         |  SCO.dom.tem           | 7.2.6.        |    Temporal        | SCO.dom.tem            |  No changes       |
+|  Scope   |  7.3.     |    Goal        |  SCO.goa           |  7.3.       |    Goal        |    SCO.goa         | No changes        |
+|  Scope   |  7.3.1.     |     Action       |  SCO.goa.act           | 7.3.1.        |   Action         |  SCO.goa.act           |    No changes     |
+|  Scope   |  7.3.2.     |    Outcome        |    SCO.goa.out         |  7.3.2.       |   Outcome         |   SCO.goa.out          |  No changes       |
+
