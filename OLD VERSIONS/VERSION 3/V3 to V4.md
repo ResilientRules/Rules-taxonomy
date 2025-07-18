@@ -153,7 +153,7 @@
 |  Position   | 6.2.      |    Function        |    POS.fun         |        6.2.   |    Function        |     POS.fun        |     No changes   |
 |  Position   |  6.3.     |   Number         |     POS.num        |  6.3.       | Number           |   POS.num            |    No changes    |
 |  Position   |  6.3.1.     |   Lower bound         |   POS.num.low          |  6.3.1.       |  Lower bound            |     POS.num.low          |   No changes     |
-|  Position   |   6.3.2.       Upper bound    |    POS.num.upp        |      6.3.2.                 |       Upper bound           | POS.num.upp            |   No changes     |
+|  Position   |   6.3.2.   |    Upper bound    |    POS.num.upp        |      6.3.2.                 |       Upper bound           | POS.num.upp            |   No changes     |
 |  Scope   |      7. |        Scope    |    SCO.         |  7.       |    Scope        |   SCO.          | No changes      |
 |  Scope   |   7.1.    |            |             |         |            |             |        |
 |  Scope   |       |            |             |         |            |             |        |
