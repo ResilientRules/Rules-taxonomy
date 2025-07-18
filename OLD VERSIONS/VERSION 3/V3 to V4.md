@@ -69,7 +69,7 @@
 |  Choice    |   3.5.5.       |   Type         |  CHO.mee.typ           |    3.5.1.3.      |   Type         |   CHO.mee.dom.typ          |   Hierarchy modified      |
 |  Choice    |   3.6.       |  Monitoring          |      CHO.mon       |     3.6.     |  Monitoring          |    CHO.mon         |  No changes        |
 |  Choice    |    3.7.     |     Resolution       |    CHO.res         |    1.1.       |    Conflict        |    AGG.con         | Moved to a different type        |
-|  Information    |   4.       |   Information         |  INF.           |     4.     |  Information          |     INF.        |        |
+|  Information    |   4.       |   Information         |  INF.           |     4.     |  Information          |     INF.        |   No changes        |
 |  Information    |    4.1.     |   Accuracy      |     INF.acc           |    4.2.2.1      |    Accuracy        |    INF.net.sub.acc         |   Hierarchy modified      |
 |  Information    |          |            |           |      4.1.      |      Domain      |   INF.dom          |  Created      |
 |  Information    |   4.2.      |   Channel         |   INF.cha          |     4.1.1.     |   Channel         |     INF.dom.cha        |     Hierarchy modified      |
@@ -85,7 +85,7 @@
 |  Information    |    4.8.     |    Time        | INF.tim            | 4.1.3.         |    Time        |    INF.dom.tim         |    Hierarchy modified     |
 |  Information    |    4.8.1.     |    Frequency        |     INF.tim.fre        |     4.1.3.1.     |  Frequency          |  INF.dom.tim.fre           |    Hierarchy modified      |
 |  Information    |   4.8.2.      |    Timing        |   INF.tim.tim          |   4.1.3.2.       |  Timing          |        INF.dom.tim.tim     |   Hierarchy modified       |
-|  Payoff    |    5.     |      Payoff      |  PAY.           |   5.       |      Payoff      |      PAY.       |        |
+|  Payoff    |    5.     |      Payoff      |  PAY.           |   5.       |      Payoff      |      PAY.       | No changes          |
 |  Payoff    |       |            |             |     5.1.    |    Cause        |  PAY.cau           |  Created      |
 |  Payoff    |  5.1.     |   Action         |    PAY.act        |    5.1.1.     |  Action          | PAY.cau.act            |   Hierarchy modified       |
 |  Payoff    |       |            |             |  5.2.       |  Consequence          |     PAY.con        | Created       |
