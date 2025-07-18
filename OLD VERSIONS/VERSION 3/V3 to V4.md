@@ -70,15 +70,49 @@
 |  Choice    |   3.6.       |  Monitoring          |      CHO.mon       |     3.6.     |  Monitoring          |    CHO.mon         |  No changes        |
 |  Choice    |    3.7.     |     Resolution       |    CHO.res         |    1.1.       |    Conflict        |    AGG.con         | Moved to a different type        |
 |  Information    |   4.       |   Information         |  INF.           |     4.     |  Information          |     INF.        |        |
-|  Information    |         |            |             |          |            |             |        |
-|  Information    |          |            |             |          |            |             |        |
-|  Information    |         |            |             |          |            |             |        |
-|  Information    |         |            |             |          |            |             |        |
-|  Information    |          |            |             |          |            |             |        |
-|  Information    |         |            |             |          |            |             |        |
-|  Information    |         |            |             |          |            |             |        |
-|  Information    |          |            |             |          |            |             |        |
-|  Information    |         |            |             |          |            |             |        |
-|  Information    |         |            |             |          |            |             |        |
-|  Information    |          |            |             |          |            |             |        |
-|  Information    |         |            |             |          |            |             |        |
+|  Information    |    4.1.     |   Accuracy      |     INF.acc           |    4.2.2.1      |    Accuracy        |    INF.net.sub.acc         |   Hierarchy modified      |
+|  Information    |          |            |           |      4.1.      |      Domain      |   INF.dom          |  Created      |
+|  Information    |   4.2.      |   Channel         |   INF.cha          |     4.1.1.     |   Channel         |     INF.dom.cha        |     Hierarchy modified      |
+|  Information    |     4.3.    |     Control       |   INF.con         |          |            |             |  Removed      |
+|  Information    |   4.3.1.       |     Network       |   INF.con.net          |          |            |             |  Removed      |
+|  Information    |  4.3.2.       |   Procedure         |     INF.con.pro        |          |            |             |Removed        |
+|  Information    |  4.3.3.      |   Subject         |    INF.con.sub         |          |            |             |   Removed     |
+|  Information    |   4.4.       |   Format         |    INF.for         |    4.1.2.      |    Format        |   INF.dom.for          |  Hierarchy modified       |
+|  Information    |  4.5.       |   Language         |  INF.lan           |    4.1.2.1.      |   Language         |  INF.dom.for.lan           | Hierarchy modified       |
+|  Information    |    4.6.     |    Network        |  INF.net           |  4.2.        |  Network          |  INF.net           |   No changes     |
+|  Information    |         |            |             |     4.2.2.     |      Node      | INF.net.nod            |  Created      |
+|  Information    |    4.7.      |   Subject         |  INF.sub           |  4.2.1        | Subject           |   INF.net.sub          |  Hierarchy modified      |
+|  Information    |    4.8.     |    Time        | INF.tim            | 4.1.3.         |    Time        |    INF.dom.tim         |    Hierarchy modified     |
+|  Information    |    4.8.1.     |    Frequency        |     INF.tim.fre        |     4.1.3.1     |  Frequency          |  INF.dom.tim.fre           |    Hierarchy modified      |
+|  Information    |   4.8.2.      |    Timing        |   INF.tim.tim          |   4.1.3.2       |  Timing          |        INF.dom.tim.tim     |   Hierarchy modified       |
+|  Payoff    |    5.     |      Payoff      |  PAY.           |   5.       |      Payoff      |      PAY.       |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
+|  Payoff    |       |            |             |         |            |             |        |
