@@ -1,3 +1,4 @@
+# 1. GENERAL GUIDELINES
 | QUESTION | RULE TYPE | ANSWER |
 |----------|-----------|--------|
 | Q.1.1. Up to which TIER should an IS be coded? | All types | All IS must be coded to the finest level of detail. |
