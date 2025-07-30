@@ -1,6 +1,6 @@
 # RULES TAXONOMY
 
-This taxonomy provides a detailed classification of the seven types of rules proposed by Ostrom and Crawford (2005), breaking them down into specific subtypes. Click on the figure below to explore the full range of subtypes
+This taxonomy provides a detailed classification of the seven types of rules proposed by Ostrom and Crawford (2005), breaking them down into specific subtypes. Click on the figure below to explore the full range of subtypes.
 
 [![Graphic preview](DOWNLOAD/preview.jpg)](https://ilaredavid.github.io/Test/IAD_taxonomy_V4.html)
 
