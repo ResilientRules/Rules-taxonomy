@@ -53,38 +53,38 @@
 |  Choice    |  3.3.3.3.        |    Material        |    CHO.con.typ.mat         |   3.3.2.3       |  Material          |  CHO.con.typ.mat           |    No changes     |
 |  Choice    |    3.4.      |   Infrastructure         |   CHO.inf          |  3.4.        |  Infrastructure          |   CHO.inf          |    No changes     |
 |  Choice    |    3.5.      |   Meeting         |    CHO.mee         |   3.5.       |  Meeting          |  CHO.mee           |    Definition modified    |
-|  Choice    |          |            |             |   3.5.1.       | Setting           |    CHO.mee.set         | Created       |
-|  Choice    |   3.5.1.       |      Location      |  CHO.mee.loc           |   3.5.1.1       |Location            |  CHO.mee.set.loc           | Hierarchy modified        |
-|  Choice    |   3.5.2.      | Participation           |   CHO.mee.par          |    3.5.2.      |   Participation         |  CHO.mee.par           |  Definition modified       |
-|  Choice    |    3.5.2.1.      |   Actor         |   CHO.mee.par.act          |    3.5.2.       |  Participation          |  CHO.mee.par           |  Merged with another subtype       |
-|  Choice    |   3.5.2.2.       |    Attendance        |  CHO.mee.par.att           |     3.5.2.1.     |   Attendance         |      CHO.mee.par.att      |Definition modified         |
-|  Choice    |    3.5.2.3.      |   Behaviour         | CHO.mee.par.beh            |   3.5.2.2.       |   Behaviour         |   CHO.mee.par.beh          |  Definition modified       |
+|  Choice    |          |            |             |   3.5.2       | Setting           |    CHO.mee.set         | Created       |
+|  Choice    |   3.5.1.       |      Location      |  CHO.mee.loc           |   3.5.2.1	      |Location            |  CHO.mee.set.loc           | Hierarchy modified        |
+|  Choice    |   3.5.2.      | Participation           |   CHO.mee.par          |    	3.5.1      |   Participation         |  CHO.mee.par           |  Definition modified       |
+|  Choice    |    3.5.2.1.      |   Actor         |   CHO.mee.par.act          |    3.5.1.       |  Participation          |  CHO.mee.par           |  Merged with another subtype       |
+|  Choice    |   3.5.2.2.       |    Attendance        |  CHO.mee.par.att           |    3.5.1.1     |   Attendance         |      CHO.mee.par.att      |Definition modified         |
+|  Choice    |    3.5.2.3.      |   Behaviour         | CHO.mee.par.beh            |   3.5.1.2       |   Behaviour         |   CHO.mee.par.beh          |  Definition modified       |
 |  Choice    |  3.5.2.4.        |    Number        |  CHO.mee.par.num           |  3.5.2.1.        |  Attendance          |  CHO.mee.par.att           | Merged with another subtype       |
 |  Choice    |  3.5.2.5.        |   Procedure         |   CHO.mee.par.pro          |   3.5.2.         |   Participation         |   CHO.mee.par          |   Merged with another subtype     |
 |  Choice    |   3.5.3.       |    Subject        |   CHO.mee.sub         |  4.2.1.         |   Subject         |   INF.net.sub          |   Moved to a different type     |
-|  Choice    |  3.5.4.        |     Time       |    CHO.mee.tim         |   3.5.1.2.       |   Time         |    CHO.mee.set.tim         |  Hierarchy modified       |
-|  Choice    |  3.5.4.1.        |  Duration          |  CHO.mee.tim.dur           |3.5.1.2.1.          |  Duration          | CHO.mee.set.tim.dur            | Hierarchy modified        |
-|  Choice    |   3.5.4.2.       |  Frequency          |   CHO.mee.tim.fre          |   3.5.1.2.2.       |  Frequency          |  CHO.mee.set.tim.fre           |  Hierarchy modified      |
-|  Choice    |   3.5.4.3.       |   Timing         |  CHO.mee.tim.tim           | 3.5.1.2.3         |   Timing         |  CHO.mee.tim.tim           |  Hierarchy modified       |
-|  Choice    |   3.5.5.       |   Type         |  CHO.mee.typ           |    3.5.1.3.      |   Type         |   CHO.mee.set.typ          |   Hierarchy modified      |
+|  Choice    |  3.5.4.        |     Time       |    CHO.mee.tim         |   3.5.2.2      |   Time         |    CHO.mee.set.tim         |  Hierarchy modified       |
+|  Choice    |  3.5.4.1.        |  Duration          |  CHO.mee.tim.dur           |3.5.2.2.1         |  Duration          | CHO.mee.set.tim.dur            | Hierarchy modified        |
+|  Choice    |   3.5.4.2.       |  Frequency          |   CHO.mee.tim.fre          |   3.5.2.2.2       |  Frequency          |  CHO.mee.set.tim.fre           |  Hierarchy modified      |
+|  Choice    |   3.5.4.3.       |   Timing         |  CHO.mee.tim.tim           | 3.5.2.2.3        |   Timing         |  CHO.mee.tim.tim           |  Hierarchy modified       |
+|  Choice    |   3.5.5.       |   Type         |  CHO.mee.typ           |    3.5.2.3      |   Type         |   CHO.mee.set.typ          |   Hierarchy modified      |
 |  Choice    |   3.6.       |  Monitoring          |      CHO.mon       |     3.6.     |  Monitoring          |    CHO.mon         |  No changes        |
 |  Choice    |    3.7.     |     Resolution       |    CHO.res         |    1.1.       |    Conflict        |    AGG.con         | Moved to a different type        |
 |  Information    |   4.       |   Information         |  INF.           |     4.     |  Information          |     INF.        |   No changes        |
-|  Information    |    4.1.     |   Accuracy      |     INF.acc           |    4.2.2.1      |    Accuracy        |    INF.net.sub.acc         |   Hierarchy modified      |
-|  Information    |          |            |           |      4.1.      |      Setting      |   INF.set          |  Created      |
-|  Information    |   4.2.      |   Channel         |   INF.cha          |     4.1.1.     |   Channel         |     INF.set.cha        |     Hierarchy modified      |
+|  Information    |    4.1.     |   Accuracy      |     INF.acc           |    4.1.2.1    |    Accuracy        |    INF.net.sub.acc         |   Hierarchy modified      |
+|  Information    |          |            |           |      4.2     |      Setting      |   INF.set          |  Created      |
+|  Information    |   4.2.      |   Channel         |   INF.cha          |     4.2.1     |   Channel         |     INF.set.cha        |     Hierarchy modified      |
 |  Information    |     4.3.    |     Control       |   INF.con         |          |            |             |  Removed      |
 |  Information    |   4.3.1.       |     Network       |   INF.con.net          |          |            |             |  Removed      |
 |  Information    |  4.3.2.       |   Procedure         |     INF.con.pro        |          |            |             |Removed        |
 |  Information    |  4.3.3.      |   Subject         |    INF.con.sub         |          |            |             |   Removed     |
-|  Information    |   4.4.       |   Format         |    INF.for         |    4.1.2.      |    Format        |   INF.set.for          |  Hierarchy modified       |
-|  Information    |  4.5.       |   Language         |  INF.lan           |    4.1.2.1.      |   Language         |  INF.set.for.lan           | Hierarchy modified       |
-|  Information    |    4.6.     |    Network        |  INF.net           |  4.2.        |  Network          |  INF.net           |   No changes     |
-|  Information    |         |            |             |     4.2.2.     |      Node      | INF.net.nod            |  Created      |
-|  Information    |    4.7.      |   Subject         |  INF.sub           |  4.2.1.        | Subject           |   INF.net.sub          |  Hierarchy modified      |
-|  Information    |    4.8.     |    Time        | INF.tim            | 4.1.3.         |    Time        |    INF.set.tim         |    Hierarchy modified     |
-|  Information    |    4.8.1.     |    Frequency        |     INF.tim.fre        |     4.1.3.1.     |  Frequency          |  INF.set.tim.fre           |    Hierarchy modified      |
-|  Information    |   4.8.2.      |    Timing        |   INF.tim.tim          |   4.1.3.2.       |  Timing          |        INF.set.tim.tim     |   Hierarchy modified       |
+|  Information    |   4.4.       |   Format         |    INF.for         |    4.2.2     |    Format        |   INF.set.for          |  Hierarchy modified       |
+|  Information    |  4.5.       |   Language         |  INF.lan           |    4.2.2.1     |   Language         |  INF.set.for.lan           | Hierarchy modified       |
+|  Information    |    4.6.     |    Network        |  INF.net           |  4.1        |  Network          |  INF.net           |   No changes     |
+|  Information    |         |            |             |     4.1.1     |      Node      | INF.net.nod            |  Created      |
+|  Information    |    4.7.      |   Subject         |  INF.sub           |  4.1.2       | Subject           |   INF.net.sub          |  Hierarchy modified      |
+|  Information    |    4.8.     |    Time        | INF.tim            | 4.2.3       |    Time        |    INF.set.tim         |    Hierarchy modified     |
+|  Information    |    4.8.1.     |    Frequency        |     INF.tim.fre        |     4.2.3.1    |  Frequency          |  INF.set.tim.fre           |    Hierarchy modified      |
+|  Information    |   4.8.2.      |    Timing        |   INF.tim.tim          |   4.2.3.2      |  Timing          |        INF.set.tim.tim     |   Hierarchy modified       |
 |  Payoff    |    5.     |      Payoff      |  PAY.           |   5.       |      Payoff      |      PAY.       | No changes          |
 |  Payoff    |       |            |             |     5.1.    |    Cause        |  PAY.cau           |  Created      |
 |  Payoff    |  5.1.     |   Action         |    PAY.act        |    5.1.1.     |  Action          | PAY.cau.act            |   Hierarchy modified       |
