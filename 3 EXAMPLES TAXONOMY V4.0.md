@@ -88,22 +88,22 @@
 |   |  5.4.5|     Material  |   PAY.typ.mat | The refusal to provide the data requested by the Community, regardless of the responsibility it may incur, may result in the prohibition of the use of water in all its properties […] until the required data are provided. |
 |   |  5.4.6|    Physical   |  PAY.typ.phy  | The member who achieves the sustainability goal will be applauded at the next assembly. |
 |   |  5.4.7|    Positional  | PAY.typ.pos   |Members demonstrating dedication and expertise may earn leadership roles or committee positions. |
-|   |  5.4.8|    Spiritual   |  PAY.typ.spi  | |
-| POSITION  |  6.0|     |    |  |
-|   |  6.1|   Definition   | POS.def   |   |
-|   |  6.2|   Function   | POS.fun   | |
-|   |  6.3|  Number  | POS.num   |  |
-|   |  6.3.1|    Lower bound    |  POS.num.low  |  |
-|   |  6.3.2|     Upper bound  | POS.num.upp   | |
-|  SCOPE |  7.0|      |    |  |
-|   |  7.1|   Definition    | SCO.def   | |
-|   |  7.2|   Domain  |  SCO.dom  |  |
+|   |  5.4.8|    Spiritual   |  PAY.typ.spi  | Failure to participate in the tree-planting ceremony is believed to cause the spirits of the forest to withdraw their protection, leading to more frequent storms.|
+| POSITION  |  6.0|     |    | NA |
+|   |  6.1|   Definition   | POS.def   |  […] The governing bodies of the Community […]are the [General Assembly], the Board […] and the Attorney General. |
+|   |  6.2|   Function   | POS.fun   | The approval of fishing gear shall be carried out by the staff of the Fisheries and Aquaculture Service.|
+|   |  6.3|  Number  | POS.num   | The [General Assembly] […] will be composed of one representative from each municipality of the Community […]. |
+|   |  6.3.1|    Lower bound    |  POS.num.low  |Local groups must include at least seven producer members and three non-producer members.  |
+|   |  6.3.2|     Upper bound  | POS.num.upp   | The Information Commissions shall be composed of members appointed by the various political groups within the Community. Each group may appoint a maximum of five members to each commission.|
+|  SCOPE |  7.0|      |    | NA |
+|   |  7.1|   Definition    | SCO.def   | The units of measurement in the General Community shall be those legally recognized [at the national level].|
+|   |  7.2|   Domain  |  SCO.dom  |  This bylaw establishes the framework of application for fisheries management guidelines adopted by the Fishing Cooperative.|
 |   |  7.2.1|      Activity   |SCO.dom.act    | |
-|   |  7.2.2|    Legal    |   SCO.dom.leg |  |
-|   |  7.2.3|      Resource   |  SCO.dom.res  | |
-|   |  7.2.4|    Social    |   SCO.dom.soc |  |
-|   |  7.2.5|     Spatial   | SCO.dom.spa   |  |
-|   |  7.2.6|    Temporal    |  SCO.dom.tem  | |
-|   |  7.3|   Goal    | SCO.goa   |  |
-|   |  7.3.1|     Action   |  SCO.goa.act  |  |
-|   |  7.3.2|   Outcome     | SCO.goa.out   | |
+|   |  7.2.2|    Legal    |   SCO.dom.leg | In matters not provided for in these Statutes, the Legislation on Local Government shall apply, and in its absence, the customary rules of this Community. |
+|   |  7.2.3|      Resource   |  SCO.dom.res  |[The regional irrigation system] is made up mainly of the [primary canals], and the canals that branch off from them and their regulating reservoirs, using the water from [several rivers within the jurisdiction]. |
+|   |  7.2.4|    Social    |   SCO.dom.soc |Customary grazing areas are defined by long-standing traditions within the community.  |
+|   |  7.2.5|     Spatial   | SCO.dom.spa   | [The coastal lagoon area], which has its own regulations, is excluded from the scope of this decree. |
+|   |  7.2.6|    Temporal    |  SCO.dom.tem  | The annual shrimp fishing season comprises two periods: a) from May 1 to July 10, and b) from September 10 to November 15.|
+|   |  7.3|   Goal    | SCO.goa   |The community’s goals shall be set collectively and shall guide its activities in accordance with this regulation.  |
+|   |  7.3.1|     Action   |  SCO.goa.act  | The vessel must have a system of good management practices for the release and return to the sea, without damage, of unwanted catches because they are species of no commercial interest or below the minimum reference size for conservation purposes […]. |
+|   |  7.3.2|   Outcome     | SCO.goa.out   |To defend, preserve and promote the different species of wildlife and the existence of water bodies that help maintain the balance of the Ejido's own ecosystem. |
