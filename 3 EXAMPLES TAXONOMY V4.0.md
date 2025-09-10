@@ -1,9 +1,9 @@
 | Type        | Order   | Subtype     | Acronym | Example                                                                 |
 |-------------|------|-------------|---------|-----------------------------------------------------------------------------|
-| AGGREGATION |  1.0|     |      |   |
-|  |  1.1|   Conflict        | AGG.con     |   |
-|  |  1.2|    Node  |   AGG.nod   | |
-|  |  1.3|   Power-sharing    |  AGG.pow    |  |
+| AGGREGATION |  1.0|     |      |  NA |
+|  |  1.1|   Conflict        | AGG.con     |  Understand and resolve, where appropriate, incidents between two or more Ordinary Communities of the same kind. |
+|  |  1.2|    Node  |   AGG.nod   |The Community shall annually approve a General Budget. |
+|  |  1.3|   Power-sharing    |  AGG.pow    |[Admission, right to vote and representation] [-…] Each member present or represented has only one vote.  |
 |  |  1.3.1|  Weight    | AGG.pow.wei     |   |
 |  |  1.4|  Procedure     |   AGG.pro   |   |
 |  |  1.4.1|  Agreement   |   AGG.pro.agr   | |
