@@ -46,29 +46,29 @@
 |   |  3.3.2.3|  Material   |  CHO.con.typ.mat   | Defines material contributions. |
 |   |  3.4|   Infrastructure    | CHO.inf     | Establishes the type, quality, and quantity of natural and physical infrastructure (such as materials, private or public infrastructure, tools, and technology) that are required, permitted and prohibited.  |
 |   |  3.5|   Meeting   |   CHO.mee   | Describes all aspects related to meetings, gatherings, assemblies, events, courts, etc. |
-|   |  3.5.1|    Domain   |   CHO.mee.dom   | Defines the characteristics of meetings within a domain. |
-|   |  3.5.1.1|    Location   |  CHO.mee.dom.loc    | Sets the location or venue for meetings. |
-|   |  3.5.1.2|   Time   |  CHO.mee.dom.tim    | Sets the time, frequency and duration for meetings. |
-|   |  3.5.1.2.1|   Duration   |    CHO.mee.dom.tim.dur  | Sets the duration for meetings.  |
-|   |  3.5.1.2.2|   Frequency   |  CHO.mee.dom.tim.fre     | Sets the frequency for holding meetings.|
-|   |  3.5.1.2.3|   Timing |  CHO.mee.dom.tim.tim    | Sets the time for meetings.  |
-|   |  3.5.1.3|    Type   |   CHO.mee.dom.typ   | Establishes the type of meeting (e.g., ordinary assembly. |
-|   |  3.5.2|   Participation    |   CHO.mee.par   | Defines who attends, chairs, or participates in meetings. |
-|   |  3.5.2.1|   Attendance   |  CHO.mee.par.att    | Specifies the action to be taken in case of actors’ absence, the number of absences allowed to actors, or lack of quorum. |
-|   |  3.5.2.2|    Behaviour   |  CHO.mee.par.beh    | Defines the actions and behaviors that are required, permitted, or prohibited during meetings, including guidelines regarding the voluntary or involuntary abandonment of meetings. |
+|   |  3.5.1|   Participation    |   CHO.mee.par   | Defines who attends, chairs, or participates in meetings. |
+|   |  3.5.1.1|   Attendance   |  CHO.mee.par.att    | Specifies the action to be taken in case of actors’ absence, the number of absences allowed to actors, or lack of quorum. |
+|   |  3.5.1.2|    Behaviour   |  CHO.mee.par.beh    | Defines the actions and behaviors that are required, permitted, or prohibited during meetings, including guidelines regarding the voluntary or involuntary abandonment of meetings. |
+|   |  3.5.2|    Setting   |   CHO.mee.set   | Defines the characteristics of meetings within a domain. |
+|   |  3.5.2.1|    Location   |  CHO.mee.set.loc    | Sets the location or venue for meetings. |
+|   |  3.5.2.2|   Time   |  CHO.mee.set.tim    | Sets the time, frequency and duration for meetings. |
+|   |  3.5.2.2.1|   Duration   |    CHO.mee.set.tim.dur  | Sets the duration for meetings.  |
+|   |  3.5.2.2.2|   Frequency   |  CHO.mee.set.tim.fre     | Sets the frequency for holding meetings.|
+|   |  3.5.2.2.3|   Timing |  CHO.mee.set.tim.tim    | Sets the time for meetings.  |
+|   |  3.5.2.3|    Type   |   CHO.mee.set.typ   | Establishes the type of meeting (e.g., ordinary assembly. |
 |   |  3.6|  Monitoring     | CHO.mon     |  Describes the monitoring processes for compliance with actions and outcomes.|
 | INFORMATION  |  4.0|     |      | Govern the flow and use of information, determining what information is available, how it is accessed and shared, and how it is used to inform decision-making. |
-|   |  4.1|  Domain    | INF.dom     |  |
-|   |  4.1.1|    Channel   |  INF.dom.cha    | Defines the methods of communication, including assemblies, meetings, newsletters, online platforms, and signage. |
-|   |  4.1.2|    Format   | INF.dom.for     | Establishes the mode (e.g., oral, written, visual) and format (e.g., size, duration) for sharing information. |
-|   |  4.1.2.1|   Language   |   INF.dom.for.lan   |Establishes the official language for communication.  |
-|   |  4.1.3|    Time   | INF.dom.tim     | Sets the time and frequency for information exchange.  |
-|   |  4.1.3.1|    Frequency  |   INF.dom.tim.fre   |Sets the frequency for exchanging information.  |
-|   |  4.1.3.2|    Timing   |  INF.dom.tim.tim    | Sets the time for information exchange. |
-|   |  4.2|  Network    |    INF.net  |Establishes the communication network.  |
-|   |  4.2.1|   Node    |   INF.net.nod   |Defines the positions involved in communication and specifies who can access information.  |
-|   |  4.2.2|    Subject   |  INF.net.sub   | Defines or restricts the flow of information (e.g., topics) shared among positions, including meeting announcements.  |
-|   |  4.2.2.1|   Accuracy   |   INF.net.sub.acc   | Regulates the accuracy of information. |
+|   |  4.1|  Network    |    INF.net  |Establishes the communication network.  |
+|   |  4.1.1|   Node    |   INF.net.nod   |Defines the positions involved in communication and specifies who can access information.  |
+|   |  4.1.2|    Subject   |  INF.net.sub   | Defines or restricts the flow of information (e.g., topics) shared among positions, including meeting announcements.  |
+|   |  4.1.2.1|   Accuracy   |   INF.net.sub.acc   | Regulates the accuracy of information. |
+|   |  4.2|  Setting    | INF.set     |  |
+|   |  4.2.1|    Channel   |  INF.set.cha    | Defines the methods of communication, including assemblies, meetings, newsletters, online platforms, and signage. |
+|   |  4.2.2|    Format   | INF.set.for     | Establishes the mode (e.g., oral, written, visual) and format (e.g., size, duration) for sharing information. |
+|   |  4.2.2.1|   Language   |   INF.set.for.lan   |Establishes the official language for communication.  |
+|   |  4.2.3|    Time   | INF.set.tim     | Sets the time and frequency for information exchange.  |
+|   |  4.2.3.1|    Frequency  |   INF.set.tim.fre   |Sets the frequency for exchanging information.  |
+|   |  4.2.3.2|    Timing   |  INF.set.tim.tim    | Sets the time for information exchange. |
 | PAYOFF  |  5.0|     |    | Assigns rewards or sanctions to specific actions or outcomes. |
 |   |  5.1|   Cause   | PAY.cau   | Defines which actions or outcomes are subject to consequences. |
 |   |  5.1.1|    Action   | PAY.cau.act   | Assigns consequences to specific actions. |
