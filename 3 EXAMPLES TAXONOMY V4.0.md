@@ -98,7 +98,7 @@
 |  SCOPE |  7.0|      |    | NA |
 |   |  7.1|   Definition    | SCO.def   | The units of measurement in the General Community shall be those legally recognized [at the national level].|
 |   |  7.2|   Domain  |  SCO.dom  |  This bylaw establishes the framework of application for fisheries management guidelines adopted by the Fishing Cooperative.|
-|   |  7.2.1|      Activity   |SCO.dom.act    | |
+|   |  7.2.1|      Activity   |SCO.dom.act    | [...] The regional law on Maritime Fisheries and Aquaculture [...] authorizes the competent [authority] to adopt, as a measure for the conservation and improvement of fishery resources, regulations on the technical characteristics and conditions of use of fishing gear for fishing and shellfishing activities, with [...] [traditional fishing gear] deemed suitable for use in extractive activities in the internal waters of the [...] community.|
 |   |  7.2.2|    Legal    |   SCO.dom.leg | In matters not provided for in these Statutes, the Legislation on Local Government shall apply, and in its absence, the customary rules of this Community. |
 |   |  7.2.3|      Resource   |  SCO.dom.res  |[The regional irrigation system] is made up mainly of the [primary canals], and the canals that branch off from them and their regulating reservoirs, using the water from [several rivers within the jurisdiction]. |
 |   |  7.2.4|    Social    |   SCO.dom.soc |Customary grazing areas are defined by long-standing traditions within the community.  |
