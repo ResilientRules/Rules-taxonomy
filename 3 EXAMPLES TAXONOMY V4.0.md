@@ -4,12 +4,12 @@
 |  |  1.1|   Conflict        | AGG.con     |  Understand and resolve, where appropriate, incidents between two or more Ordinary Communities of the same kind. |
 |  |  1.2|    Node  |   AGG.nod   |The Community shall annually approve a General Budget. |
 |  |  1.3|   Power-sharing    |  AGG.pow    |[Admission, right to vote and representation] [-…] Each member present or represented has only one vote.  |
-|  |  1.3.1|  Weight    | AGG.pow.wei     |   |
-|  |  1.4|  Procedure     |   AGG.pro   |   |
-|  |  1.4.1|  Agreement   |   AGG.pro.agr   | |
-|  |  1.4.1.1|    Lack  | AGG.pro.agr.lac     |  |
-|  |  1.4.2|     Condition   |   AGG.pro.con   |    |
-|  |  1.4.3|   Form   |  AGG.pro.for     |  |
+|  |  1.3.1|  Weight    | AGG.pow.wei     | The distribution of votes for the adoption of agreements in the General Assembly shall be carried out by assigning one vote for each hectare, after the equivalence of this measure, in the form established in these Regulations, to other uses other than irrigation. [...]  |
+|  |  1.4|  Procedure     |   AGG.pro   | The Assembly shall adopt its decisions by an absolute majority of the votes of the members present.  |
+|  |  1.4.1|  Agreement   |   AGG.pro.agr   |If the agreements about the elections of the representative of each [irrigation subregion] and his alternate are not reached, the election will be held by two secret ballots, with representatives of the [irrigation subregion] and alternates elected by those who obtain the most votes in the first and second ballots, respectively. [...] |
+|  |  1.4.1.1|    Lack  | AGG.pro.agr.lac     | …] Voting may be public or secret, according to the agreement of the Assembly itself, but shall in all cases be secret when concerning the election of positions or motions of censure. |
+|  |  1.4.2|     Condition   |   AGG.pro.con   |  In order to be a [member] of this nucleus, it is required to comply with what is established in […] these bylaws.  |
+|  |  1.4.3|   Form   |  AGG.pro.for     |The Lieutenant of the Attorney General is a member of the Board […].  |
 | BOUNDARY  |  2.0|     |      |   |
 |   |  2.1|  Eligibility  |  BOU.eli    |   |
 |   |  2.1.1| Membership  | BOU.eli.mem     |   |
@@ -46,29 +46,29 @@
 |   |  3.3.2.3|   Material   |  CHO.con.typ.mat   | |
 |   |  3.4|   Infrastructure    | CHO.inf     |  |
 |   |  3.5|   Meeting   |   CHO.mee   | |
-|   |  3.5.1|    Domain   |   CHO.mee.dom   |  |
-|   |  3.5.1.1|   Location   |  CHO.mee.dom.loc    | |
-|   |  3.5.1.2|    Time   |  CHO.mee.dom.tim    | |
-|   |  3.5.1.2.1|   Duration   |    CHO.mee.dom.tim.dur  |   |
-|   |  3.5.1.2.2|   Frequency   |  CHO.mee.dom.tim.fre     | |
-|   |  3.5.1.2.3|    Timing |  CHO.mee.dom.tim.tim    | |
-|   |  3.5.1.3|    Type   |   CHO.mee.dom.typ   |  |
-|   |  3.5.2|   Participation    |   CHO.mee.par   | |
-|   |  3.5.2.1|    Attendance   |  CHO.mee.par.att    | |
-|   |  3.5.2.2|   Behaviour   |  CHO.mee.par.beh    | |
+|   |  3.5.1|   Participation    |   CHO.mee.par   | |
+|   |  3.5.1.1|    Attendance   |  CHO.mee.par.att    | |
+|   |  3.5.1.2|   Behaviour   |  CHO.mee.par.beh    | |
+|   |3.5.2|    Setting   |   CHO.mee.dom   |  |
+|   |  3.5.2.1|   Location   |  CHO.mee.dom.loc    | |
+|   |  3.5.2.2|    Time   |  CHO.mee.dom.tim    | |
+|   |  3.5.2.2.1|   Duration   |    CHO.mee.dom.tim.dur  |   |
+|   |  3.5.2.2.2|   Frequency   |  CHO.mee.dom.tim.fre     | |
+|   |  3.5.2.2.3|    Timing |  CHO.mee.dom.tim.tim    | |
+|   |  3.5.2.3|    Type   |   CHO.mee.dom.typ   |  |
 |   |  3.6|  Monitoring     | CHO.mon     |  |
 | INFORMATION  |  4.0|     |      |  |
-|   |  4.1|  Domain    | INF.dom     |  |
-|   |  4.1.1|    Channel   |  INF.dom.cha    | |
-|   |  4.1.2|    Format   | INF.dom.for     | |
-|   |  4.1.2.1|    Language   |   INF.dom.for.lan   |  |
-|   |  4.1.3|    Time   | INF.dom.tim     |  |
-|   |  4.1.3.1|    Frequency  |   INF.dom.tim.fre   | |
-|   |  4.1.3.2|    Timing   |  INF.dom.tim.tim    |  |
-|   |  4.2|  Network    |    INF.net  | |
-|   |  4.2.1|   Node    |   INF.net.nod   | |
-|   |  4.2.2|    Subject   |  INF.net.sub   |  |
-|   |  4.2.2.1|  Accuracy   |   INF.net.sub.acc   |  |
+|   |  4.1|  Network    |    INF.net  | |
+|   |  4.1.1|   Node    |   INF.net.nod   | |
+|   |  4.1.2|    Subject   |  INF.net.sub   |  |
+|   |  4.1.1.1|  Accuracy   |   INF.net.sub.acc   |  |
+|   |  4.2|  Setting    | INF.dom     |  |
+|   |  4.2.1|    Channel   |  INF.dom.cha    | |
+|   |  4.2.2|    Format   | INF.dom.for     | |
+|   |  4.2.2.1|    Language   |   INF.dom.for.lan   |  |
+|   |  4.2.3|    Time   | INF.dom.tim     |  |
+|   |  4.2.3.1|    Frequency  |   INF.dom.tim.fre   | |
+|   |  4.2.3.2|    Timing   |  INF.dom.tim.tim    |  |
 | PAYOFF  |  5.0|     |    |  |
 |   |  5.1|   Cause   | PAY.cau   | |
 |   |  5.1.1|    Action   | PAY.cau.act   |  |
