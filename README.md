@@ -4,8 +4,6 @@ This taxonomy provides a detailed classification of the seven types of rules pro
 
 [![Graphic preview](DOWNLOAD/Taxonomy_V4.png)](https://ilaredavid.github.io/Test/V4/IAD_taxonomy_V4_3.html)
 
-[![Graphic preview](DOWNLOAD/Taxonomy_V1.png)](https://ilaredavid.github.io/Test/V1/IAD_taxonomy_V1.html)
-
 The taxonomy of rules was developed within the framework of the Resilient Rules project, funded by the European Research Council (ERC, RESILIENT RULES, 101044225). For more information, see [Resilient Rules](https://resilientrules.com) <img width="664" height="284" alt="logo" src="https://github.com/user-attachments/assets/776ef44e-819f-45fe-9a44-8563a27d3480" />
 
 *Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council Executive Agency. Neither the European Union nor the granting authority can be held responsible for them.* 
