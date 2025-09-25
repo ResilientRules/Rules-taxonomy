@@ -1,7 +1,7 @@
-| Type        | Order   | Subtype     | Acronym | Example                                                                 |
-|-------------|------|-------------|---------|-----------------------------------------------------------------------------|
+| Type        | Order   | Subtype     | Acronym | Example                                                                 |Source|
+|-------------|------|-------------|---------|-----------------------------------------------------------------------------|-----|
 | AGGREGATION |  1.0|     |      |  NA |
-|  |  1.1|   Conflict        | AGG.con     |  Understand and resolve, where appropriate, incidents between two or more Ordinary Communities of the same kind. |
+|  |  1.1|   Conflict        | AGG.con     |  Understand and resolve, where appropriate, incidents between two or more Ordinary Communities of the same kind. |Community Constitution, art. 7 (Gobierno de Aragón, 1998)|
 |  |  1.2|    Node  |   AGG.nod   |The Community shall annually approve a General Budget. |
 |  |  1.3|   Power-sharing    |  AGG.pow    |[Admission, right to vote and representation] [-…] Each member present or represented has only one vote.  |
 |  |  1.3.1|  Weight    | AGG.pow.wei     | The distribution of votes for the adoption of agreements in the General Assembly shall be carried out by assigning one vote for each hectare, after the equivalence of this measure, in the form established in these Regulations, to other uses other than irrigation. [...]  |
