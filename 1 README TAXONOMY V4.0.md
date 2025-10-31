@@ -1,4 +1,4 @@
-The **Rules Taxonomy** provides a detailed classification of the seven types (aggregation, boundary, choice, information, payoff, position, scope) of rules proposed by Ostrom and Crawford (2005), breaking them down into specific subtypes.
+The **Rules Taxonomy** provides a detailed classification of the seven types of rules (aggregation, boundary, choice, information, payoff, position, scope) proposed by Ostrom and Crawford (2005), breaking them down into specific subtypes.
 
 [![Graphic preview](DOWNLOAD/Taxonomy_V4.png)](https://ilaredavid.github.io/Test/V4/IAD_taxonomy_V4_3.html)
 
