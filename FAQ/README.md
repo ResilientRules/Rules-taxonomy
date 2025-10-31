@@ -1,17 +1,17 @@
 
 
-[1 QUESTIONS ABOUT IDENTIFYING IS, TYPE AND TAXONOMY OF RULES](1%20Identifying%20IS,%20type%20and%20subtype%20of%20rules.md)
+[1 Questions about identifying IS, type and subtype of rules](1%20Identifying%20IS,%20type%20and%20subtype%20of%20rules.md)
 
-[2 QUESTIONS ABOUT AGGREGATION RULES](2%20Aggregation%20rules.md)
+[2 Questions about aggregation rules](2%20Aggregation%20rules.md)
 
-[3 QUESTIONS ABOUT BOUNDARY RULES](2%20Boundary%20rules.md)
+[3 Questions about boundary rules](2%20Boundary%20rules.md)
 
-[4. QUESTIONS ABOUT CHOICE RULES](2%20Choice%20rules.md)
+[4 Questions about choice rules](2%20Choice%20rules.md)
 
-[5. QUESTIONS ABOUT INFORMATION RULES](2%20Information%20rules.md)
+[5 Questions about information rules](2%20Information%20rules.md)
 
-[6. QUESTIONS ABOUT PAYOFF RULES](2%20Payoff%20rules.md)
+[6 Questions about payoff rules](2%20Payoff%20rules.md)
 
-[7. QUESTIONS ABOUT POSITION RULES](2%20Position%20rules.md)
+[7 Questions about position rules](2%20Position%20rules.md)
 
-[8 QUESTIONS ABOUT SCOPE RULES](2%20Scope%20rules.md)
+[8 Questions about scope rules](2%20Scope%20rules.md)
