@@ -4,7 +4,7 @@
 
 [3. QUESTIONS ABOUT BOUNDARY RULES](https://github.com/ResilientRules/Rules-taxonomy/blob/7b70cc584c87e0b9aed49983dbd755591250b7e9/4%20FAQ_TAXONOMY%20V4.0.md/3.%20QUESTIONS%20ABOUT%20BOUNDARY%20RULES.md)
 
-[4. QUESTIONS ABOUT CHOICE RULES](https://github.com/ResilientRules/Rules-taxonomy/blob/4b2e93bf0b1bd698e7fb3d7d52b75664af4ef3be/4%20FAQ_TAXONOMY%20V4.0.md/4%20FAQ_TAXONOMY%20V4.0.md)
+[4. QUESTIONS ABOUT CHOICE RULES](https://github.com/ResilientRules/Rules-taxonomy/blob/eea7bc988ce700809ada091a3b810fde6eac8b7a/4%20FAQ_TAXONOMY%20V4.0.md/4.%20QUESTIONS%20ABOUT%20CHOICE%20RULES.md)
 
 [5. QUESTIONS ABOUT INFORMATION RULES](https://github.com/ResilientRules/Rules-taxonomy/blob/4b2e93bf0b1bd698e7fb3d7d52b75664af4ef3be/4%20FAQ_TAXONOMY%20V4.0.md/4%20FAQ_TAXONOMY%20V4.0.md)
 
