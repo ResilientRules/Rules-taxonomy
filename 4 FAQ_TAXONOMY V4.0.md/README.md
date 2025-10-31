@@ -1,4 +1,4 @@
-[1. QUESTIONS ABOUT IDENTIFYING IS, TYPE AND TAXONOMY OF RULES](https://github.com/ResilientRules/Rules-taxonomy/edit/main/FAQ%20TAXONOMY%20V4.0.md.js#1))
+[1. QUESTIONS ABOUT IDENTIFYING IS, TYPE AND TAXONOMY OF RULES](https://github.com/ResilientRules/Rules-taxonomy/edit/main/FAQ%20TAXONOMY%20V4.0.md.](https://github.com/ResilientRules/Rules-taxonomy/blob/main/4%20FAQ_TAXONOMY%20V4.0.md/4%20FAQ_TAXONOMY%20V4.0.md.js#1))
 
 [2. QUESTIONS ABOUT AGGREGATION RULES](Rules-taxonomy/4FAQTAXONOMYV4.0.md)
 
