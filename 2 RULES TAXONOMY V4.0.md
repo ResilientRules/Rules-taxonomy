@@ -1,6 +1,5 @@
-                 [**INTERACTIVE VERSION**](https://ilaredavid.github.io/Test/index.html)
-  
-  If you prefer, you can continue reading this Markdown version below.
+  [**INTERACTIVE VERSION**](https://ilaredavid.github.io/Test/index.html)
+
 
 
 | Type        | Order   | Subtype     | Acronym | Definition                                                                 |
