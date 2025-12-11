@@ -1,3 +1,8 @@
+   [**INTERACTIVE VERSION**](https://ilaredavid.github.io/Test/index.html)
+  
+  If you prefer, you can continue reading this Markdown version below.
+
+
 | Type        | Order   | Subtype     | Acronym | Definition                                                                 |
 |-------------|------|-------------|---------|-----------------------------------------------------------------------------|
 | AGGREGATION |  1.0|     |      | Determine whether a decision by a single participant or of multiple participants is required needed prior to an action at a node in a decision process. Aggregation rules specify who participates in the decision, how much weight each participant has relative to others, and the formula used to sum each participant’s contribution to the final decision regarding the action or outcome.  |
