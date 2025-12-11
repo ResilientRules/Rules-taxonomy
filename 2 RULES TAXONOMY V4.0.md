@@ -1,4 +1,4 @@
-   Access to the dynamic table through this link [**INTERACTIVE VERSION**](https://ilaredavid.github.io/Test/index.html)
+   A dynamic version of this table is available! [**INTERACTIVE VERSION**](https://ilaredavid.github.io/Test/index.html)
 
    
 
