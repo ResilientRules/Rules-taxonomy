@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Rules taxonomy – interactive database</title>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css">
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 2rem;
+      background: #fafafa;
+      color: #222;
+      line-height: 1.55;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      max-width: 900px;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+    table.dataTable {
+      width: 100% !important;
+      border-collapse: collapse;
+      border: 1px solid #dcdcdc;
+      background: white;
+      font-size: 15px;
+    }
+    .dataTables_wrapper {
+      width: 100%;
+      overflow-x: auto;
+    }
+    
+    /* ---- HEADER -----*/
+     table.dataTable thead th {
+      background: #f3f3f3;
+      color: #222;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      padding: 10px 12px;
+      border-bottom: 2px solid #d0d0d0;
+      position: sticky;
+      top: 0;
+      z-index: 2;
+    }
+    /* ---- BODY -----*/
+    table.dataTable tbody td {
+      white-space: normal;
+      word-break: break-word;
+      padding: 10px 12px;
+    border-bottom: 1px solid #ececec;
+    }
+    table.dataTable.stripe tbody tr:nth-child(odd) {
+      background-color: #fafafa;
+    }
+
+    /* ----- LINKS inside table ----- */
+    table.dataTable td a {
+      text-decoration: none;
+      color: #0056b3;
+      font-weight: 600;
+    }
+    
+    table.dataTable td a:hover {
+      text-decoration: underline;
+      color: #003f80;
+    }
+   /* ===========================
+         DARK MODE THEME
+   =========================== */
+  body.dark-mode {
+    background-color: #262626 !important;
+    color: #ffffff !important;
+  }
+    
+  /* Header & text */
+  body.dark-mode h1 {
+    background-color: #262626 !important;
+    color: #ffffff;
+  }
+  
+  body.dark-mode p {
+    background-color: #262626 !important;
+    color: #dcdcdc;
+  }
+  
+  /* DataTable general */
+  body.dark-mode table.dataTable {
+    background: #262626;
+    color: #e6e6e6;
+    border-color: #555;
+  }
+  
+  /* Header cells */
+  body.dark-mode table.dataTable thead th {
+    background: #333 !important;
+    color: #e6e6e6;
+    border-bottom: 2px solid #555;
+  }
+  
+  /* Body cells */
+  body.dark-mode table.dataTable tbody td {
+    border-color: #444;
+    color: #e6e6e6;
+  }
+  
+  /* Zebra stripes */
+  body.dark-mode table.dataTable.stripe tbody tr:nth-child(odd) {
+    background-color: #2a2a2a !important;
+  }
+  
+  /* Hover */
+  body.dark-mode table.dataTable tbody tr:hover {
+    background-color: #3a3a3a !important;
+  }
+  
+  /* Filter inputs */
+  body.dark-mode .filter-input {
+    background: #2e2e2e;
+    color: #e6e6e6;
+    border: 1px solid #555;
+  }
+  
+  body.dark-mode .filter-input:focus {
+    border-color: #66aaff;
+    box-shadow: 0 0 3px rgba(102,170,255,0.35);
+  }
+  
+  /* Links */
+  body.dark-mode table.dataTable td a {
+    color: #7ab8ff;
+  }
+  
+  body.dark-mode table.dataTable td a:hover {
+    color: #a8d2ff;
+  }
+
+    /* ---- TOGGLE PLACEMENT ---- */
+  #theme-toggle-container {
+    position: absolute;
+    top: 20px;             /* Ajusta según tu diseño */
+    right: 20px;           /* Esquina superior derecha */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 1000;
+  }
+  
+  .toggle-label {
+    font-size: 16px;
+    user-select: none;
+  }
+  
+  /* ---- TOGGLE SWITCH STYLE ---- */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+    background: #ccc;
+    border-radius: 25px;
+    position: relative;
+    transition: 0.3s;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 3px;
+    background-color: #fff;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #1E293B;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(24px);
+  }
+
+  </style>
+</head>
+<body>
+  <header style="position: relative;">
+   <h1>Taxonomy V4</h1>
+   <div id="theme-toggle-container">
+    <label class="switch">
+      <input type="checkbox" id="theme-toggle">
+      <span class="slider"></span>
+    </label>
+    <span class="toggle-label">Dark Mode</span>
+  </div>
+  </header>
+  
+  <p>
+    Search, sort and filter all the content included in the version 4.  
+    You can download the raw CSV file from <a href="rules_taxonomy_v4.csv">here</a>.
+  </p>
+  <p>
+    For further information, please refer to the entries in each typology, which include a dedicated FAQ section.
+  </p>
+
+  <table id="rules-table" class="display" style="width:100%">
+    <thead>
+      <tr id="rules-header-row"></tr>
+    </thead>
+    <tbody id="rules-body">
+      <!-- Filled by JavaScript -->
+    </tbody>
+  </table>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- DataTables -->
+  <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+  <!-- Read CSV files -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <script>
+    const csvUrl = 'rules_taxonomy_v4.csv';
+  
+    fetch(csvUrl)
+      .then(response => response.arrayBuffer())
+      .then(buffer => {
+        const decoder = new TextDecoder("utf-8");
+        const csvText = decoder.decode(buffer);
+        return csvText;
+      })
+      .then(csvText => {
+        const parsed = Papa.parse(csvText, {
+          header: true,
+          skipEmptyLines: true
+        });
+  
+        const fields = parsed.meta.fields; // original field names
+        const data = parsed.data;
+        
+        // Build header
+        const headerRow = document.getElementById('rules-header-row');
+        fields.forEach(name => {
+          const th = document.createElement('th');
+          th.textContent = name;
+          headerRow.appendChild(th);
+        });
+  
+        // --- Find index of "Type" robustly: normalize field names
+        const normalizeField = f => (f ?? '').replace(/[\uFEFF\u00A0\u200B]/g, '').replace(/[\r\n]/g, '').trim().toUpperCase();
+        const typeColumnIndex = fields.findIndex(f => normalizeField(f) === 'TYPE');
+        console.log("typeColumnIndex:", typeColumnIndex); // -1 if not found
+  
+        // Fill table body
+        const tbody = document.getElementById('rules-body');
+        
+        const typeLinks = {
+              "AGGREGATION (FAQ)": "https://github.com/ResilientRules/Rules-taxonomy/blob/main/FAQ/2%20Aggregation%20rules.md",
+              "BOUNDARY (FAQ)": "https://github.com/ResilientRules/Rules-taxonomy/blob/main/FAQ/3%20Boundary%20rules.md",
+              "CHOICE (FAQ)": "https://github.com/ResilientRules/Rules-taxonomy/blob/main/FAQ/4%20Choice%20rules.md",
+              "INFORMATION (FAQ)": "https://github.com/ResilientRules/Rules-taxonomy/blob/main/FAQ/5%20Information%20rules.md",
+              "PAYOFF (FAQ)": "https://github.com/ResilientRules/Rules-taxonomy/blob/main/FAQ/6%20Payoff%20rules.md",
+              "POSITION (FAQ)": "https://github.com/ResilientRules/Rules-taxonomy/blob/main/FAQ/7%20Position%20rules.md",
+              "SCOPE (FAQ)": "https://github.com/ResilientRules/Rules-taxonomy/blob/main/FAQ/8%20Scope%20rules.md"
+            };
+
+        data.forEach(row => {
+          const tr = document.createElement('tr');
+        
+          fields.forEach((name, colIdx) => {
+            const td = document.createElement('td');
+            let cellValue = row[name] ?? '';
+        
+            // Solo en columna TYPE
+            if (colIdx === typeColumnIndex) {
+        
+              // normalizar contenido de la celda
+              const cleanValue = (cellValue ?? '')
+                  .replace(/[\uFEFF\u00A0\u200B]/g, '')
+                  .replace(/[\r\n]/g, '')
+                  .trim();
+        
+              const normalized = cleanValue.toUpperCase();
+              if (normalized.includes("(FAQ)")) {
+        
+                const base = normalized.replace("(FAQ)", "").trim();
+                const faqKey = Object.keys(typeLinks).find(k => k.startsWith(base));
+        
+                if (faqKey) {
+                  const link = typeLinks[faqKey];
+        
+                  td.innerHTML = `
+                    <a href="${link}" target="_blank" rel="noopener noreferrer">
+                      ${escapeHtml(cleanValue)}
+                    </a>`;
+                } else {
+                  td.textContent = cleanValue;
+                }
+        
+              } else {
+                td.textContent = cellValue;
+              }
+        
+            } else {
+              td.textContent = cellValue;
+            }
+        
+            tr.appendChild(td);
+          });
+        
+          tbody.appendChild(tr);
+        });
+  
+        // ----------- CREATE FILTER ROW -----------
+        const thead = headerRow.parentElement;
+        const filterRow = document.createElement('tr');
+        filterRow.classList.add("filters");
+  
+        fields.forEach((field) => {
+          const th = document.createElement('th');
+  
+          const input = document.createElement("input");
+          input.type = "text";
+          input.placeholder = "Filter…";
+          input.classList.add("filter-input");
+  
+          th.appendChild(input);
+          filterRow.appendChild(th);
+        });
+  
+        thead.appendChild(filterRow);
+  
+        // ------------- INIT DATATABLES -------------------
+        const table = $('#rules-table').DataTable({
+          pageLength: 25,
+          lengthMenu: [10, 25, 50, 100],
+          order: [],
+          scrollX: true,
+          autoWidth: true,
+          language: {
+            url: "https://cdn.datatables.net/plug-ins/1.13.8/i18n/en-US.json"
+          }
+        });
+  
+        // ----------- APPLY FILTERS PER COLUMN --------------
+        table.columns().every(function (colIdx) {
+          const input = thead.querySelectorAll("tr.filters input")[colIdx];
+  
+          input.addEventListener("keyup", function () {
+            table.column(colIdx).search(this.value).draw();
+          });
+        });
+  
+        // small html-escape for link text
+        function escapeHtml(s) {
+          return String(s)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+        }
+  
+      })
+      .catch(error => {
+        console.error(error);
+        alert('Error loading table. Check console.');
+      });
+    
+    // DARK MODE TOGGLE
+    const toggle = document.getElementById("theme-toggle");
+
+    // Load saved preference
+    if (localStorage.getItem("darkMode") === "enabled") {
+      document.body.classList.add("dark-mode");
+      toggle.checked = true;
+    }
+    
+    // Toggle
+    toggle.addEventListener("change", () => {
+      document.body.classList.toggle("dark-mode", toggle.checked);
+      localStorage.setItem("darkMode", toggle.checked ? "enabled" : "disabled");
+    });
+
+  </script>
+</body>
+</html>
+
