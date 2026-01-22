@@ -1,4 +1,4 @@
-   A dynamic version of this table is available! [**INTERACTIVE VERSION**](https://ilaredavid.github.io/Test/index.html)
+   A dynamic version of this table is available! [**INTERACTIVE VERSION**](https://resilientrules.github.io/Rules-taxonomy/index.html)
 
    
 
