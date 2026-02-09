@@ -1,6 +1,6 @@
 
 
-[1 Questions about identifying IS, type and subtype of rules](1%20Identifying%20IS,%20type%20and%20subtype%20of%20rules.md)
+[1 Questions about identifying IS, type and taxonomy of rules](1%20Identifying%20IS,%20type%20and%20subtype%20of%20rules.md)
 
 [2 Questions about aggregation rules](2%20Aggregation%20rules.md)
 
