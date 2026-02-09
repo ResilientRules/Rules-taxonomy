@@ -1,4 +1,4 @@
-# 4 CHOICE RULES
+# 4 QUESTIONS ABOUT CHOICE RULES
 | QUESTION | ANSWER |
 |----------|--------|
 |Q.4.1. What is the difference between the contribution and allocation subtypes of CHOICE rules?|A.4.1. CHOICE.contribution refers to the contributions that members of a group or community are required to make, whether economic (such as fees), material (such as tools or inputs), or activity-based (such as time, labor, or collective work). These contributions support the creation, maintenance, or repair of shared resources or infrastructures. In contrast, CHOICE.allocation refers to how collective resources (of any kind) are distributed among members or used (e.g., hiring a person to perform a specific task using community funds, or paying for a particular service with community funds, would be considered as a CHOICE.allocation rule). |
